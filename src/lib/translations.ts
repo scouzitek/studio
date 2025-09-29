@@ -1,4 +1,3 @@
-
 export const translations = {
   fr: {
     header: {
@@ -84,6 +83,19 @@ export const translations = {
           cta: 'Nous contacter',
         },
       ],
+    },
+    contactForm: {
+      title: 'Contacter notre équipe commerciale',
+      description: 'Remplissez ce formulaire et nous vous recontacterons dans les plus brefs délais pour discuter de vos besoins.',
+      companyName: "Nom de l'entreprise",
+      firstName: 'Prénom',
+      lastName: 'Nom de famille',
+      email: 'Adresse e-mail',
+      phone: 'Numéro de téléphone (facultatif)',
+      userCount: "Nombre d'utilisateurs estimé",
+      submit: 'Envoyer la demande',
+      success: 'Merci ! Votre demande a bien été envoyée.',
+      error: "Une erreur s'est produite. Veuillez réessayer.",
     },
     footer: {
       designedIn: 'Conçu pour la confidentialité en Suisse.',
@@ -175,6 +187,19 @@ export const translations = {
         },
       ],
     },
+    contactForm: {
+      title: 'Contact our sales team',
+      description: 'Fill out this form and we will get back to you as soon as possible to discuss your needs.',
+      companyName: 'Company Name',
+      firstName: 'First Name',
+      lastName: 'Last Name',
+      email: 'Email Address',
+      phone: 'Phone Number (optional)',
+      userCount: 'Estimated number of users',
+      submit: 'Send Request',
+      success: 'Thank you! Your request has been sent.',
+      error: 'An error occurred. Please try again.',
+    },
     footer: {
       designedIn: 'Designed for privacy in Switzerland.',
       rightsReserved: 'All rights reserved.',
@@ -264,6 +289,19 @@ export const translations = {
           cta: 'Kontaktieren Sie uns',
         },
       ],
+    },
+    contactForm: {
+      title: 'Kontaktieren Sie unser Vertriebsteam',
+      description: 'Füllen Sie dieses Formular aus und wir werden uns so schnell wie möglich bei Ihnen melden, um Ihre Bedürfnisse zu besprechen.',
+      companyName: 'Name der Firma',
+      firstName: 'Vorname',
+      lastName: 'Nachname',
+      email: 'E-Mail-Adresse',
+      phone: 'Telefonnummer (optional)',
+      userCount: 'Geschätzte Anzahl der Benutzer',
+      submit: 'Anfrage senden',
+      success: 'Vielen Dank! Ihre Anfrage wurde gesendet.',
+      error: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.',
     },
     footer: {
       designedIn: 'Für den Datenschutz in der Schweiz konzipiert.',
@@ -355,11 +393,22 @@ export const translations = {
         },
       ],
     },
+    contactForm: {
+      title: 'Contatta il nostro team di vendita',
+      description: 'Compila questo modulo e ti risponderemo al più presto per discutere delle tue esigenze.',
+      companyName: 'Nome della ditta',
+      firstName: 'Nome',
+      lastName: 'Cognome',
+      email: 'Indirizzo e-mail',
+      phone: 'Numero di telefono (opzionale)',
+      userCount: 'Numero stimato di utenti',
+      submit: 'Invia richiesta',
+      success: 'Grazie! La tua richiesta è stata inviata.',
+      error: 'Si è verificato un errore. Per favore riprova.',
+    },
     footer: {
       designedIn: 'Progettato per la privacy in Svizzera.',
       rightsReserved: 'Tutti i diritti riservati.',
     },
   },
 };
-
-    
