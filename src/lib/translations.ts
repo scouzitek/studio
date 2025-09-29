@@ -18,7 +18,7 @@ export const translations = {
       featureList: [
         {
           title: 'Stockage Local',
-          description: "Vos conversations sont chiffrées et stockées uniquement sur votre appareil. Les requêtes sont envoyées à nos serveurs pour traitement, mais ne sont jamais utilisées pour entraîner nos modèles.",
+          description: "Vos conversations sont chiffrées et stockées uniquement sur votre appareil, vous garantissant un contrôle total et un accès exclusif à vos données. Aucune information n'est utilisée pour entraîner nos modèles.",
         },
         {
           title: 'Confidentialité Absolue',
@@ -108,7 +108,7 @@ export const translations = {
       featureList: [
         {
           title: 'Local Storage',
-          description: 'Your conversations are encrypted and stored only on your device. Requests are sent to our servers for processing, but are never used to train our models.',
+          description: 'Your conversations are encrypted and stored only on your device, ensuring you have total control and exclusive access to your data. No information is used to train our models.',
         },
         {
           title: 'Absolute Confidentiality',
@@ -198,7 +198,7 @@ export const translations = {
       featureList: [
         {
           title: 'Lokale Speicherung',
-          description: 'Ihre Gespräche werden verschlüsselt und nur auf Ihrem Gerät gespeichert. Anfragen werden zur Verarbeitung an unsere Server gesendet, aber niemals zum Trainieren unserer Modelle verwendet.',
+          description: 'Ihre Gespräche werden verschlüsselt und nur auf Ihrem Gerät gespeichert, was Ihnen die volle Kontrolle und den exklusiven Zugriff auf Ihre Daten garantiert. Es werden keine Informationen zum Trainieren unserer Modelle verwendet.',
         },
         {
           title: 'Absolute Vertraulichkeit',
@@ -288,7 +288,7 @@ export const translations = {
       featureList: [
         {
           title: 'Archiviazione Locale',
-          description: 'Le tue conversazioni sono crittografate e archiviate solo sul tuo dispositivo. Le richieste vengono inviate ai nostri server per l\'elaborazione, ma non vengono mai utilizzate per addestrare i nostri modelli.',
+          description: "Le tue conversazioni sono crittografate e archiviate solo sul tuo dispositivo, garantendoti il controllo totale e l'accesso esclusivo ai tuoi dati. Nessuna informazione viene utilizzata per addestrare i nostri modelli.",
         },
         {
           title: 'Riservatezza Assoluta',
