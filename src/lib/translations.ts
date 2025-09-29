@@ -19,15 +19,15 @@ export const translations = {
       featureList: [
         {
           title: 'Stockage Local',
-          description: "Vos conversations sont chiffrées et stockées uniquement sur votre appareil, vous garantissant un contrôle total et un accès exclusif à vos données. Aucune information n'est utilisée pour entraîner nos modèles.",
+          description: "Vos conversations sont chiffrées et stockées uniquement sur votre appareil. Vous seul y avez accès, garantissant un contrôle total. Aucune donnée n'est utilisée pour entraîner nos modèles.",
         },
         {
           title: 'Confidentialité Absolue',
-          description: "Nous utilisons le chiffrement et la sécurité natifs de votre appareil. En exploitant les mécanismes de protection intégrés, nous assurons une défense robuste de vos conversations sans ajouter de complexité.",
+          description: "Nous exploitons le chiffrement et la sécurité natifs de votre appareil. Cette approche assure une défense robuste de vos conversations sans ajouter de complexité ni de failles potentielles.",
         },
         {
           title: "Facilité d'utilisation",
-          description: "Une interface claire et intuitive, conçue pour la productivité. Profitez d'une expérience utilisateur fluide et agréable, vous permettant de vous concentrer sur l'essentiel sans distraction.",
+          description: "Une interface claire et intuitive, conçue pour la productivité. Profitez d'une expérience fluide pour vous concentrer sur l'essentiel, sans aucune distraction superflue.",
         },
       ],
     },
@@ -109,15 +109,15 @@ export const translations = {
       featureList: [
         {
           title: 'Local Storage',
-          description: 'Your conversations are encrypted and stored only on your device, ensuring you have total control and exclusive access to your data. No information is used to train our models.',
+          description: 'Your conversations are encrypted and stored only on your device. Only you have access, ensuring total control. No data is used to train our models.',
         },
         {
           title: 'Absolute Confidentiality',
-          description: "We use your device's native encryption and security. By leveraging built-in protection mechanisms, we ensure robust defense of your conversations without adding complexity.",
+          description: "We leverage your device's native encryption and security. This approach ensures a robust defense of your conversations without adding complexity or potential vulnerabilities.",
         },
         {
           title: 'Ease of Use',
-          description: 'A clear and intuitive interface, designed for productivity. Enjoy a smooth and pleasant user experience, allowing you to focus on what matters without distraction.',
+          description: 'A clear and intuitive interface, designed for productivity. Enjoy a smooth experience to focus on what matters, without any unnecessary distractions.',
         },
       ],
     },
@@ -199,15 +199,15 @@ export const translations = {
       featureList: [
         {
           title: 'Lokale Speicherung',
-          description: 'Ihre Gespräche werden verschlüsselt und nur auf Ihrem Gerät gespeichert, was Ihnen die volle Kontrolle und den exklusiven Zugriff auf Ihre Daten garantiert. Es werden keine Informationen zum Trainieren unserer Modelle verwendet.',
+          description: 'Ihre Gespräche werden verschlüsselt und nur auf Ihrem Gerät gespeichert. Nur Sie haben Zugriff und somit die volle Kontrolle. Es werden keine Daten zum Trainieren unserer Modelle verwendet.',
         },
         {
           title: 'Absolute Vertraulichkeit',
-          description: 'Wir verwenden die native Verschlüsselung und Sicherheit Ihres Geräts. Durch die Nutzung integrierter Schutzmechanismen gewährleisten wir eine robuste Verteidigung Ihrer Gespräche ohne zusätzliche Komplexität.',
+          description: 'Wir nutzen die native Verschlüsselung und Sicherheit Ihres Geräts. Dieser Ansatz gewährleistet einen robusten Schutz Ihrer Gespräche, ohne Komplexität oder potenzielle Schwachstellen hinzuzufügen.',
         },
         {
           title: 'Benutzerfreundlichkeit',
-          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Genießen Sie ein reibungsloses und angenehmes Benutzererlebnis, das es Ihnen ermöglicht, sich ohne Ablenkung auf das Wesentliche zu konzentrieren.',
+          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Genießen Sie ein reibungsloses Erlebnis, um sich auf das Wesentliche zu konzentrieren, ohne unnötige Ablenkungen.',
         },
       ],
     },
@@ -289,15 +289,15 @@ export const translations = {
       featureList: [
         {
           title: 'Archiviazione Locale',
-          description: "Le tue conversazioni sono crittografate e archiviate solo sul tuo dispositivo, garantendoti il controllo totale e l'accesso esclusivo ai tuoi dati. Nessuna informazione viene utilizzata per addestrare i nostri modelli.",
+          description: 'Le tue conversazioni sono crittografate e archiviate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale. Nessun dato viene utilizzato per addestrare i nostri modelli.',
         },
         {
           title: 'Riservatezza Assoluta',
-          description: "Utilizziamo la crittografia e la sicurezza native del tuo dispositivo. Sfruttando i meccanismi di protezione integrati, garantiamo una solida difesa delle tue conversazioni senza aggiungere complessità.",
+          description: "Sfruttiamo la crittografia e la sicurezza native del tuo dispositivo. Questo approccio garantisce una solida difesa delle tue conversazioni senza aggiungere complessità o potenziali vulnerabilità.",
         },
         {
           title: "Facilità d'uso",
-          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Goditi un'esperienza utente fluida e piacevole, che ti consente di concentrarti su ciò che conta senza distrazioni.",
+          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Goditi un'esperienza fluida per concentrarti su ciò che conta, senza inutili distrazioni.",
         },
       ],
     },
@@ -361,3 +361,5 @@ export const translations = {
     },
   },
 };
+
+    
