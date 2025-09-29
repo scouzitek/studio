@@ -8,9 +8,8 @@ export const translations = {
     hero: {
       title: "L'IA qui respecte votre vie privée.",
       subtitle: '100% sur votre appareil.',
-      description: 'Novix AI traite toutes les données localement sur votre appareil, garantissant une confidentialité totale. Vos données ne quittent jamais votre contrôle.',
+      description: 'Novix AI stocke toutes les données localement sur votre appareil, garantissant une confidentialité totale. Vos données ne quittent jamais votre contrôle.',
       ctaDownload: 'Télécharger gratuitement',
-      ctaDemo: 'Demander une démo',
     },
     features: {
       mainTitle: 'Votre vie privée, garantie.',
@@ -18,7 +17,7 @@ export const translations = {
       featureList: [
         {
           title: 'Stockage Local',
-          description: "Vos conversations sont chiffrées et stockées uniquement sur votre appareil. Vous seul y avez accès, garantissant un contrôle total. Aucune donnée n'est utilisée pour entraîner nos modèles.",
+          description: "Vos conversations sont chiffrées et stockées uniquement sur votre appareil, vous garantissant un contrôle total et un accès exclusif à vos données. Aucune information n'est utilisée pour entraîner nos modèles.",
         },
         {
           title: 'Confidentialité Absolue',
@@ -115,9 +114,8 @@ export const translations = {
     hero: {
       title: 'AI that respects your privacy.',
       subtitle: '100% on your device.',
-      description: 'Novix AI processes all data locally on your device, ensuring total confidentiality. Your data never leaves your control.',
+      description: 'Novix AI stores all data locally on your device, ensuring total confidentiality. Your data never leaves your control.',
       ctaDownload: 'Download for free',
-      ctaDemo: 'Request a demo',
     },
     features: {
       mainTitle: 'Your privacy, guaranteed.',
@@ -222,9 +220,8 @@ export const translations = {
     hero: {
       title: 'Die KI, die Ihre Privatsphäre respektiert.',
       subtitle: '100% auf Ihrem Gerät.',
-      description: 'Novix AI verarbeitet alle Daten lokal auf Ihrem Gerät und gewährleistet so absolute Vertraulichkeit. Ihre Daten verlassen niemals Ihre Kontrolle.',
+      description: 'Novix AI speichert alle Daten lokal auf Ihrem Gerät und gewährleistet so absolute Vertraulichkeit. Ihre Daten verlassen niemals Ihre Kontrolle.',
       ctaDownload: 'Kostenlos herunterladen',
-      ctaDemo: 'Demo anfordern',
     },
     features: {
       mainTitle: 'Ihre Privatsphäre, garantiert.',
@@ -329,9 +326,8 @@ export const translations = {
     hero: {
       title: "L'IA che rispetta la tua privacy.",
       subtitle: '100% sul tuo dispositivo.',
-      description: 'Novix AI elabora tutti i dati localmente sul tuo dispositivo, garantendo la totale riservatezza. I tuoi dati non lasciano mai il tuo controllo.',
+      description: 'Novix AI archivia tutti i dati localmente sul tuo dispositivo, garantendo la totale riservatezza. I tuoi dati non lasciano mai il tuo controllo.',
       ctaDownload: 'Scarica gratuitamente',
-      ctaDemo: 'Richiedi una demo',
     },
     features: {
       mainTitle: 'La tua privacy, garantita.',
