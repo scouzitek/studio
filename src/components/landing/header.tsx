@@ -1,4 +1,5 @@
 import { Shield } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -10,7 +11,8 @@ export default function Header() {
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-             {/* Future nav links can go here */}
+             <Link href="#features" className="hover:text-primary transition-colors">Fonctionnalités</Link>
+             <Link href="#pricing" className="hover:text-primary transition-colors">Nos Offres</Link>
           </nav>
         </div>
       </div>
