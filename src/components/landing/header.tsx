@@ -1,4 +1,12 @@
 import Link from 'next/link';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Button } from "@/components/ui/button";
+import { Globe } from "lucide-react";
 
 export default function Header() {
   return (
@@ -12,6 +20,28 @@ export default function Header() {
              <Link href="#features" className="hover:text-primary transition-colors">Fonctionnalités</Link>
              <Link href="#pricing" className="hover:text-primary transition-colors">Nos Offres</Link>
           </nav>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="icon">
+                <Globe className="h-5 w-5" />
+                <span className="sr-only">Changer de langue</span>
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem>
+                Français
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                Deutsch
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                Italiano
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                English
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       </div>
     </header>
