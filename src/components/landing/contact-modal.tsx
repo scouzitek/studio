@@ -39,7 +39,11 @@ export function ContactModal({ isOpen, onOpenChange }: ContactModalProps) {
     firstName: z.string().min(1, { message: " " }),
     lastName: z.string().min(1, { message: " " }),
     email: z.string().email({ message: " " }),
-    phone: z.string().optional(),
+    phone: z.string().min(1, { message: " " }),
+    address: z.string().min(1, { message: " " }),
+    city: z.string().min(1, { message: " " }),
+    zipCode: z.string().min(1, { message: " " }),
+    country: z.string().min(1, { message: " " }),
     userCount: z.coerce.number().min(1, { message: " " }),
   });
 
@@ -53,6 +57,10 @@ export function ContactModal({ isOpen, onOpenChange }: ContactModalProps) {
       lastName: '',
       email: '',
       phone: '',
+      address: '',
+      city: '',
+      zipCode: '',
+      country: '',
       userCount: 1,
     },
   });
@@ -79,7 +87,7 @@ export function ContactModal({ isOpen, onOpenChange }: ContactModalProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="sm:max-w-xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle>{t.title}</DialogTitle>
           <DialogDescription>{t.description}</DialogDescription>
@@ -146,6 +154,60 @@ export function ContactModal({ isOpen, onOpenChange }: ContactModalProps) {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>{t.phone}</FormLabel>
+                  <FormControl>
+                    <Input {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+             <FormField
+              control={form.control}
+              name="address"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>{t.address}</FormLabel>
+                  <FormControl>
+                    <Input {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <div className="grid grid-cols-2 gap-4">
+                <FormField
+                control={form.control}
+                name="city"
+                render={({ field }) => (
+                    <FormItem>
+                    <FormLabel>{t.city}</FormLabel>
+                    <FormControl>
+                        <Input {...field} />
+                    </FormControl>
+                    <FormMessage />
+                    </FormItem>
+                )}
+                />
+                <FormField
+                control={form.control}
+                name="zipCode"
+                render={({ field }) => (
+                    <FormItem>
+                    <FormLabel>{t.zipCode}</FormLabel>
+                    <FormControl>
+                        <Input {...field} />
+                    </FormControl>
+                    <FormMessage />
+                    </FormItem>
+                )}
+                />
+            </div>
+            <FormField
+              control={form.control}
+              name="country"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>{t.country}</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
