@@ -27,7 +27,7 @@ export default function Hero() {
           NovixAI processes all data locally on your device, ensuring complete confidentiality. Your data never leaves your control.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Button size="lg" className="font-headline">Download for Free</Button>
+          <Button size="lg" variant="destructive" className="font-headline">Download for Free</Button>
           <Button size="lg" variant="destructive" className="font-headline">
             Request a Demo
           </Button>

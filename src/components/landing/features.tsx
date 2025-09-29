@@ -3,17 +3,17 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 
 const features = [
   {
-    icon: <Cpu className="w-10 h-10 text-primary" />,
+    icon: <Cpu className="w-10 h-10 text-destructive" />,
     title: '100% Local',
     description: 'All AI processing happens directly on your device. No data is ever sent to the cloud.',
   },
   {
-    icon: <ShieldCheck className="w-10 h-10 text-primary" />,
+    icon: <ShieldCheck className="w-10 h-10 text-destructive" />,
     title: 'Absolute Confidentiality',
     description: 'Leveraging device-native encryption and security for storing your conversations.',
   },
   {
-    icon: <Smile className="w-10 h-10 text-primary" />,
+    icon: <Smile className="w-10 h-10 text-destructive" />,
     title: 'Ease of Use',
     description: 'A clean, intuitive interface designed for productivity and a seamless user experience.',
   },
