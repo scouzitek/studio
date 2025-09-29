@@ -102,7 +102,7 @@ export const translations = {
       error: "Une erreur s'est produite. Veuillez réessayer.",
     },
     footer: {
-      designedIn: 'Conçu pour la confidentialité en Suisse.',
+      designedIn: 'Votre vie privée, notre priorité.',
       rightsReserved: 'Tous droits réservés.',
     },
   },
@@ -209,7 +209,7 @@ export const translations = {
       error: 'An error occurred. Please try again.',
     },
     footer: {
-      designedIn: 'Designed for privacy in Switzerland.',
+      designedIn: 'Your privacy, our priority.',
       rightsReserved: 'All rights reserved.',
     },
   },
@@ -316,7 +316,7 @@ export const translations = {
       error: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.',
     },
     footer: {
-      designedIn: 'Für den Datenschutz in der Schweiz konzipiert.',
+      designedIn: 'Ihre Privatsphäre, unsere Priorität.',
       rightsReserved: 'Alle Rechte vorbehalten.',
     },
   },
@@ -423,7 +423,7 @@ export const translations = {
       error: 'Si è verificato un errore. Per favore riprova.',
     },
     footer: {
-      designedIn: 'Progettato per la privacy in Svizzera.',
+      designedIn: 'La tua privacy, la nostra priorità.',
       rightsReserved: 'Tutti i diritti riservati.',
     },
   },
