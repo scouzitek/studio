@@ -37,14 +37,14 @@ export default function Header() {
               <DropdownMenuItem onSelect={() => setLanguage('fr')}>
                 Français
               </DropdownMenuItem>
+              <DropdownMenuItem onSelect={() => setLanguage('en')}>
+                English
+              </DropdownMenuItem>
               <DropdownMenuItem onSelect={() => setLanguage('de')}>
                 Deutsch
               </DropdownMenuItem>
               <DropdownMenuItem onSelect={() => setLanguage('it')}>
                 Italiano
-              </DropdownMenuItem>
-              <DropdownMenuItem onSelect={() => setLanguage('en')}>
-                English
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
