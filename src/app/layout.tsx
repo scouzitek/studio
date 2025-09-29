@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'SwissPrivacy AI',
+  title: 'NovixAI',
   description: 'AI That Respects Your Privacy. 100% On-Device.',
 };
 

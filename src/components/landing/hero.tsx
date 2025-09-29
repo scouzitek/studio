@@ -24,7 +24,7 @@ export default function Hero() {
           <span className="block text-primary-foreground/80 mt-2">100% On-Device.</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg font-body md:text-xl text-primary-foreground/90">
-          SwissPrivacy AI processes all data locally on your device, ensuring complete confidentiality. Your data never leaves your control.
+          NovixAI processes all data locally on your device, ensuring complete confidentiality. Your data never leaves your control.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button size="lg" className="font-headline">Download for Free</Button>

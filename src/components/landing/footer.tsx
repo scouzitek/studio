@@ -27,7 +27,7 @@ export default function Footer() {
           </p>
         </div>
         <p className="text-center text-sm text-muted-foreground md:text-left font-body">
-          &copy; <CurrentYear /> SwissPrivacy AI. All rights reserved.
+          &copy; <CurrentYear /> NovixAI. All rights reserved.
         </p>
       </div>
     </footer>
