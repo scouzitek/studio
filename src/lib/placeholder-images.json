@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "Abstract AI security visual over a Swiss mountain landscape",
-      "imageUrl": "https://images.unsplash.com/photo-1720111613687-9b4d57e0ecea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlY3VyaXR5fGVufDB8fHx8MTc1OTE3OTYxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract security"
+      "description": "A beautiful swiss mountain landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzd2lzcyUyMGFscHN8ZW58MHx8fHwxNzU5MjU0ODg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "swiss alps"
     },
     {
       "id": "feature-local",
