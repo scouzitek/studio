@@ -23,6 +23,13 @@ const featureDetails = [
     imageId: 'feature-export',
     imageSide: 'left',
   },
+  {
+    id: 'green-ai',
+    title: 'Green AI',
+    description: 'By processing data locally, we drastically reduce the need for energy-hungry data centers. This approach not only enhances privacy but also contributes to a smaller carbon footprint compared to traditional cloud-based AI services.',
+    imageId: 'feature-green',
+    imageSide: 'right',
+  },
 ];
 
 export default function MoreFeatures() {
