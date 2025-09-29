@@ -33,9 +33,6 @@ export default function Hero() {
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button size="lg" variant="destructive" className="font-headline">{t.hero.ctaDownload}</Button>
-          <Button size="lg" variant="destructive" className="font-headline">
-            {t.hero.ctaDemo}
-          </Button>
         </div>
       </div>
     </section>
