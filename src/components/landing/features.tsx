@@ -5,17 +5,17 @@ const features = [
   {
     icon: <Cpu className="w-10 h-10 text-destructive" />,
     title: '100% Local',
-    description: 'All AI processing happens directly on your device. No data is ever sent to the cloud.',
+    description: "L'intégralité du traitement IA se déroule directement sur votre appareil. Aucune donnée n'est jamais envoyée dans le cloud.",
   },
   {
     icon: <ShieldCheck className="w-10 h-10 text-destructive" />,
-    title: 'Absolute Confidentiality',
-    description: 'Leveraging device-native encryption and security for storing your conversations.',
+    title: 'Confidentialité Absolue',
+    description: 'Nous utilisons le chiffrement et la sécurité natifs de votre appareil pour stocker vos conversations.',
   },
   {
     icon: <Smile className="w-10 h-10 text-destructive" />,
-    title: 'Ease of Use',
-    description: 'A clean, intuitive interface designed for productivity and a seamless user experience.',
+    title: "Facilité d'utilisation",
+    description: 'Une interface claire et intuitive, conçue pour la productivité et une expérience utilisateur fluide.',
   },
 ];
 
@@ -25,10 +25,10 @@ export default function Features() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm font-body">Key Pillars</div>
-            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl">Your Privacy, Guaranteed.</h2>
+            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm font-body">Piliers Clés</div>
+            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl">Votre vie privée, garantie.</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              Our application is built on three fundamental principles to ensure your data remains secure and private.
+              Notre application repose sur trois principes fondamentaux pour garantir la sécurité et la confidentialité de vos données.
             </p>
           </div>
         </div>

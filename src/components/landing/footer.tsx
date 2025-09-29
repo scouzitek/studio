@@ -23,11 +23,11 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <Shield className="h-6 w-6 text-primary" />
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left font-body">
-            Built for privacy in Switzerland.
+            Conçu pour la confidentialité en Suisse.
           </p>
         </div>
         <p className="text-center text-sm text-muted-foreground md:text-left font-body">
-          &copy; <CurrentYear /> NovixAI. All rights reserved.
+          &copy; <CurrentYear /> NovixAI. Tous droits réservés.
         </p>
       </div>
     </footer>

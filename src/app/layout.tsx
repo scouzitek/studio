@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
   title: 'NovixAI',
-  description: 'AI That Respects Your Privacy. 100% On-Device.',
+  description: "L'IA qui respecte votre vie privée. 100% sur votre appareil.",
 };
 
 export default function RootLayout({
