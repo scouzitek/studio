@@ -1,3 +1,4 @@
+
 export const translations = {
   fr: {
     header: {
@@ -22,11 +23,11 @@ export const translations = {
         },
         {
           title: 'Confidentialité Absolue',
-          description: 'Nous utilisons le chiffrement et la sécurité natifs de votre appareil pour stocker vos conversations.',
+          description: "Nous utilisons le chiffrement et la sécurité natifs de votre appareil. En exploitant les mécanismes de protection intégrés, nous assurons une défense robuste de vos conversations sans ajouter de complexité.",
         },
         {
           title: "Facilité d'utilisation",
-          description: 'Une interface claire et intuitive, conçue pour la productivité et une expérience utilisateur fluide.',
+          description: "Une interface claire et intuitive, conçue pour la productivité. Profitez d'une expérience utilisateur fluide et agréable, vous permettant de vous concentrer sur l'essentiel sans distraction.",
         },
       ],
     },
@@ -112,11 +113,11 @@ export const translations = {
         },
         {
           title: 'Absolute Confidentiality',
-          description: 'We use your device\'s native encryption and security to store your conversations.',
+          description: "We use your device's native encryption and security. By leveraging built-in protection mechanisms, we ensure robust defense of your conversations without adding complexity.",
         },
         {
           title: 'Ease of Use',
-          description: 'A clear and intuitive interface, designed for productivity and a smooth user experience.',
+          description: 'A clear and intuitive interface, designed for productivity. Enjoy a smooth and pleasant user experience, allowing you to focus on what matters without distraction.',
         },
       ],
     },
@@ -202,11 +203,11 @@ export const translations = {
         },
         {
           title: 'Absolute Vertraulichkeit',
-          description: 'Wir verwenden die native Verschlüsselung und Sicherheit Ihres Geräts, um Ihre Gespräche zu speichern.',
+          description: 'Wir verwenden die native Verschlüsselung und Sicherheit Ihres Geräts. Durch die Nutzung integrierter Schutzmechanismen gewährleisten wir eine robuste Verteidigung Ihrer Gespräche ohne zusätzliche Komplexität.',
         },
         {
           title: 'Benutzerfreundlichkeit',
-          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität und ein reibungsloses Benutzererlebnis ausgelegt ist.',
+          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Genießen Sie ein reibungsloses und angenehmes Benutzererlebnis, das es Ihnen ermöglicht, sich ohne Ablenkung auf das Wesentliche zu konzentrieren.',
         },
       ],
     },
@@ -292,11 +293,11 @@ export const translations = {
         },
         {
           title: 'Riservatezza Assoluta',
-          description: 'Utilizziamo la crittografia e la sicurezza native del tuo dispositivo per memorizzare le tue conversazioni.',
+          description: "Utilizziamo la crittografia e la sicurezza native del tuo dispositivo. Sfruttando i meccanismi di protezione integrati, garantiamo una solida difesa delle tue conversazioni senza aggiungere complessità.",
         },
         {
           title: "Facilità d'uso",
-          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività e un'esperienza utente fluida.",
+          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Goditi un'esperienza utente fluida e piacevole, che ti consente di concentrarti su ciò che conta senza distrazioni.",
         },
       ],
     },
