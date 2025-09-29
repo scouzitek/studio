@@ -1,44 +1,22 @@
+'use client';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { useLanguage } from '@/context/language-context';
+import { translations } from '@/lib/translations';
 
-const featureDetails = [
-  {
-    id: 'secure',
-    title: 'Stockage sécurisé des données',
-    description: "Toutes vos conversations et données sont chiffrées et stockées localement sur votre appareil. Nous utilisons la puissance des fonctionnalités de sécurité natives de votre appareil, telles que FaceID ou le code PIN, pour protéger vos informations.",
-    imageId: 'feature-secure',
-    imageSide: 'left',
-  },
-  {
-    id: 'compliance',
-    title: 'Conforme à la loi suisse sur la protection des données',
-    description: 'Conçue en Suisse, notre application respecte la nouvelle loi fédérale sur la protection des données (nLPD). Nous nous engageons à respecter les normes les plus élevées en matière de confidentialité et de sécurité des données.',
-    imageId: 'feature-local',
-    imageSide: 'right',
-  },
-  {
-    id: 'export',
-    title: 'Portabilité totale des données',
-    description: "Vous avez un contrôle total sur vos données. Exportez facilement tout votre historique de conversation dans un format standard et importez-le sur un nouvel appareil. Vos données vous appartiennent et vous pouvez les emporter avec vous à tout moment.",
-    imageId: 'feature-export',
-    imageSide: 'left',
-  },
-  {
-    id: 'green-ai',
-    title: 'IA Écologique',
-    description: "En traitant les données localement, nous réduisons considérablement le besoin de centres de données énergivores. Cette approche améliore non seulement la confidentialité, mais contribue également à une empreinte carbone plus faible par rapport aux services d'IA traditionnels basés sur le cloud.",
-    imageId: 'feature-green',
-    imageSide: 'right',
-  },
-];
+const featureImageIds = ['feature-secure', 'feature-local', 'feature-export', 'feature-green'];
+const imageSides = ['left', 'right', 'left', 'right'];
 
 export default function MoreFeatures() {
+  const { language } = useLanguage();
+  const t = translations[language].moreFeatures;
+
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="space-y-20">
-          {featureDetails.map((feature) => {
-            const image = PlaceHolderImages.find((img) => img.id === feature.imageId);
+          {t.featureList.map((feature, index) => {
+            const image = PlaceHolderImages.find((img) => img.id === featureImageIds[index]);
             const imageComponent = image && (
               <div className="flex justify-center">
                 <Image
@@ -62,7 +40,7 @@ export default function MoreFeatures() {
 
             return (
               <div key={feature.id} className="grid gap-12 lg:grid-cols-2 lg:gap-20 items-center">
-                <div className={`flex flex-col gap-12 ${feature.imageSide === 'right' ? 'lg:order-last' : ''}`}>
+                <div className={`flex flex-col gap-12 ${imageSides[index] === 'right' ? 'lg:order-last' : ''}`}>
                   {imageComponent}
                 </div>
                 {textComponent}

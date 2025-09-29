@@ -1,9 +1,14 @@
+'use client';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { useLanguage } from '@/context/language-context';
+import { translations } from '@/lib/translations';
 
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero');
+  const { language } = useLanguage();
+  const t = translations[language];
 
   return (
     <section className="relative w-full h-[75vh] min-h-[600px] flex items-center justify-center text-center">
@@ -20,16 +25,16 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 max-w-4xl px-4 text-white">
         <h1 className="text-4xl font-extrabold tracking-tight font-headline md:text-6xl lg:text-7xl">
-          L'IA qui respecte votre vie privée.
-          <span className="block text-primary-foreground/80 mt-2">100% sur votre appareil.</span>
+          {t.hero.title}
+          <span className="block text-primary-foreground/80 mt-2">{t.hero.subtitle}</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg font-body md:text-xl text-primary-foreground/90">
-          NovixAI traite toutes les données localement sur votre appareil, garantissant une confidentialité totale. Vos données ne quittent jamais votre contrôle.
+          {t.hero.description}
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Button size="lg" variant="destructive" className="font-headline">Télécharger gratuitement</Button>
+          <Button size="lg" variant="destructive" className="font-headline">{t.hero.ctaDownload}</Button>
           <Button size="lg" variant="destructive" className="font-headline">
-            Demander une démo
+            {t.hero.ctaDemo}
           </Button>
         </div>
       </div>
