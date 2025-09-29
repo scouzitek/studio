@@ -49,7 +49,7 @@ export const translations = {
         },
         {
           id: 'green-ai',
-          title: 'IA Écologique',
+          title: "IA respectueuse de l'environnement",
           description: "En traitant les données localement, nous réduisons considérablement le besoin de centres de données énergivores. Cette approche améliore non seulement la confidentialité, mais contribue également à une empreinte carbone plus faible par rapport aux services d'IA traditionnels basés sur le cloud.",
         },
       ],
@@ -156,7 +156,7 @@ export const translations = {
         },
         {
           id: 'green-ai',
-          title: 'Green AI',
+          title: 'Environmentally Friendly AI',
           description: 'By processing data locally, we significantly reduce the need for energy-intensive data centers. This approach not only enhances privacy but also contributes to a lower carbon footprint compared to traditional cloud-based AI services.',
         },
       ],
@@ -263,7 +263,7 @@ export const translations = {
         },
         {
           id: 'green-ai',
-          title: 'Grüne KI',
+          title: 'Umweltfreundliche KI',
           description: 'Durch die lokale Datenverarbeitung reduzieren wir den Bedarf an energieintensiven Rechenzentren erheblich. Dieser Ansatz verbessert nicht nur die Privatsphäre, sondern trägt auch zu einem geringeren CO2-Fußabdruck im Vergleich zu herkömmlichen Cloud-basierten KI-Diensten bei.',
         },
       ],
@@ -370,7 +370,7 @@ export const translations = {
         },
         {
           id: 'green-ai',
-          title: 'IA Ecologica',
+          title: 'IA rispettosa dell\'ambiente',
           description: "Elaborando i dati localmente, riduciamo significativamente la necessità di data center ad alta intensità energetica. Questo approccio non solo migliora la privacy, ma contribuisce anche a un'impronta di carbonio inferiore rispetto ai tradizionali servizi di IA basati su cloud.",
         },
       ],
