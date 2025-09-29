@@ -17,8 +17,8 @@ export const translations = {
       mainDescription: 'Notre application repose sur trois principes fondamentaux pour garantir la sécurité et la confidentialité de vos données.',
       featureList: [
         {
-          title: '100% Local',
-          description: "L'intégralité du traitement IA se déroule directement sur votre appareil. Aucune donnée n'est jamais envoyée dans le cloud.",
+          title: 'Stockage Local',
+          description: "Vos conversations sont chiffrées et stockées uniquement sur votre appareil. Les requêtes sont envoyées à nos serveurs pour traitement, mais ne sont jamais utilisées pour entraîner nos modèles.",
         },
         {
           title: 'Confidentialité Absolue',
@@ -107,8 +107,8 @@ export const translations = {
       mainDescription: 'Our application is based on three fundamental principles to ensure the security and confidentiality of your data.',
       featureList: [
         {
-          title: '100% Local',
-          description: 'The entire AI processing takes place directly on your device. No data is ever sent to the cloud.',
+          title: 'Local Storage',
+          description: 'Your conversations are encrypted and stored only on your device. Requests are sent to our servers for processing, but are never used to train our models.',
         },
         {
           title: 'Absolute Confidentiality',
@@ -197,8 +197,8 @@ export const translations = {
       mainDescription: 'Unsere Anwendung basiert auf drei Grundprinzipien, um die Sicherheit und Vertraulichkeit Ihrer Daten zu gewährleisten.',
       featureList: [
         {
-          title: '100% Lokal',
-          description: 'Die gesamte KI-Verarbeitung findet direkt auf Ihrem Gerät statt. Es werden niemals Daten in die Cloud gesendet.',
+          title: 'Lokale Speicherung',
+          description: 'Ihre Gespräche werden verschlüsselt und nur auf Ihrem Gerät gespeichert. Anfragen werden zur Verarbeitung an unsere Server gesendet, aber niemals zum Trainieren unserer Modelle verwendet.',
         },
         {
           title: 'Absolute Vertraulichkeit',
@@ -287,8 +287,8 @@ export const translations = {
       mainDescription: 'La nostra applicazione si basa su tre principi fondamentali per garantire la sicurezza e la riservatezza dei tuoi dati.',
       featureList: [
         {
-          title: '100% Locale',
-          description: "L'intera elaborazione dell'IA avviene direttamente sul tuo dispositivo. Nessun dato viene mai inviato al cloud.",
+          title: 'Archiviazione Locale',
+          description: 'Le tue conversazioni sono crittografate e archiviate solo sul tuo dispositivo. Le richieste vengono inviate ai nostri server per l\'elaborazione, ma non vengono mai utilizzate per addestrare i nostri modelli.',
         },
         {
           title: 'Riservatezza Assoluta',
