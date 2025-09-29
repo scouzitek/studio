@@ -228,7 +228,7 @@ export function ContactModal({ isOpen, onOpenChange }: ContactModalProps) {
                 </FormItem>
               )}
             />
-            <Button type="submit" className="w-full" disabled={form.formState.isSubmitting}>
+            <Button type="submit" variant="destructive" className="w-full" disabled={form.formState.isSubmitting}>
               {form.formState.isSubmitting ? 'Sending...' : t.submit}
             </Button>
           </form>
