@@ -62,17 +62,10 @@ export default function MoreFeatures() {
 
             return (
               <div key={feature.id} className="grid gap-12 lg:grid-cols-2 lg:gap-20 items-center">
-                {feature.imageSide === 'left' ? (
-                  <>
-                    {imageComponent}
-                    {textComponent}
-                  </>
-                ) : (
-                  <>
-                    {textComponent}
-                    {imageComponent}
-                  </>
-                )}
+                <div className={`flex flex-col gap-12 ${feature.imageSide === 'right' ? 'lg:order-last' : ''}`}>
+                  {imageComponent}
+                </div>
+                {textComponent}
               </div>
             );
           })}
