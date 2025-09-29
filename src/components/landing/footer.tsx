@@ -32,7 +32,7 @@ export default function Footer() {
           </p>
         </div>
         <p className="text-center text-sm text-muted-foreground md:text-left font-body">
-          &copy; <CurrentYear /> NovixAI. {t.rightsReserved}.
+          &copy; <CurrentYear /> Novix AI. {t.rightsReserved}.
         </p>
       </div>
     </footer>

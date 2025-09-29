@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { LanguageProvider } from '@/context/language-context';
 
 export const metadata: Metadata = {
-  title: 'NovixAI',
+  title: 'Novix AI',
   description: "L'IA qui respecte votre vie privée. 100% sur votre appareil.",
 };
 
