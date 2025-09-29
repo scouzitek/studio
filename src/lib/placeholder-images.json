@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Abstract AI security visual over a Swiss mountain landscape",
+      "imageUrl": "https://images.unsplash.com/photo-1720111613687-9b4d57e0ecea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlY3VyaXR5fGVufDB8fHx8MTc1OTE3OTYxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract security"
+    },
+    {
+      "id": "feature-local",
+      "description": "Illustration for local processing showing a brain-like circuit board",
+      "imageUrl": "https://images.unsplash.com/photo-1651340675491-6fb0bfb5c4ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaXJjdWl0JTIwYm9hcmR8ZW58MHx8fHwxNzU5MTMzODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "circuit board"
+    },
+    {
+      "id": "feature-secure",
+      "description": "Illustration for secure storage showing a digital vault",
+      "imageUrl": "https://images.unsplash.com/photo-1633265486064-086b219458ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwbG9ja3xlbnwwfHx8fDE3NTkxODAzNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data lock"
+    },
+    {
+      "id": "feature-export",
+      "description": "Illustration for data export showing data flowing between devices",
+      "imageUrl": "https://images.unsplash.com/photo-1746014601017-4e515ef51722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGF0YSUyMHRyYW5zZmVyfGVufDB8fHx8MTc1OTE4MDM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data transfer"
+    }
+  ]
 }
