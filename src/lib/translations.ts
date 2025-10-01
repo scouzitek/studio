@@ -7,7 +7,7 @@ export const translations = {
       changeLanguage: 'Changer de langue',
     },
     hero: {
-      title: 'IA & Confidentialité',
+      title: 'Novix AI',
       subtitle: "Vos données ne sont qu'à vous.",
       description: "Aucune fuite. Aucune collecte. Aucune surprise.\nVos données ne voyagent pas. Elles ne vous quittent jamais.",
       ctaDownloadApp: "Télécharger l'app",
@@ -154,7 +154,7 @@ export const translations = {
       changeLanguage: 'Change language',
     },
     hero: {
-      title: 'AI & Privacy',
+      title: 'Novix AI',
       subtitle: 'Your data belongs to you alone.',
       description: "No leaks. No collection. No surprises.\nYour data doesn't travel. It never leaves you.",
       ctaDownloadApp: 'Download the App',
@@ -301,7 +301,7 @@ export const translations = {
       changeLanguage: 'Sprache ändern',
     },
     hero: {
-      title: 'KI & Datenschutz',
+      title: 'Novix AI',
       subtitle: 'Ihre Daten gehören nur Ihnen.',
       description: 'Keine Lecks. Keine Sammlung. Keine Überraschungen.\nIhre Daten reisen nicht. Sie verlassen Sie niemals.',
       ctaDownloadApp: 'App herunterladen',
@@ -448,7 +448,7 @@ export const translations = {
       changeLanguage: 'Cambia lingua',
     },
     hero: {
-      title: 'IA & Privacy',
+      title: 'Novix AI',
       subtitle: 'I tuoi dati appartengono solo a te.',
       description: "Nessuna fuga. Nessuna raccolta. Nessuna sorpresa.\nI tuoi dati non viaggiano. Non ti lasciano mai.",
       ctaDownloadApp: "Scarica l'app",
