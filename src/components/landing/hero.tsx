@@ -37,7 +37,7 @@ export default function Hero() {
             <Download className="mr-2 h-5 w-5" />
             {t.hero.ctaDownloadApp}
           </Button>
-          <Button size="lg" variant="outline" className="font-headline text-white border-white hover:bg-white/10">
+          <Button size="lg" variant="outline" className="font-headline text-black bg-white hover:bg-white/90">
             {t.hero.ctaTryFree}
           </Button>
         </div>
