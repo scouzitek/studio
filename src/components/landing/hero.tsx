@@ -33,11 +33,11 @@ export default function Hero() {
           {t.hero.description}
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Button size="lg" variant="destructive" className="font-headline">
+          <Button variant="destructive" className="font-headline">
             <Download className="mr-2 h-5 w-5" />
             {t.hero.ctaDownloadApp}
           </Button>
-          <Button size="lg" variant="outline" className="font-headline text-black bg-white hover:bg-white/90">
+          <Button variant="outline" className="font-headline text-black bg-white hover:bg-white/90">
             {t.hero.ctaTryFree}
           </Button>
         </div>
