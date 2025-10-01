@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl px-4 text-white">
         <h1 className="text-4xl font-extrabold tracking-tight font-headline md:text-6xl lg:text-7xl">
           {t.hero.title}
-          <span className="block text-primary-foreground/80 mt-2">{t.hero.subtitle}</span>
+          <span className="block text-4xl md:text-5xl lg:text-6xl text-primary-foreground/80 mt-2 whitespace-nowrap">{t.hero.subtitle}</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg font-body md:text-xl text-primary-foreground/90">
           {t.hero.description.split('\n').map((line, index) => (
