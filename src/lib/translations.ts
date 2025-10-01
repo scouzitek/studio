@@ -7,7 +7,7 @@ export const translations = {
       changeLanguage: 'Changer de langue',
     },
     hero: {
-      title: 'Quand IA rime avec vie privée.',
+      title: 'IA & Confidentialité',
       subtitle: '100% sur votre appareil.',
       description: "Aucune fuite. Aucune collecte. Aucune surprise. Vos données ne voyagent pas. Elles ne vous quittent jamais.",
       ctaDownloadApp: "Télécharger l'app",
@@ -154,7 +154,7 @@ export const translations = {
       changeLanguage: 'Change language',
     },
     hero: {
-      title: 'When AI rhymes with privacy.',
+      title: 'AI & Privacy',
       subtitle: '100% on your device.',
       description: "No leaks. No collection. No surprises. Your data doesn't travel. It never leaves you.",
       ctaDownloadApp: 'Download the App',
@@ -301,7 +301,7 @@ export const translations = {
       changeLanguage: 'Sprache ändern',
     },
     hero: {
-      title: 'Wenn KI auf Privatsphäre reimt.',
+      title: 'KI & Datenschutz',
       subtitle: '100% auf Ihrem Gerät.',
       description: 'Keine Lecks. Keine Sammlung. Keine Überraschungen. Ihre Daten reisen nicht. Sie verlassen Sie niemals.',
       ctaDownloadApp: 'App herunterladen',
@@ -448,7 +448,7 @@ export const translations = {
       changeLanguage: 'Cambia lingua',
     },
     hero: {
-      title: 'Quando IA fa rima con privacy.',
+      title: 'IA & Privacy',
       subtitle: '100% sul tuo dispositivo.',
       description: "Nessuna fuga. Nessuna raccolta. Nessuna sorpresa. I tuoi dati non viaggiano. Non ti lasciano mai.",
       ctaDownloadApp: "Scarica l'app",
