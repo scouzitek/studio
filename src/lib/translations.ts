@@ -9,7 +9,7 @@ export const translations = {
     hero: {
       title: "L'IA qui respecte votre vie privée.",
       subtitle: '100% sur votre appareil.',
-      description: 'Novix AI stocke toutes les données localement sur votre appareil, garantissant une confidentialité totale. Vos données ne quittent jamais votre contrôle.',
+      description: 'Aucune fuite. Aucune collecte. Aucune surprise. Vos données ne voyagent pas. Elles ne vous quittent jamais.',
       ctaDownloadApp: "Télécharger l'app",
       ctaTryFree: 'Essayer gratuitement',
     },
@@ -156,7 +156,7 @@ export const translations = {
     hero: {
       title: 'AI that respects your privacy.',
       subtitle: '100% on your device.',
-      description: 'Novix AI stores all data locally on your device, ensuring total confidentiality. Your data never leaves your control.',
+      description: 'No leaks. No collection. No surprises. Your data doesn\'t travel. It never leaves you.',
       ctaDownloadApp: 'Download the App',
       ctaTryFree: 'Try for free',
     },
@@ -303,7 +303,7 @@ export const translations = {
     hero: {
       title: 'Die KI, die Ihre Privatsphäre respektiert.',
       subtitle: '100% auf Ihrem Gerät.',
-      description: 'Novix AI speichert alle Daten lokal auf Ihrem Gerät und gewährleistet so absolute Vertraulichkeit. Ihre Daten verlassen niemals Ihre Kontrolle.',
+      description: 'Keine Lecks. Keine Sammlung. Keine Überraschungen. Ihre Daten reisen nicht. Sie verlassen Sie niemals.',
       ctaDownloadApp: 'App herunterladen',
       ctaTryFree: 'Kostenlos ausprobieren',
     },
@@ -450,7 +450,7 @@ export const translations = {
     hero: {
       title: "L'IA che rispetta la tua privacy.",
       subtitle: '100% sul tuo dispositivo.',
-      description: 'Novix AI archivia tutti i dati localmente sul tuo dispositivo, garantendo la totale riservatezza. I tuoi dati non lasciano mai il tuo controllo.',
+      description: 'Nessuna fuga. Nessuna raccolta. Nessuna sorpresa. I tuoi dati non viaggiano. Non ti lasciano mai.',
       ctaDownloadApp: "Scarica l'app",
       ctaTryFree: 'Prova gratuitamente',
     },
