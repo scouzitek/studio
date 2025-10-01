@@ -1,5 +1,5 @@
 'use client';
-import { Cpu, ShieldCheck, Sparkles } from 'lucide-react';
+import { Cpu, ShieldCheck, MousePointerClick } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
@@ -7,7 +7,7 @@ import { translations } from '@/lib/translations';
 const featureIcons = [
   <Cpu key="1" className="w-10 h-10 text-destructive" />,
   <ShieldCheck key="2" className="w-10 h-10 text-destructive" />,
-  <Sparkles key="3" className="w-10 h-10 text-destructive" />,
+  <MousePointerClick key="3" className="w-10 h-10 text-destructive" />,
 ];
 
 export default function Features() {
