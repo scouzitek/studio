@@ -34,7 +34,7 @@ export const translations = {
         {
           id: 'secure',
           title: 'Stockage sécurisé des données',
-          description: "Toutes vos conversations et données sont chiffrées et stockées localement sur votre appareil. Nous utilisons la puissance des fonctionnalités de sécurité natives de votre appareil, telles que FaceID ou le code PIN, pour protéger vos informations.",
+          description: 'Toutes vos conversations et données sont chiffrées et stockées localement sur votre appareil. Nous utilisons la puissance des fonctionnalités de sécurité natives de votre appareil, telles que FaceID ou le code PIN, pour protéger vos informations.',
         },
         {
           id: 'compliance',
@@ -60,7 +60,7 @@ export const translations = {
         {
           name: 'Pour les Particuliers',
           id: 'personal',
-          description: 'La solution parfaite pour un usage personnel, flexible et sans engagement. Vous ne payez que ce que vous consommez.',
+          description: 'La solution perfecte pour un usage personnel, flexible et sans engagement. Vous ne payez que ce que vous consommez.',
           features: [
             "Accès complet à l'IA sur votre appareil",
             'Confidentialité absolue de vos données',
@@ -99,6 +99,28 @@ export const translations = {
       submit: 'Envoyer la demande',
       success: 'Merci ! Votre demande a bien été envoyée.',
       error: "Une erreur s'est produite. Veuillez réessayer.",
+    },
+    faq: {
+      mainTitle: 'Questions fréquentes',
+      mainDescription: 'Vous avez des questions ? Nous avons les réponses.',
+      questions: [
+        {
+          question: 'Comment Novix AI protège-t-il ma vie privée ?',
+          answer: "Novix AI est conçu selon une approche \"privacy-first\". Toutes vos conversations sont chiffrées et stockées exclusivement sur votre appareil. Nous n'avons pas accès à vos données et rien n'est utilisé pour entraîner nos modèles d'IA. Les requêtes envoyées à nos serveurs pour traitement sont anonymes et ne sont pas stockées."
+        },
+        {
+          question: 'Mes données sont-elles vraiment sécurisées ?',
+          answer: "Oui. Nous exploitons les fonctionnalités de sécurité natives de votre appareil, comme l'authentification biométrique (FaceID, empreinte digitale) ou votre code PIN, pour protéger l'accès à l'application. Les données au repos sur votre appareil sont chiffrées."
+        },
+        {
+          question: 'Puis-je utiliser Novix AI sur plusieurs appareils ?',
+          answer: "Actuellement, Novix AI fonctionne sur un seul appareil pour garantir une sécurité maximale, car toutes les données sont stockées localement. Cependant, vous pouvez utiliser notre fonction d'exportation/importation complète des données pour migrer vos conversations vers un nouvel appareil."
+        },
+        {
+          question: "Y a-t-il un abonnement ?",
+          answer: "Pour les utilisateurs individuels, il n'y a pas d'abonnement. Vous payez uniquement pour ce que vous consommez, sur la base d'une facturation à la requête. C'est simple, transparent et sans engagement."
+        }
+      ]
     },
     footer: {
       designedIn: 'Votre vie privée, notre priorité.',
@@ -140,7 +162,7 @@ export const translations = {
         {
           id: 'secure',
           title: 'Secure Data Storage',
-          description: 'All your conversations and data are encrypted and stored locally on your device. We leverage the power of your device\'s native security features, such as FaceID or PIN, to protect your information.',
+          description: "All your conversations and data are encrypted and stored locally on your device. We leverage the power of your device's native security features, such as FaceID or PIN, to protect your information.",
         },
         {
           id: 'compliance',
@@ -205,6 +227,28 @@ export const translations = {
       submit: 'Send Request',
       success: 'Thank you! Your request has been sent.',
       error: 'An error occurred. Please try again.',
+    },
+    faq: {
+      mainTitle: 'Frequently Asked Questions',
+      mainDescription: 'Got questions? We have answers.',
+      questions: [
+        {
+          question: 'How does Novix AI protect my privacy?',
+          answer: 'Novix AI is designed with a "privacy-first" approach. All your conversations are encrypted and stored exclusively on your device. We do not have access to your data, and nothing is used to train our AI models. The requests sent to our servers for processing are anonymous and are not stored.'
+        },
+        {
+          question: 'Is my data really secure?',
+          answer: 'Yes. We leverage your device\'s native security features, like biometric authentication (FaceID, fingerprint) or your PIN code, to protect access to the app. Data at rest on your device is encrypted.'
+        },
+        {
+          question: 'Can I use Novix AI on multiple devices?',
+          answer: 'Currently, Novix AI operates on a single-device basis to ensure maximum security, as all data is stored locally. However, you can use our full data export/import feature to migrate your conversations to a new device.'
+        },
+        {
+          question: 'Is there a subscription?',
+          answer: 'For individual users, there is no subscription. You pay only for what you use, based on per-request billing. It\'s simple, transparent, and non-binding.'
+        }
+      ]
     },
     footer: {
       designedIn: 'Your privacy, our priority.',
@@ -312,6 +356,28 @@ export const translations = {
       success: 'Vielen Dank! Ihre Anfrage wurde gesendet.',
       error: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.',
     },
+    faq: {
+      mainTitle: 'Häufig gestellte Fragen',
+      mainDescription: 'Haben Sie Fragen? Wir haben die Antworten.',
+      questions: [
+        {
+          question: 'Wie schützt Novix AI meine Privatsphäre?',
+          answer: 'Novix AI wurde nach dem "Privacy-First"-Ansatz entwickelt. Alle Ihre Gespräche werden verschlüsselt und ausschließlich auf Ihrem Gerät gespeichert. Wir haben keinen Zugriff auf Ihre Daten und nichts wird zum Trainieren unserer KI-Modelle verwendet. Die zur Verarbeitung an unsere Server gesendeten Anfragen sind anonym und werden nicht gespeichert.'
+        },
+        {
+          question: 'Sind meine Daten wirklich sicher?',
+          answer: 'Ja. Wir nutzen die nativen Sicherheitsfunktionen Ihres Geräts wie die biometrische Authentifizierung (FaceID, Fingerabdruck) oder Ihre PIN, um den Zugriff auf die App zu schützen. Die auf Ihrem Gerät gespeicherten Daten sind verschlüsselt.'
+        },
+        {
+          question: 'Kann ich Novix AI auf mehreren Geräten verwenden?',
+          answer: 'Derzeit funktioniert Novix AI auf einem einzigen Gerät, um maximale Sicherheit zu gewährleisten, da alle Daten lokal gespeichert werden. Sie können jedoch unsere vollständige Datenexport-/-importfunktion verwenden, um Ihre Gespräche auf ein neues Gerät zu migrieren.'
+        },
+        {
+          question: 'Gibt es ein Abonnement?',
+          answer: 'Für Einzelbenutzer gibt es kein Abonnement. Sie zahlen nur für das, was Sie verbrauchen, basierend auf einer Abrechnung pro Anfrage. Es ist einfach, transparent und unverbindlich.'
+        }
+      ]
+    },
     footer: {
       designedIn: 'Ihre Privatsphäre, unsere Priorität.',
       rightsReserved: 'Alle Rechte vorbehalten.',
@@ -366,7 +432,7 @@ export const translations = {
         },
         {
           id: 'green-ai',
-          title: 'IA rispettosa dell\'ambiente',
+          title: "IA rispettosa dell'ambiente",
           description: "Elaborando i dati localmente, riduciamo significativamente la necessità di data center ad alta intensità energetica. Questo approccio non solo migliora la privacy, ma contribuisce anche a un'impronta di carbonio inferiore rispetto ai tradizionali servizi di IA basati su cloud.",
         },
       ],
@@ -417,6 +483,28 @@ export const translations = {
       submit: 'Invia richiesta',
       success: 'Grazie! La tua richiesta è stata inviata.',
       error: 'Si è verificato un errore. Per favore riprova.',
+    },
+    faq: {
+      mainTitle: 'Domande frequenti',
+      mainDescription: 'Hai domande? Abbiamo le risposte.',
+      questions: [
+        {
+          question: 'Come protegge Novix AI la mia privacy?',
+          answer: 'Novix AI è progettato con un approccio "privacy-first". Tutte le tue conversazioni sono crittografate e archiviate esclusivamente sul tuo dispositivo. Non abbiamo accesso ai tuoi dati e nulla viene utilizzato per addestrare i nostri modelli di intelligenza artificiale. Le richieste inviate ai nostri server per l\'elaborazione sono anonime e non vengono archiviate.'
+        },
+        {
+          question: 'I miei dati sono davvero sicuri?',
+          answer: 'Sì. Sfruttiamo le funzionalità di sicurezza native del tuo dispositivo, come l\'autenticazione biometrica (FaceID, impronta digitale) o il tuo codice PIN, per proteggere l\'accesso all\'app. I dati a riposo sul tuo dispositivo sono crittografati.'
+        },
+        {
+          question: 'Posso usare Novix AI su più dispositivi?',
+          answer: 'Attualmente, Novix AI funziona su un singolo dispositivo per garantire la massima sicurezza, poiché tutti i dati vengono archiviati localmente. Tuttavia, puoi utilizzare la nostra funzione di esportazione/importazione completa dei dati per migrare le tue conversazioni su un nuovo dispositivo.'
+        },
+        {
+          question: 'C\'è un abbonamento?',
+          answer: 'Per gli utenti individuali, non c\'è alcun abbonamento. Paghi solo per ciò che usi, in base alla fatturazione per richiesta. È semplice, trasparente e non vincolante.'
+        }
+      ]
     },
     footer: {
       designedIn: 'La tua privacy, la nostra priorità.',
