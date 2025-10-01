@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
+import { Download } from 'lucide-react';
 
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero');
@@ -32,7 +33,13 @@ export default function Hero() {
           {t.hero.description}
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Button size="lg" variant="destructive" className="font-headline">{t.hero.ctaDownload}</Button>
+          <Button size="lg" variant="destructive" className="font-headline">
+            <Download className="mr-2 h-5 w-5" />
+            {t.hero.ctaDownloadApp}
+          </Button>
+          <Button size="lg" variant="outline" className="font-headline text-white border-white hover:bg-white/10">
+            {t.hero.ctaTryFree}
+          </Button>
         </div>
       </div>
     </section>
