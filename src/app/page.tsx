@@ -5,6 +5,7 @@ import Hero from '@/components/landing/hero';
 import Features from '@/components/landing/features';
 import MoreFeatures from '@/components/landing/more-features';
 import Pricing from '@/components/landing/pricing';
+import CallToAction from '@/components/landing/call-to-action';
 import Faq from '@/components/landing/faq';
 import Footer from '@/components/landing/footer';
 import { useLanguage } from '@/context/language-context';
@@ -19,6 +20,7 @@ export default function Home() {
         <Features />
         <MoreFeatures />
         <Pricing />
+        <CallToAction />
         <Faq />
       </main>
       <Footer />

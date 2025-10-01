@@ -84,6 +84,24 @@ export const translations = {
         },
       ],
     },
+    callToAction: {
+      mainTitle: 'Une solution pour tous',
+      mainDescription: 'Que vous soyez un particulier cherchant un assistant personnel ou une entreprise protégeant ses données, Novix AI est fait pour vous.',
+      sections: [
+        {
+          id: 'cta-personal',
+          title: 'Votre Assistant Personnel',
+          description: 'Libérez votre créativité et boostez votre productivité. Novix AI est l\'outil idéal pour rédiger, coder, apprendre et créer, tout en gardant vos idées et vos données en sécurité sur votre appareil. La puissance de l\'IA, votre vie privée en plus.',
+          cta: 'Commencer Gratuitement',
+        },
+        {
+          id: 'cta-business',
+          title: 'L\'Avantage Concurrentiel pour Votre Entreprise',
+          description: 'Intégrez une IA puissante sans compromettre la confidentialité de vos données stratégiques. Novix AI fonctionne en circuit fermé sur les postes de vos collaborateurs, garantissant que vos informations sensibles ne quittent jamais votre entreprise.',
+          cta: 'Sécuriser Vos Données',
+        },
+      ],
+    },
     contactForm: {
       title: 'Contacter notre équipe commerciale',
       description: 'Remplissez ce formulaire et nous vous recontacterons dans les plus brefs délais pour discuter de vos besoins.',
@@ -107,7 +125,7 @@ export const translations = {
       questions: [
         {
           question: 'Comment Novix AI protège-t-il ma vie privée ?',
-          answer: "Novix AI est conçu selon une approche \"privacy-first\". Toutes vos conversations sont stockées exclusivement sur votre appareil. Nous n'avons pas accès à vos données et rien n'est utilisé pour entraîner nos modèles d'IA. Les requêtes envoyées à nos serveurs pour traitement sont anonymes et ne sont pas stockées."
+          answer: "Novix AI est conçu selon une approche \"privacy-first\". Toutes les conversations avec le modèle sont stockées localement sur votre appareil. Nous n'avons pas accès à vos données et rien n'est utilisé pour entraîner nos modèles d'IA."
         },
         {
           question: 'Mes données sont-elles vraiment sécurisées ?',
@@ -124,7 +142,7 @@ export const translations = {
       ]
     },
     footer: {
-      designedIn: 'Votre vie privée, notre priorité.',
+      designedIn: 'Votre sphère privée, notre priorité.',
       rightsReserved: 'Tous droits réservés.',
     },
   },
@@ -212,6 +230,24 @@ export const translations = {
         },
       ],
     },
+    callToAction: {
+      mainTitle: 'A Solution for Everyone',
+      mainDescription: "Whether you're an individual looking for a personal assistant or a business protecting its data, Novix AI is for you.",
+      sections: [
+        {
+          id: 'cta-personal',
+          title: 'Your Personal Assistant',
+          description: 'Unleash your creativity and boost your productivity. Novix AI is the ideal tool to write, code, learn, and create, all while keeping your ideas and data secure on your device. The power of AI, with your privacy included.',
+          cta: 'Get Started for Free',
+        },
+        {
+          id: 'cta-business',
+          title: 'The Competitive Edge for Your Business',
+          description: 'Integrate powerful AI without compromising the confidentiality of your strategic data. Novix AI operates in a closed loop on your employees\' workstations, ensuring that your sensitive information never leaves your company.',
+          cta: 'Secure Your Data',
+        },
+      ],
+    },
     contactForm: {
       title: 'Contact our sales team',
       description: 'Fill out this form and we will get back to you as soon as possible to discuss your needs.',
@@ -235,7 +271,7 @@ export const translations = {
       questions: [
         {
           question: 'How does Novix AI protect my privacy?',
-          answer: 'Novix AI is designed with a "privacy-first" approach. All your conversations are stored exclusively on your device. We do not have access to your data, and nothing is used to train our AI models. The requests sent to our servers for processing are anonymous and are not stored.'
+          answer: 'Novix AI is designed with a "privacy-first" approach. All your conversations with the model are stored locally on your device. We do not have access to your data, and nothing is used to train our AI models.'
         },
         {
           question: 'Is my data really secure?',
@@ -340,6 +376,24 @@ export const translations = {
         },
       ],
     },
+    callToAction: {
+      mainTitle: 'Eine Lösung für alle',
+      mainDescription: 'Egal, ob Sie eine Privatperson sind, die einen persönlichen Assistenten sucht, oder ein Unternehmen, das seine Daten schützt, Novix AI ist für Sie da.',
+      sections: [
+        {
+          id: 'cta-personal',
+          title: 'Ihr persönlicher Assistent',
+          description: 'Entfesseln Sie Ihre Kreativität und steigern Sie Ihre Produktivität. Novix AI ist das ideale Werkzeug zum Schreiben, Programmieren, Lernen und Erstellen, während Ihre Ideen und Daten sicher auf Ihrem Gerät bleiben. Die Kraft der KI, plus Ihre Privatsphäre.',
+          cta: 'Kostenlos loslegen',
+        },
+        {
+          id: 'cta-business',
+          title: 'Der Wettbewerbsvorteil für Ihr Unternehmen',
+          description: 'Integrieren Sie leistungsstarke KI, ohne die Vertraulichkeit Ihrer strategischen Daten zu gefährden. Novix AI arbeitet in einem geschlossenen Kreislauf auf den Arbeitsplätzen Ihrer Mitarbeiter und stellt sicher, dass Ihre sensiblen Informationen Ihr Unternehmen niemals verlassen.',
+          cta: 'Sichern Sie Ihre Daten',
+        },
+      ],
+    },
     contactForm: {
       title: 'Kontaktieren Sie unser Vertriebsteam',
       description: 'Füllen Sie dieses Formular aus und wir werden uns so schnell wie möglich bei Ihnen melden, um Ihre Bedürfnisse zu besprechen.',
@@ -363,7 +417,7 @@ export const translations = {
       questions: [
         {
           question: 'Wie schützt Novix AI meine Privatsphäre?',
-          answer: 'Novix AI wurde nach dem "Privacy-First"-Ansatz entwickelt. Alle Ihre Gespräche werden ausschließlich auf Ihrem Gerät gespeichert. Wir haben keinen Zugriff auf Ihre Daten und nichts wird zum Trainieren unserer KI-Modelle verwendet. Die zur Verarbeitung an unsere Server gesendeten Anfragen sind anonym und werden nicht gespeichert.'
+          answer: 'Novix AI wurde nach dem "Privacy-First"-Ansatz entwickelt. Alle Ihre Gespräche mit dem Modell werden lokal auf Ihrem Gerät gespeichert. Wir haben keinen Zugriff auf Ihre Daten und nichts wird zum Trainieren unserer KI-Modelle verwendet.'
         },
         {
           question: 'Sind meine Daten wirklich sicher?',
@@ -468,6 +522,24 @@ export const translations = {
         },
       ],
     },
+    callToAction: {
+      mainTitle: 'Una soluzione per tutti',
+      mainDescription: 'Che tu sia un privato alla ricerca di un assistente personale o un\'azienda che protegge i propri dati, Novix AI è la soluzione per te.',
+      sections: [
+        {
+          id: 'cta-personal',
+          title: 'Il tuo assistente personale',
+          description: 'Scatena la tua creatività e aumenta la tua produttività. Novix AI è lo strumento ideale per scrivere, programmare, imparare e creare, mantenendo le tue idee e i tuoi dati al sicuro sul tuo dispositivo. La potenza dell\'IA, con la tua privacy in più.',
+          cta: 'Inizia gratuitamente',
+        },
+        {
+          id: 'cta-business',
+          title: 'Il vantaggio competitivo per la tua azienda',
+          description: 'Integra una potente IA senza compromettere la riservatezza dei tuoi dati strategici. Novix AI opera in un circuito chiuso sulle postazioni di lavoro dei tuoi dipendenti, garantendo che le tue informazioni sensibili non lascino mai la tua azienda.',
+          cta: 'Proteggi i tuoi dati',
+        },
+      ],
+    },
     contactForm: {
       title: 'Contatta il nostro team di vendita',
       description: 'Compila questo modulo e ti risponderemo al più presto per discutere delle tue esigenze.',
@@ -491,7 +563,7 @@ export const translations = {
       questions: [
         {
           question: 'Come protegge Novix AI la mia privacy?',
-          answer: 'Novix AI è progettato con un approccio "privacy-first". Tutte le tue conversazioni sono archiviate esclusivamente sul tuo dispositivo. Non abbiamo accesso ai tuoi dati e nulla viene utilizzato per addestrare i nostri modelli di intelligenza artificiale. Le richieste inviate ai nostri server per l\'elaborazione sono anonime e non vengono archiviate.'
+          answer: 'Novix AI è progettato con un approccio "privacy-first". Tutte le tue conversazioni con il modello sono archiviate localmente sul tuo dispositivo. Non abbiamo accesso ai tuoi dati e nulla viene utilizzato per addestrare i nostri modelli di intelligenza artificiale.'
         },
         {
           question: 'I miei dati sono davvero sicuri?',
