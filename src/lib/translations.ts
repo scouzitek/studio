@@ -1,3 +1,4 @@
+
 export const translations = {
   fr: {
     header: {
@@ -17,15 +18,15 @@ export const translations = {
       featureList: [
         {
           title: 'Stockage Local',
-          description: "Vos conversations sont chiffrées et stockées uniquement sur votre appareil, vous garantissant un contrôle total et un accès exclusif à vos données. Aucune information n'est utilisée pour entraîner nos modèles.",
+          description: "Vos conversations sont stockées uniquement sur votre appareil. Seul vous y avez accès, vous garantissant un contrôle total. Aucune information n'est utilisée pour entraîner nos modèles.",
         },
         {
           title: 'Confidentialité Absolue',
-          description: "Nous exploitons le chiffrement et la sécurité natifs de votre appareil. Cette approche assure une défense robuste de vos conversations sans ajouter de complexité ni de failles potentielles.",
+          description: "Nous exploitons la sécurité native de votre appareil pour protéger vos conversations. Cette approche assure une défense robuste de vos données, sans ajouter de complexité ni de failles potentielles.",
         },
         {
           title: "Facilité d'utilisation",
-          description: "Une interface claire et intuitive, conçue pour la productivité. Profitez d'une expérience fluide pour vous concentrer sur l'essentiel, sans aucune distraction superflue.",
+          description: "Une interface claire et intuitive, conçue pour la productivité. Profitez d'une expérience fluide pour vous concentrer sur l'essentiel, sans aucune distraction ni complexité superflue.",
         },
       ],
     },
@@ -34,7 +35,7 @@ export const translations = {
         {
           id: 'secure',
           title: 'Stockage sécurisé des données',
-          description: 'Toutes vos conversations et données sont chiffrées et stockées localement sur votre appareil. Nous utilisons la puissance des fonctionnalités de sécurité natives de votre appareil, telles que FaceID ou le code PIN, pour protéger vos informations.',
+          description: "Toutes vos conversations et données sont stockées localement sur votre appareil. Nous utilisons la puissance des fonctionnalités de sécurité natives de votre appareil, telles que FaceID ou le code PIN, pour protéger l'accès à vos informations.",
         },
         {
           id: 'compliance',
@@ -106,11 +107,11 @@ export const translations = {
       questions: [
         {
           question: 'Comment Novix AI protège-t-il ma vie privée ?',
-          answer: "Novix AI est conçu selon une approche \"privacy-first\". Toutes vos conversations sont chiffrées et stockées exclusivement sur votre appareil. Nous n'avons pas accès à vos données et rien n'est utilisé pour entraîner nos modèles d'IA. Les requêtes envoyées à nos serveurs pour traitement sont anonymes et ne sont pas stockées."
+          answer: "Novix AI est conçu selon une approche \"privacy-first\". Toutes vos conversations sont stockées exclusivement sur votre appareil. Nous n'avons pas accès à vos données et rien n'est utilisé pour entraîner nos modèles d'IA. Les requêtes envoyées à nos serveurs pour traitement sont anonymes et ne sont pas stockées."
         },
         {
           question: 'Mes données sont-elles vraiment sécurisées ?',
-          answer: "Oui. Nous exploitons les fonctionnalités de sécurité natives de votre appareil, comme l'authentification biométrique (FaceID, empreinte digitale) ou votre code PIN, pour protéger l'accès à l'application. Les données au repos sur votre appareil sont chiffrées."
+          answer: "Oui. Nous exploitons les fonctionnalités de sécurité natives de votre appareil, comme l'authentification biométrique (FaceID, empreinte digitale) ou votre code PIN, pour protéger l'accès à l'application et aux données stockées sur votre appareil."
         },
         {
           question: 'Puis-je utiliser Novix AI sur plusieurs appareils ?',
@@ -145,15 +146,15 @@ export const translations = {
       featureList: [
         {
           title: 'Local Storage',
-          description: 'Your conversations are encrypted and stored only on your device. Only you have access, ensuring total control. No data is used to train our models.',
+          description: 'Your conversations are stored only on your device. Only you have access, ensuring total control. No data is used to train our models.',
         },
         {
           title: 'Absolute Confidentiality',
-          description: "We leverage your device's native encryption and security. This approach ensures a robust defense of your conversations without adding complexity or potential vulnerabilities.",
+          description: "We leverage your device's native security to protect your conversations. This approach ensures a robust defense of your data, without adding complexity or potential vulnerabilities.",
         },
         {
           title: 'Ease of Use',
-          description: 'A clear and intuitive interface, designed for productivity. Enjoy a smooth experience to focus on what matters, without any unnecessary distractions.',
+          description: 'A clear and intuitive interface, designed for productivity. Enjoy a smooth experience to focus on what matters, without any unnecessary distractions or complexity.',
         },
       ],
     },
@@ -162,7 +163,7 @@ export const translations = {
         {
           id: 'secure',
           title: 'Secure Data Storage',
-          description: "All your conversations and data are encrypted and stored locally on your device. We leverage the power of your device's native security features, such as FaceID or PIN, to protect your information.",
+          description: "All your conversations and data are stored locally on your device. We leverage the power of your device's native security features, such as FaceID or PIN, to protect access to your information.",
         },
         {
           id: 'compliance',
@@ -234,11 +235,11 @@ export const translations = {
       questions: [
         {
           question: 'How does Novix AI protect my privacy?',
-          answer: 'Novix AI is designed with a "privacy-first" approach. All your conversations are encrypted and stored exclusively on your device. We do not have access to your data, and nothing is used to train our AI models. The requests sent to our servers for processing are anonymous and are not stored.'
+          answer: 'Novix AI is designed with a "privacy-first" approach. All your conversations are stored exclusively on your device. We do not have access to your data, and nothing is used to train our AI models. The requests sent to our servers for processing are anonymous and are not stored.'
         },
         {
           question: 'Is my data really secure?',
-          answer: 'Yes. We leverage your device\'s native security features, like biometric authentication (FaceID, fingerprint) or your PIN code, to protect access to the app. Data at rest on your device is encrypted.'
+          answer: 'Yes. We leverage your device\'s native security features, like biometric authentication (FaceID, fingerprint) or your PIN code, to protect access to the app and the data stored on your device.'
         },
         {
           question: 'Can I use Novix AI on multiple devices?',
@@ -273,15 +274,15 @@ export const translations = {
       featureList: [
         {
           title: 'Lokale Speicherung',
-          description: 'Ihre Gespräche werden verschlüsselt und nur auf Ihrem Gerät gespeichert. Nur Sie haben Zugriff und somit die volle Kontrolle. Es werden keine Daten zum Trainieren unserer Modelle verwendet.',
+          description: 'Ihre Gespräche werden nur auf Ihrem Gerät gespeichert. Nur Sie haben Zugriff und somit die volle Kontrolle. Es werden keine Daten zum Trainieren unserer Modelle verwendet.',
         },
         {
           title: 'Absolute Vertraulichkeit',
-          description: 'Wir nutzen die native Verschlüsselung und Sicherheit Ihres Geräts. Dieser Ansatz gewährleistet einen robusten Schutz Ihrer Gespräche, ohne Komplexität oder potenzielle Schwachstellen hinzuzufügen.',
+          description: 'Wir nutzen die native Sicherheit Ihres Geräts, um Ihre Gespräche zu schützen. Dieser Ansatz gewährleistet einen robusten Schutz Ihrer Daten, ohne Komplexität oder potenzielle Schwachstellen hinzuzufügen.',
         },
         {
           title: 'Benutzerfreundlichkeit',
-          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Genießen Sie ein reibungsloses Erlebnis, um sich auf das Wesentliche zu konzentrieren, ohne unnötige Ablenkungen.',
+          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Genießen Sie ein reibungsloses Erlebnis, um sich auf das Wesentliche zu konzentrieren, ohne unnötige Ablenkungen oder Komplexität.',
         },
       ],
     },
@@ -290,7 +291,7 @@ export const translations = {
         {
           id: 'secure',
           title: 'Sichere Datenspeicherung',
-          description: 'Alle Ihre Gespräche und Daten werden verschlüsselt und lokal auf Ihrem Gerät gespeichert. Wir nutzen die Leistungsfähigkeit der nativen Sicherheitsfunktionen Ihres Geräts wie FaceID oder PIN, um Ihre Informationen zu schützen.',
+          description: 'Alle Ihre Gespräche und Daten werden lokal auf Ihrem Gerät gespeichert. Wir nutzen die Leistungsfähigkeit der nativen Sicherheitsfunktionen Ihres Geräts wie FaceID oder PIN, um den Zugriff auf Ihre Informationen zu schützen.',
         },
         {
           id: 'compliance',
@@ -362,11 +363,11 @@ export const translations = {
       questions: [
         {
           question: 'Wie schützt Novix AI meine Privatsphäre?',
-          answer: 'Novix AI wurde nach dem "Privacy-First"-Ansatz entwickelt. Alle Ihre Gespräche werden verschlüsselt und ausschließlich auf Ihrem Gerät gespeichert. Wir haben keinen Zugriff auf Ihre Daten und nichts wird zum Trainieren unserer KI-Modelle verwendet. Die zur Verarbeitung an unsere Server gesendeten Anfragen sind anonym und werden nicht gespeichert.'
+          answer: 'Novix AI wurde nach dem "Privacy-First"-Ansatz entwickelt. Alle Ihre Gespräche werden ausschließlich auf Ihrem Gerät gespeichert. Wir haben keinen Zugriff auf Ihre Daten und nichts wird zum Trainieren unserer KI-Modelle verwendet. Die zur Verarbeitung an unsere Server gesendeten Anfragen sind anonym und werden nicht gespeichert.'
         },
         {
           question: 'Sind meine Daten wirklich sicher?',
-          answer: 'Ja. Wir nutzen die nativen Sicherheitsfunktionen Ihres Geräts wie die biometrische Authentifizierung (FaceID, Fingerabdruck) oder Ihre PIN, um den Zugriff auf die App zu schützen. Die auf Ihrem Gerät gespeicherten Daten sind verschlüsselt.'
+          answer: 'Ja. Wir nutzen die nativen Sicherheitsfunktionen Ihres Geräts wie die biometrische Authentifizierung (FaceID, Fingerabdruck) oder Ihre PIN, um den Zugriff auf die App und die auf Ihrem Gerät gespeicherten Daten zu schützen.'
         },
         {
           question: 'Kann ich Novix AI auf mehreren Geräten verwenden?',
@@ -401,15 +402,15 @@ export const translations = {
       featureList: [
         {
           title: 'Archiviazione Locale',
-          description: 'Le tue conversazioni sono crittografate e archiviate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale. Nessun dato viene utilizzato per addestrare i nostri modelli.',
+          description: 'Le tue conversazioni sono archiviate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale. Nessun dato viene utilizzato per addestrare i nostri modelli.',
         },
         {
           title: 'Riservatezza Assoluta',
-          description: "Sfruttiamo la crittografia e la sicurezza native del tuo dispositivo. Questo approccio garantisce una solida difesa delle tue conversazioni senza aggiungere complessità o potenziali vulnerabilità.",
+          description: "Sfruttiamo la sicurezza nativa del tuo dispositivo per proteggere le tue conversazioni. Questo approccio garantisce una solida difesa dei tuoi dati, senza aggiungere complessità o potenziali vulnerabilità.",
         },
         {
           title: "Facilità d'uso",
-          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Goditi un'esperienza fluida per concentrarti su ciò che conta, senza inutili distrazioni.",
+          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Goditi un'esperienza fluida per concentrarti su ciò che conta, senza inutili distrazioni o complessità.",
         },
       ],
     },
@@ -418,7 +419,7 @@ export const translations = {
         {
           id: 'secure',
           title: 'Archiviazione sicura dei dati',
-          description: 'Tutte le tue conversazioni e i tuoi dati sono crittografati e archiviati localmente sul tuo dispositivo. Sfruttiamo la potenza delle funzionalità di sicurezza native del tuo dispositivo, come FaceID o PIN, per proteggere le tue informazioni.',
+          description: 'Tutte le tue conversazioni e i tuoi dati sono archiviati localmente sul tuo dispositivo. Sfruttiamo la potenza delle funzionalità di sicurezza native del tuo dispositivo, come FaceID o PIN, per proteggere l\'accesso alle tue informazioni.',
         },
         {
           id: 'compliance',
@@ -490,11 +491,11 @@ export const translations = {
       questions: [
         {
           question: 'Come protegge Novix AI la mia privacy?',
-          answer: 'Novix AI è progettato con un approccio "privacy-first". Tutte le tue conversazioni sono crittografate e archiviate esclusivamente sul tuo dispositivo. Non abbiamo accesso ai tuoi dati e nulla viene utilizzato per addestrare i nostri modelli di intelligenza artificiale. Le richieste inviate ai nostri server per l\'elaborazione sono anonime e non vengono archiviate.'
+          answer: 'Novix AI è progettato con un approccio "privacy-first". Tutte le tue conversazioni sono archiviate esclusivamente sul tuo dispositivo. Non abbiamo accesso ai tuoi dati e nulla viene utilizzato per addestrare i nostri modelli di intelligenza artificiale. Le richieste inviate ai nostri server per l\'elaborazione sono anonime e non vengono archiviate.'
         },
         {
           question: 'I miei dati sono davvero sicuri?',
-          answer: 'Sì. Sfruttiamo le funzionalità di sicurezza native del tuo dispositivo, come l\'autenticazione biometrica (FaceID, impronta digitale) o il tuo codice PIN, per proteggere l\'accesso all\'app. I dati a riposo sul tuo dispositivo sono crittografati.'
+          answer: 'Sì. Sfruttiamo le funzionalità di sicurezza native del tuo dispositivo, come l\'autenticazione biometrica (FaceID, impronta digitale) o il tuo codice PIN, per proteggere l\'accesso all\'app e ai dati archiviati sul tuo dispositivo.'
         },
         {
           question: 'Posso usare Novix AI su più dispositivi?',
