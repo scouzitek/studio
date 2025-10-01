@@ -30,14 +30,16 @@ export default function Hero() {
           <span className="block text-primary-foreground/80 mt-2">{t.hero.subtitle}</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg font-body md:text-xl text-primary-foreground/90">
-          {t.hero.description}
+          {t.hero.description.split('\n').map((line, index) => (
+            <span key={index} className="block">{line}</span>
+          ))}
         </p>
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Button variant="destructive" className="font-headline">
+        <div className="mt-8 flex flex-wrap justify-center gap-2">
+          <Button variant="destructive" size="default" className="font-headline">
             <Download className="mr-2 h-5 w-5" />
             {t.hero.ctaDownloadApp}
           </Button>
-          <Button variant="outline" className="font-headline text-black bg-white hover:bg-white/90">
+          <Button variant="outline" size="default" className="font-headline text-black bg-white hover:bg-white/90">
             {t.hero.ctaTryFree}
           </Button>
         </div>
