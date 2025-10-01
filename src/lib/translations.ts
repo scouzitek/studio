@@ -8,8 +8,8 @@ export const translations = {
     },
     hero: {
       title: 'IA & Confidentialité',
-      subtitle: '100% sur votre appareil.',
-      description: "Aucune fuite. Aucune collecte. Aucune surprise. Vos données ne voyagent pas. Elles ne vous quittent jamais.",
+      subtitle: "Vos données ne sont qu'à vous.",
+      description: "Aucune fuite. Aucune collecte. Aucune surprise.\nVos données ne voyagent pas. Elles ne vous quittent jamais.",
       ctaDownloadApp: "Télécharger l'app",
       ctaTryFree: 'Essayer gratuitement',
     },
@@ -23,7 +23,7 @@ export const translations = {
         },
         {
           title: 'Confidentialité Absolue',
-          description: "Nous exploitons la sécurité native de votre appareil pour protéger vos conversations. Cette approche assure une défense robuste de vos données, sans ajouter de complexité ni de failles potentielles.",
+          description: "Nous exploitons la sécurité native de votre appareil pour proteger vos conversations. Cette approche assure une défense robuste de vos données, sans ajouter de complexité ni de failles potentielles.",
         },
         {
           title: "Facilité d'utilisation",
@@ -155,8 +155,8 @@ export const translations = {
     },
     hero: {
       title: 'AI & Privacy',
-      subtitle: '100% on your device.',
-      description: "No leaks. No collection. No surprises. Your data doesn't travel. It never leaves you.",
+      subtitle: 'Your data belongs to you alone.',
+      description: "No leaks. No collection. No surprises.\nYour data doesn't travel. It never leaves you.",
       ctaDownloadApp: 'Download the App',
       ctaTryFree: 'Try for free',
     },
@@ -302,8 +302,8 @@ export const translations = {
     },
     hero: {
       title: 'KI & Datenschutz',
-      subtitle: '100% auf Ihrem Gerät.',
-      description: 'Keine Lecks. Keine Sammlung. Keine Überraschungen. Ihre Daten reisen nicht. Sie verlassen Sie niemals.',
+      subtitle: 'Ihre Daten gehören nur Ihnen.',
+      description: 'Keine Lecks. Keine Sammlung. Keine Überraschungen.\nIhre Daten reisen nicht. Sie verlassen Sie niemals.',
       ctaDownloadApp: 'App herunterladen',
       ctaTryFree: 'Kostenlos ausprobieren',
     },
@@ -449,8 +449,8 @@ export const translations = {
     },
     hero: {
       title: 'IA & Privacy',
-      subtitle: '100% sul tuo dispositivo.',
-      description: "Nessuna fuga. Nessuna raccolta. Nessuna sorpresa. I tuoi dati non viaggiano. Non ti lasciano mai.",
+      subtitle: 'I tuoi dati appartengono solo a te.',
+      description: "Nessuna fuga. Nessuna raccolta. Nessuna sorpresa.\nI tuoi dati non viaggiano. Non ti lasciano mai.",
       ctaDownloadApp: "Scarica l'app",
       ctaTryFree: 'Prova gratuitamente',
     },
