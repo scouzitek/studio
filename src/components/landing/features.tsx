@@ -25,6 +25,19 @@ export default function Features() {
             </p>
           </div>
         </div>
+        
+        {t.conceptBox && (
+          <div className="mx-auto max-w-4xl mt-12">
+            <Card className="bg-background shadow-lg">
+              <CardContent className="p-8 text-center">
+                <p className="text-lg font-medium text-foreground font-body">
+                  {t.conceptBox.text}
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        )}
+
         <div className="mx-auto grid max-w-5xl items-stretch gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-12">
           {t.featureList.map((feature, index) => (
             <Card key={index} className="flex flex-col bg-card hover:shadow-lg transition-shadow duration-300">

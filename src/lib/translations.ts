@@ -16,6 +16,9 @@ export const translations = {
     features: {
       mainTitle: 'Votre vie privée, garantie.',
       mainDescription: 'Notre application repose sur trois principes fondamentaux pour garantir la sécurité et la confidentialité de vos données.',
+      conceptBox: {
+        text: 'Novix AI a développé une technologie de pointe qui réconcilie la puissance de l\'intelligence artificielle avec le respect absolu de votre vie privée. Vos données sont traitées localement, cryptées, et ne quittent jamais votre appareil, vous garantissant une sécurité et une confidentialité inégalées.'
+      },
       featureList: [
         {
           title: "Facilité d'utilisation",
@@ -194,6 +197,9 @@ export const translations = {
     features: {
       mainTitle: 'Your privacy, guaranteed.',
       mainDescription: 'Our application is based on three fundamental principles to ensure the security and confidentiality of your data.',
+      conceptBox: {
+        text: 'Novix AI has developed cutting-edge technology that reconciles the power of artificial intelligence with absolute respect for your privacy. Your data is processed locally, encrypted, and never leaves your device, guaranteeing you unparalleled security and confidentiality.'
+      },
       featureList: [
         {
           title: 'Ease of Use',
@@ -372,6 +378,9 @@ export const translations = {
     features: {
       mainTitle: 'Ihre Privatsphäre, garantiert.',
       mainDescription: 'Unsere Anwendung basiert auf drei Grundprinzipien, um die Sicherheit und Vertraulichkeit Ihrer Daten zu gewährleisten.',
+      conceptBox: {
+        text: 'Novix AI hat eine Spitzentechnologie entwickelt, die die Leistungsfähigkeit künstlicher Intelligenz mit dem absoluten Respekt Ihrer Privatsphäre in Einklang bringt. Ihre Daten werden lokal verarbeitet, verschlüsselt und verlassen niemals Ihr Gerät, was Ihnen unübertroffene Sicherheit und Vertraulichkeit garantiert.'
+      },
       featureList: [
         {
           title: 'Benutzerfreundlichkeit',
@@ -550,6 +559,9 @@ export const translations = {
     features: {
       mainTitle: 'La tua privacy, garantita.',
       mainDescription: 'La nostra applicazione si basa su tre principi fondamentali per garantire la sicurezza e la riservatezza dei tuoi dati.',
+      conceptBox: {
+        text: 'Novix AI ha sviluppato una tecnologia all\'avanguardia che concilia la potenza dell\'intelligenza artificiale con il rispetto assoluto per la tua privacy. I tuoi dati vengono elaborati localmente, crittografati e non lasciano mai il tuo dispositivo, garantendoti sicurezza e riservatezza senza pari.'
+      },
       featureList: [
         {
           title: "Facilità d'uso",
