@@ -27,12 +27,18 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl px-4 text-white">
         <h1 className="text-4xl font-extrabold tracking-tight font-headline md:text-6xl lg:text-7xl">
           {t.hero.title}
-          <span className="block text-2xl md:text-4xl text-primary-foreground/80 mt-2">{t.hero.subtitle}</span>
+          <span className="mt-2 block text-xl font-medium text-primary-foreground/80 md:text-2xl">
+            {t.hero.subtitle}
+          </span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg font-body md:text-xl text-primary-foreground/90">
-          {t.hero.description.split('\n').map((line, index) => (
-            <span key={index} className="block">{line}</span>
-          ))}
+          {Array.isArray(t.hero.description) ? (
+            t.hero.description.map((line, index) => (
+              <span key={index} className="block">{line}</span>
+            ))
+          ) : (
+            <span className="block">{t.hero.description}</span>
+          )}
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-2">
           <Button variant="destructive" size="default" className="font-headline">
