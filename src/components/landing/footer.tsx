@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 font-body">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="font-headline font-semibold text-white tracking-wider uppercase">{t.product.title}</h3>
             <ul className="mt-4 space-y-3">
@@ -43,6 +43,19 @@ export default function Footer() {
             <h3 className="font-headline font-semibold text-white tracking-wider uppercase">{t.legal.title}</h3>
             <ul className="mt-4 space-y-3">
               {t.legal.links.map((link) => (
+                <li key={link.text}>
+                  <Link href={link.href} className="hover:text-white transition-colors duration-300">
+                    {link.text}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-headline font-semibold text-white tracking-wider uppercase">{t.connect.title}</h3>
+            <ul className="mt-4 space-y-3">
+              {t.connect.links.map((link) => (
                 <li key={link.text}>
                   <Link href={link.href} className="hover:text-white transition-colors duration-300">
                     {link.text}

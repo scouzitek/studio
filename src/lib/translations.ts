@@ -168,6 +168,14 @@ export const translations = {
           { text: 'Licence', href: '#' },
         ],
       },
+      connect: {
+        title: 'Contact',
+        links: [
+          { text: 'X (Twitter)', href: '#' },
+          { text: 'Discord', href: '#' },
+          { text: 'LinkedIn', href: '#' },
+        ],
+      },
     },
   },
   en: {
@@ -336,6 +344,14 @@ export const translations = {
           { text: 'Privacy Policy', href: '#' },
           { text: 'Terms of Service', href: '#' },
           { text: 'License', href: '#' },
+        ],
+      },
+      connect: {
+        title: 'Connect',
+        links: [
+          { text: 'X (Twitter)', href: '#' },
+          { text: 'Discord', href: '#' },
+          { text: 'LinkedIn', href: '#' },
         ],
       },
     },
@@ -508,6 +524,14 @@ export const translations = {
           { text: 'Lizenz', href: '#' },
         ],
       },
+      connect: {
+        title: 'Kontakt',
+        links: [
+          { text: 'X (Twitter)', href: '#' },
+          { text: 'Discord', href: '#' },
+          { text: 'LinkedIn', href: '#' },
+        ],
+      },
     },
   },
   it: {
@@ -676,6 +700,14 @@ export const translations = {
           { text: 'Informativa sulla privacy', href: '#' },
           { text: 'Termini di servizio', href: '#' },
           { text: 'Licenza', href: '#' },
+        ],
+      },
+      connect: {
+        title: 'Contatti',
+        links: [
+          { text: 'X (Twitter)', href: '#' },
+          { text: 'Discord', href: '#' },
+          { text: 'LinkedIn', href: '#' },
         ],
       },
     },
