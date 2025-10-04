@@ -28,7 +28,7 @@ export default function Features() {
         
         <div className="mx-auto grid max-w-5xl items-stretch gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-12">
           {t.featureList.map((feature, index) => (
-            <Card key={index} className="flex flex-col bg-card hover:shadow-lg transition-shadow duration-300">
+            <Card key={index} className="flex flex-col bg-background hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="flex flex-col items-center text-center gap-4 p-6">
                 {featureIcons[index]}
                 <CardTitle className="font-headline text-2xl">{feature.title}</CardTitle>
