@@ -23,7 +23,7 @@ export const translations = {
         },
         {
           title: 'Confidentialité Absolue',
-          description: "Nous exploitons la sécurité native de votre appareil pour protéger vos conversations. De plus, toutes vos données sont cryptées, assurant une défense robuste de vos données, sans ajouter de complexité ni de failles potentielles.",
+          description: "Vos données sont cryptées et protégées par la sécurité native de votre appareil, garantissant une confidentialité sans faille.",
         },
         {
           title: 'Stockage Local',
@@ -201,7 +201,7 @@ export const translations = {
         },
         {
           title: 'Absolute Confidentiality',
-          description: "We leverage your device's native security to protect your conversations. Additionally, all your data is encrypted, ensuring a robust defense of your data without adding complexity or potential vulnerabilities.",
+          description: 'Your data is encrypted and protected by your device\'s native security, ensuring flawless privacy.',
         },
         {
           title: 'Local Storage',
@@ -379,7 +379,7 @@ export const translations = {
         },
         {
           title: 'Absolute Vertraulichkeit',
-          description: 'Wir nutzen die native Sicherheit Ihres Geräts, um Ihre Gespräche zu schützen. Zusätzlich werden alle Ihre Daten verschlüsselt, was einen robusten Schutz Ihrer Daten gewährleistet, ohne Komplexität oder potenzielle Schwachstellen hinzuzufügen.',
+          description: 'Ihre Daten werden verschlüsselt und durch die native Sicherheit Ihres Geräts geschützt, was eine makellose Privatsphäre gewährleistet.',
         },
         {
           title: 'Lokale Speicherung',
@@ -557,7 +557,7 @@ export const translations = {
         },
         {
           title: 'Riservatezza Assoluta',
-          description: "Sfruttiamo la sicurezza nativa del tuo dispositivo per proteggere le tue conversazioni. Inoltre, tutti i tuoi dati sono crittografati, garantendo una solida difesa dei tuoi dati senza aggiungere complessità o potenziali vulnerabilità.",
+          description: 'I tuoi dati sono crittografati e protetti dalla sicurezza nativa del tuo dispositivo, garantendo una privacy impeccabile.',
         },
         {
           title: 'Archiviazione Locale',
