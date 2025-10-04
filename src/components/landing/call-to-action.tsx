@@ -25,7 +25,7 @@ export default function CallToAction() {
           {t.sections.map((section) => {
             const image = PlaceHolderImages.find((img) => img.id === section.id);
             return (
-              <Card key={section.id} className="flex flex-col overflow-hidden bg-background hover:shadow-2xl transition-all duration-300">
+              <Card key={section.id} className="flex flex-col overflow-hidden bg-card hover:shadow-2xl transition-all duration-300">
                 {image && (
                   <div className="aspect-video relative">
                     <Image

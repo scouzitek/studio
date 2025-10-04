@@ -18,7 +18,7 @@ export default function Pricing() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section id="pricing" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+    <section id="pricing" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -30,7 +30,7 @@ export default function Pricing() {
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 mt-12">
           {t.pricingTiers.map((tier, index) => (
-            <Card key={tier.id} className="flex flex-col h-full bg-background hover:shadow-lg transition-shadow duration-300">
+            <Card key={tier.id} className="flex flex-col h-full bg-card hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="flex flex-col items-center text-center gap-4 p-6">
                 {pricingIcons[index]}
                 <CardTitle className="font-headline text-2xl">{tier.name}</CardTitle>
