@@ -10,7 +10,7 @@ export default function Footer() {
   const t = translations[language].footer;
 
   return (
-    <footer className="bg-gray-900 text-gray-400 font-body">
+    <footer className="bg-black text-gray-400 font-body">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
