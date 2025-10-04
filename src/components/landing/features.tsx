@@ -5,9 +5,9 @@ import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
 
 const featureIcons = [
-  <Cpu key="1" className="w-10 h-10 text-destructive" />,
-  <ShieldCheck key="2" className="w-10 h-10 text-destructive" />,
   <MousePointerClick key="3" className="w-10 h-10 text-destructive" />,
+  <ShieldCheck key="2" className="w-10 h-10 text-destructive" />,
+  <Cpu key="1" className="w-10 h-10 text-destructive" />,
 ];
 
 export default function Features() {

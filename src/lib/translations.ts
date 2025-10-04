@@ -18,16 +18,16 @@ export const translations = {
       mainDescription: 'Notre application repose sur trois principes fondamentaux pour garantir la sécurité et la confidentialité de vos données.',
       featureList: [
         {
-          title: 'Stockage Local',
-          description: "Vos conversations sont stockées uniquement sur votre appareil. Seul vous y avez accès, vous garantissant un contrôle total. Aucune information n'est utilisée pour entraîner nos modèles.",
+          title: "Facilité d'utilisation",
+          description: "Une interface claire et intuitive, conçue pour la productivité. Profitez d'une expérience fluide pour vous concentrer sur l'essentiel, sans aucune distraction ni complexité superflue.",
         },
         {
           title: 'Confidentialité Absolue',
           description: "Nous exploitons la sécurité native de votre appareil pour proteger vos conversations. Cette approche assure une défense robuste de vos données, sans ajouter de complexité ni de failles potentielles.",
         },
         {
-          title: "Facilité d'utilisation",
-          description: "Une interface claire et intuitive, conçue pour la productivité. Profitez d'une expérience fluide pour vous concentrer sur l'essentiel, sans aucune distraction ni complexité superflue.",
+          title: 'Stockage Local',
+          description: "Vos conversations sont stockées uniquement sur votre appareil. Seul vous y avez accès, vous garantissant un contrôle total. Aucune information n'est utilisée pour entraîner nos modèles.",
         },
       ],
     },
@@ -196,16 +196,16 @@ export const translations = {
       mainDescription: 'Our application is based on three fundamental principles to ensure the security and confidentiality of your data.',
       featureList: [
         {
-          title: 'Local Storage',
-          description: 'Your conversations are stored only on your device. Only you have access, ensuring total control. No data is used to train our models.',
+          title: 'Ease of Use',
+          description: 'A clear and intuitive interface, designed for productivity. Enjoy a smooth experience to focus on what matters, without any unnecessary distractions or complexity.',
         },
         {
           title: 'Absolute Confidentiality',
           description: "We leverage your device's native security to protect your conversations. This approach ensures a robust defense of your data, without adding complexity or potential vulnerabilities.",
         },
         {
-          title: 'Ease of Use',
-          description: 'A clear and intuitive interface, designed for productivity. Enjoy a smooth experience to focus on what matters, without any unnecessary distractions or complexity.',
+          title: 'Local Storage',
+          description: 'Your conversations are stored only on your device. Only you have access, ensuring total control. No data is used to train our models.',
         },
       ],
     },
@@ -374,16 +374,16 @@ export const translations = {
       mainDescription: 'Unsere Anwendung basiert auf drei Grundprinzipien, um die Sicherheit und Vertraulichkeit Ihrer Daten zu gewährleisten.',
       featureList: [
         {
-          title: 'Lokale Speicherung',
-          description: 'Ihre Gespräche werden nur auf Ihrem Gerät gespeichert. Nur Sie haben Zugriff und somit die volle Kontrolle. Es werden keine Daten zum Trainieren unserer Modelle verwendet.',
+          title: 'Benutzerfreundlichkeit',
+          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Genießen Sie ein reibungsloses Erlebnis, um sich auf das Wesentliche zu konzentrieren, ohne unnötige Ablenkungen oder Komplexität.',
         },
         {
           title: 'Absolute Vertraulichkeit',
           description: 'Wir nutzen die native Sicherheit Ihres Geräts, um Ihre Gespräche zu schützen. Dieser Ansatz gewährleistet einen robusten Schutz Ihrer Daten, ohne Komplexität oder potenzielle Schwachstellen hinzuzufügen.',
         },
         {
-          title: 'Benutzerfreundlichkeit',
-          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Genießen Sie ein reibungsloses Erlebnis, um sich auf das Wesentliche zu konzentrieren, ohne unnötige Ablenkungen oder Komplexität.',
+          title: 'Lokale Speicherung',
+          description: 'Ihre Gespräche werden nur auf Ihrem Gerät gespeichert. Nur Sie haben Zugriff und somit die volle Kontrolle. Es werden keine Daten zum Trainieren unserer Modelle verwendet.',
         },
       ],
     },
@@ -552,16 +552,16 @@ export const translations = {
       mainDescription: 'La nostra applicazione si basa su tre principi fondamentali per garantire la sicurezza e la riservatezza dei tuoi dati.',
       featureList: [
         {
-          title: 'Archiviazione Locale',
-          description: 'Le tue conversazioni sono archiviate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale. Nessun dato viene utilizzato per addestrare i nostri modelli.',
+          title: "Facilità d'uso",
+          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Goditi un'esperienza fluida per concentrarti su ciò che conta, senza inutili distrazioni o complessità.",
         },
         {
           title: 'Riservatezza Assoluta',
           description: "Sfruttiamo la sicurezza nativa del tuo dispositivo per proteggere le tue conversazioni. Questo approccio garantisce una solida difesa dei tuoi dati, senza aggiungere complessità o potenziali vulnerabilità.",
         },
         {
-          title: "Facilità d'uso",
-          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Goditi un'esperienza fluida per concentrarti su ciò che conta, senza inutili distrazioni o complessità.",
+          title: 'Archiviazione Locale',
+          description: 'Le tue conversazioni sono archiviate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale. Nessun dato viene utilizzato per addestrare i nostri modelli.',
         },
       ],
     },
