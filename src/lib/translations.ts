@@ -8,7 +8,7 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: 'Vos données ne sont qu\'à vous.',
+      subtitle: "Vos données n'appartiennent qu'à vous.",
       description: ["Aucune fuite. Aucune collecte. Aucune surprise.","Vos données ne voyagent pas. Elles ne vous quittent jamais."],
       ctaDownloadApp: "Télécharger l'app",
       ctaTryFree: 'Essayer gratuitement',
