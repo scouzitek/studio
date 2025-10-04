@@ -32,7 +32,7 @@ export default function MoreFeatures() {
             const textComponent = (
               <div className="flex flex-col justify-center space-y-4">
                 <h3 className="text-3xl font-bold font-headline">{feature.title}</h3>
-                <p className="text-muted-foreground text-lg font-body">
+                <p className="text-muted-foreground text-lg font-body text-justify">
                   {feature.description}
                 </p>
               </div>

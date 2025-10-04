@@ -29,7 +29,7 @@ export default function Faq() {
             {t.questions.map((item, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
                 <AccordionTrigger className="font-headline text-lg text-left">{item.question}</AccordionTrigger>
-                <AccordionContent className="font-body text-muted-foreground">
+                <AccordionContent className="font-body text-muted-foreground text-justify">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>

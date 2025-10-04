@@ -41,7 +41,7 @@ export default function CallToAction() {
                   <CardTitle className="font-headline text-2xl">{section.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <CardDescription className="font-body text-base text-muted-foreground">
+                  <CardDescription className="font-body text-base text-muted-foreground text-justify">
                     {section.description}
                   </CardDescription>
                 </CardContent>

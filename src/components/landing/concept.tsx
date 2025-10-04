@@ -13,7 +13,7 @@ export default function Concept() {
             <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl text-foreground">
               {t.title}
             </h2>
-            <p className="max-w-3xl text-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
+            <p className="max-w-3xl text-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body text-justify">
               {t.text}
             </p>
         </div>

@@ -5,9 +5,9 @@ import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
 
 const featureIcons = [
-  <MousePointerClick key="3" className="w-10 h-10 text-destructive" />,
-  <ShieldCheck key="2" className="w-10 h-10 text-destructive" />,
   <Cpu key="1" className="w-10 h-10 text-destructive" />,
+  <ShieldCheck key="2" className="w-10 h-10 text-destructive" />,
+  <MousePointerClick key="3" className="w-10 h-10 text-destructive" />,
 ];
 
 export default function Features() {
@@ -34,7 +34,7 @@ export default function Features() {
                 <CardTitle className="font-headline text-2xl">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow text-center font-body text-muted-foreground px-6 pb-6">
-                <p>{feature.description}</p>
+                <p className="text-justify">{feature.description}</p>
               </CardContent>
             </Card>
           ))}
