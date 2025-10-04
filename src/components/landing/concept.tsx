@@ -10,7 +10,7 @@ export default function Concept() {
     <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl text-primary">
+            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl text-destructive">
               {t.title}
             </h2>
             <p className="max-w-3xl text-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
