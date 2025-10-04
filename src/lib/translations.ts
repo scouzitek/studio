@@ -143,8 +143,31 @@ export const translations = {
       ]
     },
     footer: {
-      designedIn: 'Votre sphère privée, notre priorité.',
       rightsReserved: 'Tous droits réservés.',
+      product: {
+        title: 'Produit',
+        links: [
+          { text: 'Fonctionnalités', href: '#features' },
+          { text: 'Nos Offres', href: '#pricing' },
+          { text: 'Télécharger', href: '#' },
+        ],
+      },
+      company: {
+        title: 'Entreprise',
+        links: [
+          { text: 'À propos', href: '#' },
+          { text: 'Contact', href: '#' },
+          { text: 'Blog', href: '#' },
+        ],
+      },
+      legal: {
+        title: 'Légal',
+        links: [
+          { text: 'Politique de confidentialité', href: '#' },
+          { text: "Conditions d'utilisation", href: '#' },
+          { text: 'Licence', href: '#' },
+        ],
+      },
     },
   },
   en: {
@@ -290,8 +313,31 @@ export const translations = {
       ]
     },
     footer: {
-      designedIn: 'Your privacy, our priority.',
       rightsReserved: 'All rights reserved.',
+      product: {
+        title: 'Product',
+        links: [
+          { text: 'Features', href: '#features' },
+          { text: 'Pricing', href: '#pricing' },
+          { text: 'Download', href: '#' },
+        ],
+      },
+      company: {
+        title: 'Company',
+        links: [
+          { text: 'About', href: '#' },
+          { text: 'Contact', href: '#' },
+          { text: 'Blog', href: '#' },
+        ],
+      },
+      legal: {
+        title: 'Legal',
+        links: [
+          { text: 'Privacy Policy', href: '#' },
+          { text: 'Terms of Service', href: '#' },
+          { text: 'License', href: '#' },
+        ],
+      },
     },
   },
   de: {
@@ -437,8 +483,31 @@ export const translations = {
       ]
     },
     footer: {
-      designedIn: 'Ihre Privatsphäre, unsere Priorität.',
       rightsReserved: 'Alle Rechte vorbehalten.',
+      product: {
+        title: 'Produkt',
+        links: [
+          { text: 'Funktionen', href: '#features' },
+          { text: 'Preise', href: '#pricing' },
+          { text: 'Herunterladen', href: '#' },
+        ],
+      },
+      company: {
+        title: 'Unternehmen',
+        links: [
+          { text: 'Über uns', href: '#' },
+          { text: 'Kontakt', href: '#' },
+          { text: 'Blog', href: '#' },
+        ],
+      },
+      legal: {
+        title: 'Rechtliches',
+        links: [
+          { text: 'Datenschutzrichtlinie', href: '#' },
+          { text: 'Nutzungsbedingungen', href: '#' },
+          { text: 'Lizenz', href: '#' },
+        ],
+      },
     },
   },
   it: {
@@ -584,8 +653,31 @@ export const translations = {
       ]
     },
     footer: {
-      designedIn: 'La tua privacy, la nostra priorità.',
       rightsReserved: 'Tutti i diritti riservati.',
+      product: {
+        title: 'Prodotto',
+        links: [
+          { text: 'Funzionalità', href: '#features' },
+          { text: 'Prezzi', href: '#pricing' },
+          { text: 'Scarica', href: '#' },
+        ],
+      },
+      company: {
+        title: 'Azienda',
+        links: [
+          { text: 'Chi siamo', href: '#' },
+          { text: 'Contatti', href: '#' },
+          { text: 'Blog', href: '#' },
+        ],
+      },
+      legal: {
+        title: 'Legale',
+        links: [
+          { text: 'Informativa sulla privacy', href: '#' },
+          { text: 'Termini di servizio', href: '#' },
+          { text: 'Licenza', href: '#' },
+        ],
+      },
     },
   },
 };
