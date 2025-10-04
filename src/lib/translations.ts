@@ -23,11 +23,11 @@ export const translations = {
         },
         {
           title: 'Confidentialité Absolue',
-          description: "Nous exploitons la sécurité native de votre appareil pour proteger vos conversations. Cette approche assure une défense robuste de vos données, sans ajouter de complexité ni de failles potentielles.",
+          description: "Nous exploitons la sécurité native de votre appareil pour protéger vos conversations. De plus, toutes vos données sont cryptées, assurant une défense robuste de vos données, sans ajouter de complexité ni de failles potentielles.",
         },
         {
           title: 'Stockage Local',
-          description: "Vos conversations sont stockées uniquement sur votre appareil. Seul vous y avez accès, vous garantissant un contrôle total. Aucune information n'est utilisée pour entraîner nos modèles.",
+          description: "Vos conversations sont stockées et cryptées uniquement sur votre appareil. Seul vous y avez accès, vous garantissant un contrôle total. Aucune information n'est utilisée pour entraîner nos modèles.",
         },
       ],
     },
@@ -201,11 +201,11 @@ export const translations = {
         },
         {
           title: 'Absolute Confidentiality',
-          description: "We leverage your device's native security to protect your conversations. This approach ensures a robust defense of your data, without adding complexity or potential vulnerabilities.",
+          description: "We leverage your device's native security to protect your conversations. Additionally, all your data is encrypted, ensuring a robust defense of your data without adding complexity or potential vulnerabilities.",
         },
         {
           title: 'Local Storage',
-          description: 'Your conversations are stored only on your device. Only you have access, ensuring total control. No data is used to train our models.',
+          description: 'Your conversations are stored and encrypted only on your device. Only you have access, ensuring total control. No data is used to train our models.',
         },
       ],
     },
@@ -379,11 +379,11 @@ export const translations = {
         },
         {
           title: 'Absolute Vertraulichkeit',
-          description: 'Wir nutzen die native Sicherheit Ihres Geräts, um Ihre Gespräche zu schützen. Dieser Ansatz gewährleistet einen robusten Schutz Ihrer Daten, ohne Komplexität oder potenzielle Schwachstellen hinzuzufügen.',
+          description: 'Wir nutzen die native Sicherheit Ihres Geräts, um Ihre Gespräche zu schützen. Zusätzlich werden alle Ihre Daten verschlüsselt, was einen robusten Schutz Ihrer Daten gewährleistet, ohne Komplexität oder potenzielle Schwachstellen hinzuzufügen.',
         },
         {
           title: 'Lokale Speicherung',
-          description: 'Ihre Gespräche werden nur auf Ihrem Gerät gespeichert. Nur Sie haben Zugriff und somit die volle Kontrolle. Es werden keine Daten zum Trainieren unserer Modelle verwendet.',
+          description: 'Ihre Gespräche werden nur auf Ihrem Gerät gespeichert und verschlüsselt. Nur Sie haben Zugriff und somit die volle Kontrolle. Es werden keine Daten zum Trainieren unserer Modelle verwendet.',
         },
       ],
     },
@@ -557,11 +557,11 @@ export const translations = {
         },
         {
           title: 'Riservatezza Assoluta',
-          description: "Sfruttiamo la sicurezza nativa del tuo dispositivo per proteggere le tue conversazioni. Questo approccio garantisce una solida difesa dei tuoi dati, senza aggiungere complessità o potenziali vulnerabilità.",
+          description: "Sfruttiamo la sicurezza nativa del tuo dispositivo per proteggere le tue conversazioni. Inoltre, tutti i tuoi dati sono crittografati, garantendo una solida difesa dei tuoi dati senza aggiungere complessità o potenziali vulnerabilità.",
         },
         {
           title: 'Archiviazione Locale',
-          description: 'Le tue conversazioni sono archiviate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale. Nessun dato viene utilizzato per addestrare i nostri modelli.',
+          description: 'Le tue conversazioni sono archiviate e crittografate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale. Nessun dato viene utilizzato per addestrare i nostri modelli.',
         },
       ],
     },
