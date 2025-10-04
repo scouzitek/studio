@@ -18,7 +18,7 @@ export const translations = {
       mainDescription: 'Notre application repose sur trois principes fondamentaux pour garantir la sécurité et la confidentialité de vos données.',
       conceptBox: {
         title: "Qu'est-ce que Novix ?",
-        text: "Novix AI réconcilie la puissance de l'IA avec le respect absolu de votre vie privée. Grâce à notre technologie de pointe, vos données sont traitées localement et ne quittent jamais votre appareil. C'est la promesse d'une sécurité et d'une confidentialité inégalées."
+        text: "Novix AI réconcilie la puissance de l'IA avec le respect absolu de votre vie privée. Grâce à notre technologie de pointe, toutes vos interactions sont traitées localement sur votre appareil, garantissant que vos données sensibles ne sont jamais exposées. Profitez d'une IA performante sans compromettre votre sécurité. C'est la promesse d'une expérience intelligente, totalement sécurisée et confidentielle."
       },
       featureList: [
         {
@@ -200,7 +200,7 @@ export const translations = {
       mainDescription: 'Our application is based on three fundamental principles to ensure the security and confidentiality of your data.',
       conceptBox: {
         title: 'What is Novix?',
-        text: 'Novix AI reconciles the power of AI with absolute respect for your privacy. Thanks to our cutting-edge technology, your data is processed locally and never leaves your device. This is the promise of unparalleled security and confidentiality.'
+        text: 'Novix AI reconciles the power of AI with absolute respect for your privacy. Thanks to our cutting-edge technology, all your interactions are processed locally on your device, ensuring that your sensitive data is never exposed. Enjoy a powerful AI without compromising your security. This is the promise of an intelligent experience that is completely secure and confidential.'
       },
       featureList: [
         {
@@ -382,7 +382,7 @@ export const translations = {
       mainDescription: 'Unsere Anwendung basiert auf drei Grundprinzipien, um die Sicherheit und Vertraulichkeit Ihrer Daten zu gewährleisten.',
       conceptBox: {
         title: 'Was ist Novix?',
-        text: 'Novix AI bringt die Leistung von KI mit dem absoluten Respekt für Ihre Privatsphäre in Einklang. Dank unserer Spitzentechnologie werden Ihre Daten lokal verarbeitet und verlassen niemals Ihr Gerät. Das ist das Versprechen für unübertroffene Sicherheit und Vertraulichkeit.'
+        text: 'Novix AI bringt die Leistung von KI mit dem absoluten Respekt für Ihre Privatsphäre in Einklang. Dank unserer Spitzentechnologie werden alle Ihre Interaktionen lokal auf Ihrem Gerät verarbeitet, um sicherzustellen, dass Ihre sensiblen Daten niemals preisgegeben werden. Genießen Sie eine leistungsstarke KI, ohne Ihre Sicherheit zu gefährden. Das ist das Versprechen einer intelligenten Erfahrung, die absolut sicher und vertraulich ist.'
       },
       featureList: [
         {
@@ -564,7 +564,7 @@ export const translations = {
       mainDescription: 'La nostra applicazione si basa su tre principi fondamentali per garantire la sicurezza e la riservatezza dei tuoi dati.',
       conceptBox: {
         title: 'Cos\'è Novix?',
-        text: 'Novix AI concilia la potenza dell\'IA con il rispetto assoluto per la tua privacy. Grazie alla nostra tecnologia all\'avanguardia, i tuoi dati vengono elaborati localmente e non lasciano mai il tuo dispositivo. Questa è la promessa di una sicurezza e riservatezza senza pari.'
+        text: 'Novix AI concilia la potenza dell\'IA con il rispetto assoluto per la tua privacy. Grazie alla nostra tecnologia all\'avanguardia, tutte le tue interazioni vengono elaborate localmente sul tuo dispositivo, garantendo che i tuoi dati sensibili non vengano mai esposti. Goditi un\'IA potente senza compromettere la tua sicurezza. Questa è la promessa di un\'esperienza intelligente, completamente sicura e confidenziale.'
       },
       featureList: [
         {
