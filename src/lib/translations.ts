@@ -18,7 +18,7 @@ export const translations = {
       mainDescription: 'Notre application repose sur trois principes fondamentaux pour garantir la sécurité et la confidentialité de vos données.',
       conceptBox: {
         title: "Qu'est-ce que Novix ?",
-        text: "Novix AI réconcilie la puissance de l'IA avec le respect absolu de votre vie privée. Grâce à notre technologie de pointe, toutes vos interactions sont traitées localement sur votre appareil, garantissant que vos données sensibles ne sont jamais exposées. Profitez d'une IA performante sans compromettre votre sécurité. C'est la promesse d'une expérience intelligente, totalement sécurisée et confidentielle."
+        text: "Novix AI réconcilie la puissance de l'IA avec le respect absolu de votre vie privée. Contrairement aux solutions traditionnelles, vos conversations ne sont pas stockées sur des serveurs externes. Elles sont enregistrées et cryptées uniquement sur votre appareil. Vous bénéficiez ainsi d'une IA performante tout en gardant le contrôle total sur vos informations, pour une expérience intelligente, sécurisée et 100% confidentielle."
       },
       featureList: [
         {
@@ -161,7 +161,6 @@ export const translations = {
         links: [
           { text: 'À propos', href: '#' },
           { text: 'Contact', href: '#' },
-          { text: 'Blog', href: '#' },
         ],
       },
       legal: {
@@ -169,7 +168,6 @@ export const translations = {
         links: [
           { text: 'Politique de confidentialité', href: '#' },
           { text: "Conditions d'utilisation", href: '#' },
-          { text: 'Licence', href: '#' },
         ],
       },
       connect: {
@@ -200,7 +198,7 @@ export const translations = {
       mainDescription: 'Our application is based on three fundamental principles to ensure the security and confidentiality of your data.',
       conceptBox: {
         title: 'What is Novix?',
-        text: 'Novix AI reconciles the power of AI with absolute respect for your privacy. Thanks to our cutting-edge technology, all your interactions are processed locally on your device, ensuring that your sensitive data is never exposed. Enjoy a powerful AI without compromising your security. This is the promise of an intelligent experience that is completely secure and confidential.'
+        text: 'Novix AI reconciles the power of AI with absolute respect for your privacy. Unlike traditional solutions, your conversations are not stored on external servers. They are saved and encrypted only on your device. This allows you to benefit from powerful AI while maintaining full control over your information, for an intelligent, secure, and 100% confidential experience.'
       },
       featureList: [
         {
@@ -343,7 +341,6 @@ export const translations = {
         links: [
           { text: 'About', href: '#' },
           { text: 'Contact', href: '#' },
-          { text: 'Blog', href: '#' },
         ],
       },
       legal: {
@@ -351,7 +348,6 @@ export const translations = {
         links: [
           { text: 'Privacy Policy', href: '#' },
           { text: 'Terms of Service', href: '#' },
-          { text: 'License', href: '#' },
         ],
       },
       connect: {
@@ -382,7 +378,7 @@ export const translations = {
       mainDescription: 'Unsere Anwendung basiert auf drei Grundprinzipien, um die Sicherheit und Vertraulichkeit Ihrer Daten zu gewährleisten.',
       conceptBox: {
         title: 'Was ist Novix?',
-        text: 'Novix AI bringt die Leistung von KI mit dem absoluten Respekt für Ihre Privatsphäre in Einklang. Dank unserer Spitzentechnologie werden alle Ihre Interaktionen lokal auf Ihrem Gerät verarbeitet, um sicherzustellen, dass Ihre sensiblen Daten niemals preisgegeben werden. Genießen Sie eine leistungsstarke KI, ohne Ihre Sicherheit zu gefährden. Das ist das Versprechen einer intelligenten Erfahrung, die absolut sicher und vertraulich ist.'
+        text: 'Novix AI bringt die Leistung von KI mit dem absoluten Respekt für Ihre Privatsphäre in Einklang. Im Gegensatz zu herkömmlichen Lösungen werden Ihre Gespräche nicht auf externen Servern gespeichert. Sie werden nur auf Ihrem Gerät gespeichert und verschlüsselt. So profitieren Sie von einer leistungsstarken KI und behalten gleichzeitig die volle Kontrolle über Ihre Informationen – für eine intelligente, sichere und 100% vertrauliche Erfahrung.'
       },
       featureList: [
         {
@@ -525,7 +521,6 @@ export const translations = {
         links: [
           { text: 'Über uns', href: '#' },
           { text: 'Kontakt', href: '#' },
-          { text: 'Blog', href: '#' },
         ],
       },
       legal: {
@@ -533,7 +528,6 @@ export const translations = {
         links: [
           { text: 'Datenschutzrichtlinie', href: '#' },
           { text: 'Nutzungsbedingungen', href: '#' },
-          { text: 'Lizenz', href: '#' },
         ],
       },
       connect: {
@@ -564,7 +558,7 @@ export const translations = {
       mainDescription: 'La nostra applicazione si basa su tre principi fondamentali per garantire la sicurezza e la riservatezza dei tuoi dati.',
       conceptBox: {
         title: 'Cos\'è Novix?',
-        text: 'Novix AI concilia la potenza dell\'IA con il rispetto assoluto per la tua privacy. Grazie alla nostra tecnologia all\'avanguardia, tutte le tue interazioni vengono elaborate localmente sul tuo dispositivo, garantendo che i tuoi dati sensibili non vengano mai esposti. Goditi un\'IA potente senza compromettere la tua sicurezza. Questa è la promessa di un\'esperienza intelligente, completamente sicura e confidenziale.'
+        text: 'Novix AI concilia la potenza dell\'IA con il rispetto assoluto della tua privacy. A differenza delle soluzioni tradizionali, le tue conversazioni non vengono archiviate su server esterni. Vengono salvate e crittografate solo sul tuo dispositivo. In questo modo, puoi beneficiare di un\'IA potente mantenendo il pieno controllo sulle tue informazioni, per un\'esperienza intelligente, sicura e confidenziale al 100%.'
       },
       featureList: [
         {
@@ -707,7 +701,6 @@ export const translations = {
         links: [
           { text: 'Chi siamo', href: '#' },
           { text: 'Contatti', href: '#' },
-          { text: 'Blog', href: '#' },
         ],
       },
       legal: {
@@ -715,7 +708,6 @@ export const translations = {
         links: [
           { text: 'Informativa sulla privacy', href: '#' },
           { text: 'Termini di servizio', href: '#' },
-          { text: 'Licenza', href: '#' },
         ],
       },
       connect: {
@@ -729,5 +721,3 @@ export const translations = {
     },
   },
 };
-
-    
