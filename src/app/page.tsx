@@ -21,8 +21,8 @@ export default function Home() {
         <Concept />
         <Pricing />
         <Features />
-        <MoreFeatures />
         <CallToAction />
+        <MoreFeatures />
         <Faq />
       </main>
       <Footer />
