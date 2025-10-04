@@ -27,7 +27,7 @@ export const translations = {
         },
         {
           title: 'Stockage Local',
-          description: "Vos conversations sont stockées et cryptées uniquement sur votre appareil. Seul vous y avez accès, vous garantissant un contrôle total. Aucune information n'est utilisée pour entraîner nos modèles.",
+          description: "Vos conversations sont stockées et cryptées uniquement sur votre appareil. Seul vous y avez accès, vous garantissant un contrôle total.",
         },
       ],
     },
@@ -201,11 +201,11 @@ export const translations = {
         },
         {
           title: 'Absolute Confidentiality',
-          description: 'Your data is encrypted and protected by your device\'s native security, ensuring flawless privacy.',
+          description: "Your data is encrypted and protected by your device's native security, ensuring flawless privacy.",
         },
         {
           title: 'Local Storage',
-          description: 'Your conversations are stored and encrypted only on your device. Only you have access, ensuring total control. No data is used to train our models.',
+          description: 'Your conversations are stored and encrypted only on your device. Only you have access, ensuring total control.',
         },
       ],
     },
@@ -383,7 +383,7 @@ export const translations = {
         },
         {
           title: 'Lokale Speicherung',
-          description: 'Ihre Gespräche werden nur auf Ihrem Gerät gespeichert und verschlüsselt. Nur Sie haben Zugriff und somit die volle Kontrolle. Es werden keine Daten zum Trainieren unserer Modelle verwendet.',
+          description: 'Ihre Gespräche werden nur auf Ihrem Gerät gespeichert und verschlüsselt. Nur Sie haben Zugriff und somit die volle Kontrolle.',
         },
       ],
     },
@@ -561,7 +561,7 @@ export const translations = {
         },
         {
           title: 'Archiviazione Locale',
-          description: 'Le tue conversazioni sono archiviate e crittografate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale. Nessun dato viene utilizzato per addestrare i nostri modelli.',
+          description: 'Le tue conversazioni sono archiviate e crittografate solo sul tuo dispositivo. Solo tu hai accesso, garantendo un controllo totale.',
         },
       ],
     },
