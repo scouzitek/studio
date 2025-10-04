@@ -8,7 +8,7 @@ export const translations = {
     },
     hero: {
       title: 'Novix AI',
-      subtitle: "Vos données ne sont qu'à vous.",
+      subtitle: 'Vos données ne sont qu\'à vous.',
       description: ["Aucune fuite. Aucune collecte. Aucune surprise.","Vos données ne voyagent pas. Elles ne vous quittent jamais."],
       ctaDownloadApp: "Télécharger l'app",
       ctaTryFree: 'Essayer gratuitement',
@@ -35,8 +35,8 @@ export const translations = {
       featureList: [
         {
           id: 'secure',
-          title: 'Stockage sécurisé des données',
-          description: "Toutes vos conversations et données sont stockées localement sur votre appareil. Nous utilisons la puissance des fonctionnalités de sécurité natives de votre appareil, telles que FaceID ou le code PIN, pour protéger l'accès à vos informations.",
+          title: 'Sécurité de bout en bout',
+          description: "Chaque interaction avec nos modèles est protégée par un cryptage de pointe. Vos données sont sécurisées pendant leur traitement, garantissant que personne, pas même nous, ne peut y accéder. Votre confidentialité est notre priorité.",
         },
         {
           id: 'compliance',
@@ -213,8 +213,8 @@ export const translations = {
       featureList: [
         {
           id: 'secure',
-          title: 'Secure Data Storage',
-          description: "All your conversations and data are stored locally on your device. We leverage the power of your device's native security features, such as FaceID or PIN, to protect access to your information.",
+          title: 'End-to-End Security',
+          description: 'Every interaction with our models is protected by state-of-the-art encryption. Your data is secured during processing, ensuring that no one, not even us, can access it. Your privacy is our priority.',
         },
         {
           id: 'compliance',
@@ -391,8 +391,8 @@ export const translations = {
       featureList: [
         {
           id: 'secure',
-          title: 'Sichere Datenspeicherung',
-          description: 'Alle Ihre Gespräche und Daten werden lokal auf Ihrem Gerät gespeichert. Wir nutzen die Leistungsfähigkeit der nativen Sicherheitsfunktionen Ihres Geräts wie FaceID oder PIN, um den Zugriff auf Ihre Informationen zu schützen.',
+          title: 'End-to-End-Sicherheit',
+          description: 'Jede Interaktion mit unseren Modellen ist durch modernste Verschlüsselung geschützt. Ihre Daten sind während der Verarbeitung gesichert, sodass niemand, nicht einmal wir, darauf zugreifen kann. Ihre Privatsphäre ist unsere Priorität.',
         },
         {
           id: 'compliance',
@@ -569,8 +569,8 @@ export const translations = {
       featureList: [
         {
           id: 'secure',
-          title: 'Archiviazione sicura dei dati',
-          description: 'Tutte le tue conversazioni e i tuoi dati sono archiviati localmente sul tuo dispositivo. Sfruttiamo la potenza delle funzionalità di sicurezza native del tuo dispositivo, come FaceID o PIN, per proteggere l\'accesso alle tue informazioni.',
+          title: 'Sicurezza End-to-End',
+          description: 'Ogni interazione con i nostri modelli è protetta da una crittografia all\'avanguardia. I tuoi dati sono protetti durante l\'elaborazione, garantendo che nessuno, nemmeno noi, possa accedervi. La tua privacy è la nostra priorità.',
         },
         {
           id: 'compliance',
@@ -713,3 +713,5 @@ export const translations = {
     },
   },
 };
+
+    
