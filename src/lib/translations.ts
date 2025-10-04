@@ -7,7 +7,7 @@ export const translations = {
       changeLanguage: 'Changer de langue',
     },
     hero: {
-      title: 'Novix AI',
+      title: 'Novix',
       subtitle: 'Vos données ne sont qu\'à vous.',
       description: ["Aucune fuite. Aucune collecte. Aucune surprise.","Vos données ne voyagent pas. Elles ne vous quittent jamais."],
       ctaDownloadApp: "Télécharger l'app",
@@ -17,12 +17,13 @@ export const translations = {
       mainTitle: 'Votre vie privée, garantie.',
       mainDescription: 'Notre application repose sur trois principes fondamentaux pour garantir la sécurité et la confidentialité de vos données.',
       conceptBox: {
-        text: 'Novix AI a développé une technologie de pointe qui réconcilie la puissance de l\'intelligence artificielle avec le respect absolu de votre vie privée. Vos données sont traitées localement, cryptées, et ne quittent jamais votre appareil, vous garantissant une sécurité et une confidentialité inégalées.'
+        title: "Qu'est-ce que Novix ?",
+        text: "Novix AI réconcilie la puissance de l'IA avec le respect absolu de votre vie privée. Grâce à notre technologie de pointe, vos données sont traitées localement et ne quittent jamais votre appareil. C'est la promesse d'une sécurité et d'une confidentialité inégalées."
       },
       featureList: [
         {
           title: "Facilité d'utilisation",
-          description: "Une interface claire et intuitive, conçue pour la productivité. Profitez d'une expérience fluide pour vous concentrer sur l'essentiel, sans aucune distraction ni complexité superflue.",
+          description: "Une interface claire et intuitive, conçue pour la productivité. Toutes vos données sont cryptées pour une sécurité maximale.",
         },
         {
           title: 'Confidentialité Absolue',
@@ -188,7 +189,7 @@ export const translations = {
       changeLanguage: 'Change language',
     },
     hero: {
-      title: 'Novix AI',
+      title: 'Novix',
       subtitle: 'Your data belongs to you alone.',
       description: ["No leaks. No collection. No surprises.","Your data doesn't travel. It never leaves you."],
       ctaDownloadApp: 'Download the App',
@@ -198,12 +199,13 @@ export const translations = {
       mainTitle: 'Your privacy, guaranteed.',
       mainDescription: 'Our application is based on three fundamental principles to ensure the security and confidentiality of your data.',
       conceptBox: {
-        text: 'Novix AI has developed cutting-edge technology that reconciles the power of artificial intelligence with absolute respect for your privacy. Your data is processed locally, encrypted, and never leaves your device, guaranteeing you unparalleled security and confidentiality.'
+        title: 'What is Novix?',
+        text: 'Novix AI reconciles the power of AI with absolute respect for your privacy. Thanks to our cutting-edge technology, your data is processed locally and never leaves your device. This is the promise of unparalleled security and confidentiality.'
       },
       featureList: [
         {
           title: 'Ease of Use',
-          description: 'A clear and intuitive interface, designed for productivity. Enjoy a smooth experience to focus on what matters, without any unnecessary distractions or complexity.',
+          description: 'A clear and intuitive interface, designed for productivity. All your data is encrypted for maximum security.',
         },
         {
           title: 'Absolute Confidentiality',
@@ -369,7 +371,7 @@ export const translations = {
       changeLanguage: 'Sprache ändern',
     },
     hero: {
-      title: 'Novix AI',
+      title: 'Novix',
       subtitle: 'Ihre Daten gehören nur Ihnen.',
       description: ['Keine Lecks. Keine Sammlung. Keine Überraschungen.','Ihre Daten reisen nicht. Sie verlassen Sie niemals.'],
       ctaDownloadApp: 'App herunterladen',
@@ -379,12 +381,13 @@ export const translations = {
       mainTitle: 'Ihre Privatsphäre, garantiert.',
       mainDescription: 'Unsere Anwendung basiert auf drei Grundprinzipien, um die Sicherheit und Vertraulichkeit Ihrer Daten zu gewährleisten.',
       conceptBox: {
-        text: 'Novix AI hat eine Spitzentechnologie entwickelt, die die Leistungsfähigkeit künstlicher Intelligenz mit dem absoluten Respekt Ihrer Privatsphäre in Einklang bringt. Ihre Daten werden lokal verarbeitet, verschlüsselt und verlassen niemals Ihr Gerät, was Ihnen unübertroffene Sicherheit und Vertraulichkeit garantiert.'
+        title: 'Was ist Novix?',
+        text: 'Novix AI bringt die Leistung von KI mit dem absoluten Respekt für Ihre Privatsphäre in Einklang. Dank unserer Spitzentechnologie werden Ihre Daten lokal verarbeitet und verlassen niemals Ihr Gerät. Das ist das Versprechen für unübertroffene Sicherheit und Vertraulichkeit.'
       },
       featureList: [
         {
           title: 'Benutzerfreundlichkeit',
-          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Genießen Sie ein reibungsloses Erlebnis, um sich auf das Wesentliche zu konzentrieren, ohne unnötige Ablenkungen oder Komplexität.',
+          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Alle Ihre Daten werden für maximale Sicherheit verschlüsselt.',
         },
         {
           title: 'Absolute Vertraulichkeit',
@@ -550,7 +553,7 @@ export const translations = {
       changeLanguage: 'Cambia lingua',
     },
     hero: {
-      title: 'Novix AI',
+      title: 'Novix',
       subtitle: 'I tuoi dati appartengono solo a te.',
       description: ["Nessuna fuga. Nessuna raccolta. Nessuna sorpresa.","I tuoi dati non viaggiano. Non ti lasciano mai."],
       ctaDownloadApp: "Scarica l'app",
@@ -560,12 +563,13 @@ export const translations = {
       mainTitle: 'La tua privacy, garantita.',
       mainDescription: 'La nostra applicazione si basa su tre principi fondamentali per garantire la sicurezza e la riservatezza dei tuoi dati.',
       conceptBox: {
-        text: 'Novix AI ha sviluppato una tecnologia all\'avanguardia che concilia la potenza dell\'intelligenza artificiale con il rispetto assoluto per la tua privacy. I tuoi dati vengono elaborati localmente, crittografati e non lasciano mai il tuo dispositivo, garantendoti sicurezza e riservatezza senza pari.'
+        title: 'Cos\'è Novix?',
+        text: 'Novix AI concilia la potenza dell\'IA con il rispetto assoluto per la tua privacy. Grazie alla nostra tecnologia all\'avanguardia, i tuoi dati vengono elaborati localmente e non lasciano mai il tuo dispositivo. Questa è la promessa di una sicurezza e riservatezza senza pari.'
       },
       featureList: [
         {
           title: "Facilità d'uso",
-          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Goditi un'esperienza fluida per concentrarti su ciò che conta, senza inutili distrazioni o complessità.",
+          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Tutti i tuoi dati sono crittografati per la massima sicurezza.",
         },
         {
           title: 'Riservatezza Assoluta',

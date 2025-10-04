@@ -1,5 +1,5 @@
 'use client';
-import { Cpu, ShieldCheck, MousePointerClick } from 'lucide-react';
+import { MousePointerClick, ShieldCheck, Cpu } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
@@ -28,8 +28,13 @@ export default function Features() {
         
         {t.conceptBox && (
           <div className="mx-auto max-w-4xl mt-12">
-            <Card className="bg-background shadow-lg">
-              <CardContent className="p-8 text-center">
+            <Card className="bg-background shadow-lg border-2 border-primary/20">
+              <CardHeader>
+                <CardTitle className="text-center text-2xl font-headline tracking-tight text-primary">
+                  {t.conceptBox.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="p-6 pt-0 text-center">
                 <p className="text-lg font-medium text-foreground font-body">
                   {t.conceptBox.text}
                 </p>
