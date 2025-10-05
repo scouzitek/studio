@@ -2,8 +2,11 @@
 export const translations = {
   fr: {
     header: {
+      concept: 'Concept',
       features: 'Fonctionnalités',
+      trust: 'Confiance',
       pricing: 'Nos Offres',
+      faq: 'FAQ',
       changeLanguage: 'Changer de langue',
     },
     hero: {
@@ -179,8 +182,11 @@ export const translations = {
   },
   en: {
     header: {
+      concept: 'Concept',
       features: 'Features',
+      trust: 'Trust',
       pricing: 'Our Offers',
+      faq: 'FAQ',
       changeLanguage: 'Change language',
     },
     hero: {
@@ -356,8 +362,11 @@ export const translations = {
   },
   de: {
     header: {
+      concept: 'Konzept',
       features: 'Funktionen',
+      trust: 'Vertrauen',
       pricing: 'Unsere Angebote',
+      faq: 'FAQ',
       changeLanguage: 'Sprache ändern',
     },
     hero: {
@@ -533,8 +542,11 @@ export const translations = {
   },
   it: {
     header: {
+      concept: 'Concetto',
       features: 'Funzionalità',
+      trust: 'Fiducia',
       pricing: 'Le nostre offerte',
+      faq: 'FAQ',
       changeLanguage: 'Cambia lingua',
     },
     hero: {

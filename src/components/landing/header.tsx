@@ -19,13 +19,15 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center gap-2">
-          <span className="font-bold font-headline">Novix</span>
-          <span>🇨🇭</span>
+          <span className="font-bold font-headline">Novix 🇨🇭</span>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+             <Link href="#concept" className="hover:text-primary transition-colors">{t.header.concept}</Link>
              <Link href="#features" className="hover:text-primary transition-colors">{t.header.features}</Link>
+             <Link href="#trust" className="hover:text-primary transition-colors">{t.header.trust}</Link>
              <Link href="#pricing" className="hover:text-primary transition-colors">{t.header.pricing}</Link>
+             <Link href="#faq" className="hover:text-primary transition-colors">{t.header.faq}</Link>
           </nav>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
