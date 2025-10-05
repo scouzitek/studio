@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
+import Link from 'next/link';
 
 export default function CallToAction() {
   const { language } = useLanguage();
@@ -24,6 +25,8 @@ export default function CallToAction() {
         <div className="mx-auto grid max-w-5xl items-stretch gap-8 md:grid-cols-2 md:gap-12 mt-12">
           {t.sections.map((section) => {
             const image = PlaceHolderImages.find((img) => img.id === section.id);
+            const isBusinessSection = section.id === 'cta-business';
+
             return (
               <Card key={section.id} className="flex flex-col overflow-hidden bg-card hover:shadow-2xl transition-all duration-300">
                 {image && (
@@ -46,7 +49,13 @@ export default function CallToAction() {
                   </CardDescription>
                 </CardContent>
                 <CardFooter>
-                  <Button variant="destructive" size="lg" className="w-full font-headline">{section.cta}</Button>
+                  {isBusinessSection ? (
+                    <Link href="#trust" className="w-full">
+                      <Button variant="destructive" size="lg" className="w-full font-headline">{section.cta}</Button>
+                    </Link>
+                  ) : (
+                    <Button variant="destructive" size="lg" className="w-full font-headline">{section.cta}</Button>
+                  )}
                 </CardFooter>
               </Card>
             );
