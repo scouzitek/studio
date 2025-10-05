@@ -25,8 +25,8 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
              <Link href="#concept" className="hover:text-primary transition-colors">{t.header.concept}</Link>
              <Link href="#features" className="hover:text-primary transition-colors">{t.header.features}</Link>
-             <Link href="#trust" className="hover:text-primary transition-colors">{t.header.trust}</Link>
              <Link href="#pricing" className="hover:text-primary transition-colors">{t.header.pricing}</Link>
+             <Link href="#trust" className="hover:text-primary transition-colors">{t.header.trust}</Link>
              <Link href="#faq" className="hover:text-primary transition-colors">{t.header.faq}</Link>
           </nav>
           <DropdownMenu>
