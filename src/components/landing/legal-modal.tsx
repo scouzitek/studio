@@ -5,7 +5,6 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-  DialogDescription,
 } from '@/components/ui/dialog';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
@@ -25,9 +24,14 @@ export function LegalModal({ isOpen, onOpenChange, title, content }: LegalModalP
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
         </DialogHeader>
-        <ScrollArea className="flex-grow pr-6">
-          <div className="prose prose-sm dark:prose-invert whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: content }} />
-        </ScrollArea>
+        <div className="flex-grow overflow-hidden">
+          <ScrollArea className="h-full pr-6">
+            <div 
+              className="prose prose-sm dark:prose-invert whitespace-pre-wrap" 
+              dangerouslySetInnerHTML={{ __html: content }} 
+            />
+          </ScrollArea>
+        </div>
       </DialogContent>
     </Dialog>
   );
