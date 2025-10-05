@@ -36,8 +36,8 @@ export const translations = {
       ],
     },
     moreFeatures: {
-      mainTitle: "Nos Engagements : Transparence et Sécurité",
-      mainDescription: "Découvrez comment nous protégeons vos données et respectons nos valeurs à chaque étape.",
+      mainTitle: "Conçu pour votre confiance",
+      mainDescription: "La protection de vos données est notre priorité. Voici comment nous la garantissons.",
       featureList: [
         {
           id: 'secure',
@@ -96,16 +96,16 @@ export const translations = {
       mainDescription: 'Que vous soyez un particulier cherchant un assistant personnel ou une entreprise protégeant ses données, Novix AI est fait pour vous.',
       sections: [
         {
-          id: 'cta-business',
-          title: "L'Avantage Concurrentiel pour Votre Entreprise",
-          description: 'Intégrez une IA puissante sans compromettre la confidentialité de vos données stratégiques. Novix AI fonctionne en circuit fermé sur les postes de vos collaborateurs, garantissant que vos informations sensibles ne quittent jamais votre entreprise.',
-          cta: 'Sécuriser Vos Données',
-        },
-        {
           id: 'cta-personal',
           title: 'Votre Assistant Personnel',
           description: "Libérez votre créativité et boostez votre productivité. Novix AI est l'outil idéal pour rédiger, coder, apprendre et créer, tout en gardant vos idées et vos données en sécurité sur votre appareil. La puissance de l'IA, votre vie privée en plus.",
           cta: 'Commencer Gratuitement',
+        },
+        {
+          id: 'cta-business',
+          title: "L'Avantage Concurrentiel pour Votre Entreprise",
+          description: 'Intégrez une IA puissante sans compromettre la confidentialité de vos données stratégiques. Novix AI fonctionne en circuit fermé sur les postes de vos collaborateurs, garantissant que vos informations sensibles ne quittent jamais votre entreprise.',
+          cta: 'Sécuriser Vos Données',
         }
       ],
     },
@@ -218,8 +218,8 @@ export const translations = {
       ],
     },
     moreFeatures: {
-      mainTitle: "Our Commitments: Transparency and Security",
-      mainDescription: "Discover how we protect your data and uphold our values at every step.",
+      mainTitle: "Designed for Your Trust",
+      mainDescription: "Protecting your data is our priority. Here's how we guarantee it.",
       featureList: [
         {
           id: 'secure',
@@ -278,16 +278,16 @@ export const translations = {
       mainDescription: "Whether you're an individual looking for a personal assistant or a business protecting its data, Novix AI is for you.",
       sections: [
         {
-          id: 'cta-business',
-          title: 'The Competitive Edge for Your Business',
-          description: 'Integrate powerful AI without compromising the confidentiality of your strategic data. Novix AI operates in a closed loop on your employees\' workstations, ensuring that your sensitive information never leaves your company.',
-          cta: 'Secure Your Data',
-        },
-        {
           id: 'cta-personal',
           title: 'Your Personal Assistant',
           description: 'Unleash your creativity and boost your productivity. Novix AI is the ideal tool to write, code, learn, and create, all while keeping your ideas and data secure on your device. The power of AI, with your privacy included.',
           cta: 'Get Started for Free',
+        },
+        {
+          id: 'cta-business',
+          title: 'The Competitive Edge for Your Business',
+          description: 'Integrate powerful AI without compromising the confidentiality of your strategic data. Novix AI operates in a closed loop on your employees\' workstations, ensuring that your sensitive information never leaves your company.',
+          cta: 'Secure Your Data',
         }
       ],
     },
@@ -400,8 +400,8 @@ export const translations = {
       ],
     },
     moreFeatures: {
-      mainTitle: "Unsere Verpflichtungen: Transparenz und Sicherheit",
-      mainDescription: "Entdecken Sie, wie wir Ihre Daten schützen und unsere Werte bei jedem Schritt wahren.",
+      mainTitle: "Für Ihr Vertrauen entwickelt",
+      mainDescription: "Der Schutz Ihrer Daten ist unsere Priorität. So garantieren wir ihn.",
       featureList: [
         {
           id: 'secure',
@@ -460,16 +460,16 @@ export const translations = {
       mainDescription: 'Egal, ob Sie eine Privatperson sind, die einen persönlichen Assistenten sucht, oder ein Unternehmen, das seine Daten schützt, Novix AI ist für Sie da.',
       sections: [
         {
-          id: 'cta-business',
-          title: 'Der Wettbewerbsvorteil für Ihr Unternehmen',
-          description: 'Integrieren Sie leistungsstarke KI, ohne die Vertraulichkeit Ihrer strategischen Daten zu gefährden. Novix AI arbeitet in einem geschlossenen Kreislauf auf den Arbeitsplätzen Ihrer Mitarbeiter und stellt sicher, dass Ihre sensiblen Informationen Ihr Unternehmen niemals verlassen.',
-          cta: 'Sichern Sie Ihre Daten',
-        },
-        {
           id: 'cta-personal',
           title: 'Ihr persönlicher Assistent',
           description: 'Entfesseln Sie Ihre Kreativität und steigern Sie Ihre Produktivität. Novix AI ist das ideale Werkzeug zum Schreiben, Programmieren, Lernen und Erstellen, während Ihre Ideen und Daten sicher auf Ihrem Gerät bleiben. Die Kraft der KI, plus Ihre Privatsphäre.',
           cta: 'Kostenlos loslegen',
+        },
+        {
+          id: 'cta-business',
+          title: 'Der Wettbewerbsvorteil für Ihr Unternehmen',
+          description: 'Integrieren Sie leistungsstarke KI, ohne die Vertraulichkeit Ihrer strategischen Daten zu gefährden. Novix AI arbeitet in einem geschlossenen Kreislauf auf den Arbeitsplätzen Ihrer Mitarbeiter und stellt sicher, dass Ihre sensiblen Informationen Ihr Unternehmen niemals verlassen.',
+          cta: 'Sichern Sie Ihre Daten',
         }
       ],
     },
@@ -582,8 +582,8 @@ export const translations = {
       ],
     },
     moreFeatures: {
-      mainTitle: "I nostri impegni: trasparenza e sicurezza",
-      mainDescription: "Scopri come proteggiamo i tuoi dati e rispettiamo i nostri valori in ogni fase.",
+      mainTitle: "Progettato per la tua fiducia",
+      mainDescription: "La protezione dei tuoi dati è la nostra priorità. Ecco come la garantiamo.",
       featureList: [
         {
           id: 'secure',
@@ -642,16 +642,16 @@ export const translations = {
       mainDescription: 'Che tu sia un privato alla ricerca di un assistente personale o un\'azienda che protegge i propri dati, Novix AI è la soluzione per te.',
       sections: [
         {
-          id: 'cta-business',
-          title: 'Il vantaggio competitivo per la tua azienda',
-          description: 'Integra una potente IA senza compromettere la riservatezza dei tuoi dati strategici. Novix AI opera in un circuito chiuso sulle postazioni di lavoro dei tuoi dipendenti, garantendo che le tue informazioni sensibili non lascino mai la tua azienda.',
-          cta: 'Proteggi i tuoi dati',
-        },
-        {
           id: 'cta-personal',
           title: 'Il tuo assistente personale',
           description: 'Scatena la tua creatività e aumenta la tua produttività. Novix AI è lo strumento ideale per scrivere, programmare, imparare e creare, mantenendo le tue idee e i tuoi dati al sicuro sul tuo dispositivo. La potenza dell\'IA, con la tua privacy in più.',
           cta: 'Inizia gratuitamente',
+        },
+        {
+          id: 'cta-business',
+          title: 'Il vantaggio competitivo per la tua azienda',
+          description: 'Integra una potente IA senza compromettere la riservatezza dei tuoi dati strategici. Novix AI opera in un circuito chiuso sulle postazioni di lavoro dei tuoi dipendenti, garantendo che le tue informazioni sensibili non lascino mai la tua azienda.',
+          cta: 'Proteggi i tuoi dati',
         }
       ],
     },
@@ -730,4 +730,5 @@ export const translations = {
   },
 };
 
+    
     
