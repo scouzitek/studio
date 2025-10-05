@@ -80,8 +80,8 @@ export const translations = {
           id: 'business',
           description: "Offre personnalisée pour l'intégration en volume. Accédez à nos forfaits exclusifs utilisateurs illimités et à notre infrastructure suisse sécurisée.",
           features: [
-            'BUSINESS PRO (2 000 CHF/mois) : Jusqu\'à 250 000 requêtes incluses.',
-            'ENTERPRISE MAX (5 000 CHF/mois) : Jusqu\'à 600 000 requêtes incluses.',
+            'BUSINESS PRO (2 000 CHF/mois) : Jusqu\'à 25 000 requêtes incluses.',
+            'ENTERPRISE MAX (5 000 CHF/mois) : Jusqu\'à 60 000 requêtes incluses.',
             'AVANTAGE : Nombre d\'utilisateurs/collaborateurs illimité.',
             'SÉCURITÉ : Déploiement souverain en Suisse, support prioritaire 24/7.',
           ],
@@ -274,8 +274,8 @@ export const translations = {
           id: 'business',
           description: 'Custom offer for volume integration. Access our exclusive unlimited user plans and our secure Swiss infrastructure.',
           features: [
-            'BUSINESS PRO (2,000 CHF/month): Up to 250,000 requests included.',
-            'ENTERPRISE MAX (5,000 CHF/month): Up to 600,000 requests included.',
+            'BUSINESS PRO (2,000 CHF/month): Up to 25,000 requests included.',
+            'ENTERPRISE MAX (5,000 CHF/month): Up to 60,000 requests included.',
             'ADVANTAGE: Unlimited number of users/employees.',
             'SECURITY: Sovereign deployment in Switzerland, 24/7 priority support.',
           ],
@@ -468,8 +468,8 @@ export const translations = {
           id: 'business',
           description: 'Maßgeschneidertes Angebot für die Volumenintegration. Greifen Sie auf unsere exklusiven Pläne für unbegrenzte Benutzer und unsere sichere Schweizer Infrastruktur zu.',
           features: [
-            'BUSINESS PRO (2.000 CHF/Monat): Bis zu 250.000 Anfragen inklusive.',
-            'ENTERPRISE MAX (5.000 CHF/Monat): Bis zu 600.000 Anfragen inklusive.',
+            'BUSINESS PRO (2.000 CHF/Monat): Bis zu 25.000 Anfragen inklusive.',
+            'ENTERPRISE MAX (5.000 CHF/Monat): Bis zu 60.000 Anfragen inklusive.',
             'VORTEIL: Unbegrenzte Anzahl von Benutzern/Mitarbeitern.',
             'SICHERHEIT: Souveränes Deployment in der Schweiz, 24/7 Priority-Support.',
           ],
@@ -662,8 +662,8 @@ cta: 'Inizia',
           id: 'business',
           description: 'Offerta personalizzata per l\'integrazione di volumi. Accedi ai nostri piani esclusivi per utenti illimitati e alla nostra infrastruttura svizzera sicura.',
           features: [
-            'BUSINESS PRO (2.000 CHF/mese): Fino a 250.000 richieste incluse.',
-            'ENTERPRISE MAX (5.000 CHF/mese): Fino a 600.000 richieste incluse.',
+            'BUSINESS PRO (2.000 CHF/mese): Fino a 25.000 richieste incluse.',
+            'ENTERPRISE MAX (5.000 CHF/mese): Fino a 60.000 richieste incluse.',
             'VANTAGGIO: Numero illimitato di utenti/dipendenti.',
             'SICUREZZA: Implementazione sovrana in Svizzera, supporto prioritario 24/7.',
           ],
@@ -787,5 +787,6 @@ cta: 'Inizia',
 
 
     
+
 
 
