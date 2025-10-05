@@ -4,8 +4,8 @@ export const translations = {
     header: {
       concept: 'Concept',
       features: 'Fonctionnalités',
-      trust: 'Confiance',
       pricing: 'Nos Offres',
+      trust: 'Confiance',
       faq: 'FAQ',
       changeLanguage: 'Changer de langue',
     },
@@ -159,7 +159,7 @@ export const translations = {
       company: {
         title: 'Entreprise',
         links: [
-          { text: 'À propos', href: '#' },
+          { text: 'À propos', href: '#', id: 'about' },
           { text: 'Contact', href: '#', id: 'contact' },
         ],
       },
@@ -188,6 +188,10 @@ export const translations = {
         title: "Conditions d'utilisation",
         content: `Dernière mise à jour: 26 juillet 2024\n\nVeuillez lire attentivement ces termes et conditions avant d'utiliser Notre Service.\n\n<h3>Interprétation et Définitions</h3>\n<h4>Interprétation</h4>\nLes mots dont la lettre initiale est en majuscule ont des significations définies dans les conditions suivantes. Les définitions suivantes auront la même signification, qu'elles apparaissent au singulier ou au pluriel.\n\n<h3>Accusé de réception</h3>\nCe sont les Termes et Conditions régissant l'utilisation de ce Service et l'accord qui opère entre Vous et la Société. Ces Termes et Conditions définissent les droits et obligations de tous les utilisateurs concernant l'utilisation du Service.\n\nVotre accès et votre utilisation du Service sont conditionnés à Votre acceptation et à Votre respect de ces Termes et Conditions. Ces Termes et Conditions s'appliquent à tous les visiteurs, utilisateurs et autres personnes qui accèdent ou utilisent le Service.\n\nEn accédant ou en utilisant le Service, Vous acceptez d'être lié par ces Termes et Conditions. Si Vous n'êtes pas d'accord avec une partie de ces Termes et Conditions, alors Vous ne pouvez pas accéder au Service.\n\n<h3>Résiliation</h3>\nNous pouvons résilier ou suspendre Votre accès immédiatement, sans préavis ni responsabilité, pour quelque raison que ce soit, y compris, sans limitation, si Vous enfreignez ces Termes et Conditions.\n\nDès la résiliation, Votre droit d'utiliser le Service cessera immédiatement.\n\n<h3>Droit Applicable</h3>\nLes lois du Pays, à l'exclusion de ses règles de conflits de lois, régiront ces Termes et Votre utilisation du Service. Votre utilisation de l'Application peut également être soumise à d'autres lois locales, étatiques, nationales ou internationales.`
       }
+    },
+    about: {
+      title: 'À propos de Novix',
+      content: `Novix est une entreprise suisse spécialisée dans le développement de solutions d'intelligence artificielle de pointe, axées sur la confidentialité et la sécurité des données. Notre mission est de fournir des outils puissants et fiables qui respectent la vie privée de nos utilisateurs, en garantissant que leurs données restent sous leur contrôle total. Basés en Suisse, nous nous engageons à respecter les normes les plus élevées de qualité et de protection des données, conformément aux réglementations suisses et européennes.`
     }
   },
   en: {
@@ -349,7 +353,7 @@ export const translations = {
       company: {
         title: 'Company',
         links: [
-          { text: 'About', href: '#' },
+          { text: 'About', href: '#', id: 'about' },
           { text: 'Contact', href: '#', id: 'contact' },
         ],
       },
@@ -378,6 +382,10 @@ export const translations = {
         title: 'Terms of Service',
         content: `Last updated: July 26, 2024\n\nPlease read these terms and conditions carefully before using Our Service.\n\n<h3>Interpretation and Definitions</h3>\n<h4>Interpretation</h4>\nThe words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.\n\n<h3>Acknowledgment</h3>\nThese are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.\n\nYour access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.\n\nBy accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.\n\n<h3>Termination</h3>\nWe may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.\n\nUpon termination, Your right to use the Service will cease immediately.\n\n<h3>Governing Law</h3>\nThe laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.`
       }
+    },
+    about: {
+        title: 'About Novix',
+        content: 'Novix is a Swiss company specializing in the development of cutting-edge artificial intelligence solutions focused on data privacy and security. Our mission is to provide powerful and reliable tools that respect our users\' privacy, ensuring that their data remains under their complete control. Based in Switzerland, we are committed to upholding the highest standards of quality and data protection, in accordance with Swiss and European regulations.'
     }
   },
   de: {
@@ -539,7 +547,7 @@ export const translations = {
       company: {
         title: 'Unternehmen',
         links: [
-          { text: 'Über uns', href: '#' },
+          { text: 'Über uns', href: '#', id: 'about' },
           { text: 'Kontakt', href: '#', id: 'contact' },
         ],
       },
@@ -568,6 +576,10 @@ export const translations = {
         title: 'Nutzungsbedingungen',
         content: `Zuletzt aktualisiert: 26. Juli 2024\n\nBitte lesen Sie diese Allgemeinen Geschäftsbedingungen sorgfältig durch, bevor Sie unseren Dienst nutzen.\n\n<h3>Interpretation und Definitionen</h3>\n<h4>Interpretation</h4>\nWörter, deren Anfangsbuchstabe großgeschrieben ist, haben unter den folgenden Bedingungen definierte Bedeutungen. Die folgenden Definitionen haben dieselbe Bedeutung, unabhängig davon, ob sie im Singular oder im Plural erscheinen.\n\n<h3>Anerkennung</h3>\nDies sind die Allgemeinen Geschäftsbedingungen, die die Nutzung dieses Dienstes und die Vereinbarung zwischen Ihnen und dem Unternehmen regeln. Diese Allgemeinen Geschäftsbedingungen legen die Rechte und Pflichten aller Benutzer in Bezug auf die Nutzung des Dienstes fest.\n\nIhr Zugriff auf den Dienst und Ihre Nutzung des Dienstes sind von Ihrer Annahme und Einhaltung dieser Allgemeinen Geschäftsbedingungen abhängig. Diese Allgemeinen Geschäftsbedingungen gelten für alle Besucher, Benutzer und andere, die auf den Dienst zugreifen oder ihn nutzen.\n\nIndem Sie auf den Dienst zugreifen oder ihn nutzen, stimmen Sie zu, an diese Allgemeinen Geschäftsbedingungen gebunden zu sein. Wenn Sie mit einem Teil dieser Allgemeinen Geschäftsbedingungen nicht einverstanden sind, dürfen Sie nicht auf den Dienst zugreifen.\n\n<h3>Beendigung</h3>\nWir können Ihren Zugang sofort, ohne vorherige Ankündigung oder Haftung, aus irgendeinem Grund, einschließlich, aber nicht beschränkt auf den Fall, dass Sie gegen diese Allgemeinen Geschäftsbedingungen verstoßen, beenden oder aussetzen.\n\nNach der Beendigung erlischt Ihr Recht zur Nutzung des Dienstes sofort.\n\n<h3>Geltendes Recht</h3>\nDie Gesetze des Landes, unter Ausschluss seiner Kollisionsnormen, regeln diese Bedingungen und Ihre Nutzung des Dienstes. Ihre Nutzung der Anwendung kann auch anderen lokalen, staatlichen, nationalen oder internationalen Gesetzen unterliegen.`
       }
+    },
+    about: {
+        title: 'Über Novix',
+        content: 'Novix ist ein Schweizer Unternehmen, das sich auf die Entwicklung von hochmodernen künstlichen Intelligenzlösungen mit Schwerpunkt auf Datenschutz und Datensicherheit spezialisiert hat. Unsere Mission ist es, leistungsstarke und zuverlässige Werkzeuge bereitzustellen, die die Privatsphäre unserer Nutzer respektieren und sicherstellen, dass ihre Daten unter ihrer vollständigen Kontrolle bleiben. Mit Sitz in der Schweiz verpflichten wir uns, die höchsten Standards für Qualität und Datenschutz gemäss den schweizerischen und europäischen Vorschriften einzuhalten.'
     }
   },
   it: {
@@ -729,7 +741,7 @@ export const translations = {
       company: {
         title: 'Azienda',
         links: [
-          { text: 'Chi siamo', href: '#' },
+          { text: 'Chi siamo', href: '#', id: 'about' },
           { text: 'Contatti', href: '#', id: 'contact' },
         ],
       },
@@ -758,6 +770,10 @@ export const translations = {
         title: 'Termini di servizio',
         content: `Ultimo aggiornamento: 26 luglio 2024\n\nSi prega di leggere attentamente questi termini e condizioni prima di utilizzare il Nostro Servizio.\n\n<h3>Interpretazione e Definizioni</h3>\n<h4>Interpretazione</h4>\nLe parole di cui la lettera iniziale è maiuscola hanno significati definiti nelle seguenti condizioni. Le seguenti definizioni avranno lo stesso significato indipendentemente dal fatto che appaiano al singolare o al plurale.\n\n<h3>Riconoscimento</h3>\nQuesti sono i Termini e le Condizioni che regolano l'uso di questo Servizio e l'accordo che opera tra Te e l'Azienda. Questi Termini e Condizioni stabiliscono i diritti e gli obblighi di tutti gli utenti per quanto riguarda l'uso del Servizio.\n\nL'accesso e l'uso del Servizio sono subordinati all'accettazione e al rispetto di questi Termini e Condizioni. Questi Termini e Condizioni si applicano a tutti i visitatori, utenti e altri che accedono o utilizzano il Servizio.\n\nAccedendo o utilizzando il Servizio, accetti di essere vincolato da questi Termini e Condizioni. Se non sei d'accordo con qualsiasi parte di questi Termini e Condizioni, non puoi accedere al Servizio.\n\n<h3>Risoluzione</h3>\nPossiamo risolvere o sospendere il Tuo accesso immediatamente, senza preavviso o responsabilità, per qualsiasi motivo, incluso, senza limitazioni, se violi questi Termini e Condizioni.\n\nAlla risoluzione, il Tuo diritto di utilizzare il Servizio cesserà immediatamente.\n\n<h3>Legge Applicabile</h3>\nLe leggi del Paese, escluse le sue norme sui conflitti di legge, regoleranno questi Termini e il Tuo uso del Servizio. Il Tuo uso dell'Applicazione può anche essere soggetto ad altre leggi locali, statali, nazionali o internazionali.`
       }
+    },
+    about: {
+        title: 'Chi è Novix',
+        content: 'Novix è un\'azienda svizzera specializzata nello sviluppo di soluzioni di intelligenza artificiale all\'avanguardia incentrate sulla privacy e la sicurezza dei dati. La nostra missione è fornire strumenti potenti e affidabili che rispettino la privacy dei nostri utenti, garantendo che i loro dati rimangano sotto il loro completo controllo. Con sede in Svizzera, ci impegniamo a rispettare i più alti standard di qualità e protezione dei dati, in conformità con le normative svizzere ed europee.'
     }
   },
 };

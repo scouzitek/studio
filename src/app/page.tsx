@@ -27,17 +27,25 @@ export default function Home() {
   const openContactModal = () => setIsContactModalOpen(true);
   
   const openLegalModal = (type: LegalContentType) => {
-    if (type === 'privacy') {
-      setLegalModalContent({
-        title: t.legal.privacyPolicy.title,
-        content: t.legal.privacyPolicy.content,
-      });
-    } else {
-      setLegalModalContent({
-        title: t.legal.termsOfService.title,
-        content: t.legal.termsOfService.content,
-      });
+    let title = '';
+    let content = '';
+    
+    switch (type) {
+      case 'privacy':
+        title = t.legal.privacyPolicy.title;
+        content = t.legal.privacyPolicy.content;
+        break;
+      case 'terms':
+        title = t.legal.termsOfService.title;
+        content = t.legal.termsOfService.content;
+        break;
+      case 'about':
+        title = t.about.title;
+        content = t.about.content;
+        break;
     }
+    
+    setLegalModalContent({ title, content });
     setIsLegalModalOpen(true);
   };
 

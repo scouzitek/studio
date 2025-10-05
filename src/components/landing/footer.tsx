@@ -41,6 +41,10 @@ export default function Footer({ onContactClick, onLegalClick }: FooterProps) {
                     <button onClick={onContactClick} className="text-left hover:text-white transition-colors duration-300">
                       {link.text}
                     </button>
+                  ) : link.id === 'about' ? (
+                     <button onClick={() => onLegalClick('about')} className="text-left hover:text-white transition-colors duration-300">
+                      {link.text}
+                    </button>
                   ) : (
                     <Link href={link.href} className="hover:text-white transition-colors duration-300">
                       {link.text}
