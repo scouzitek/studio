@@ -23,7 +23,7 @@ export const translations = {
       featureList: [
         {
           title: "Facilité d'utilisation",
-          description: "Profitez de la puissance des grands modèles de langage dans une interface axée sur la productivité et les résultats, sans jamais compromettre la confidentialité de vos données. L'efficacité que vous connaissez, la sécurité en plus.",
+          description: "Profitez d'une interface axée sur la productivité, offrant l'efficacité des LLMs sans compromettre la sécurité de vos données.",
         },
         {
           title: 'Confidentialité Absolue',
@@ -200,7 +200,7 @@ export const translations = {
       featureList: [
         {
           title: 'Ease of Use',
-          description: "Enjoy the power of large language models in an interface focused on productivity and results, without ever compromising the confidentiality of your data. The efficiency you know, with added security.",
+          description: "Enjoy a productivity-focused interface that delivers the efficiency of LLMs without compromising your data's security.",
         },
         {
           title: 'Absolute Confidentiality',
@@ -377,7 +377,7 @@ export const translations = {
       featureList: [
         {
           title: 'Benutzerfreundlichkeit',
-          description: 'Nutzen Sie die Leistung großer Sprachmodelle in einer auf Produktivität und Ergebnisse ausgerichteten Oberfläche, ohne jemals die Vertraulichkeit Ihrer Daten zu gefährden. Die Effizienz, die Sie kennen, mit zusätzlicher Sicherheit.',
+          description: 'Geniessen Sie eine produktivitätsorientierte Benutzeroberfläche, die die Effizienz von LLMs bietet, ohne die Sicherheit Ihrer Daten zu beeinträchtigen.',
         },
         {
           title: 'Absolute Vertraulichkeit',
@@ -554,7 +554,7 @@ export const translations = {
       featureList: [
         {
           title: "Facilità d'uso",
-          description: "Sfrutta la potenza dei grandi modelli linguistici in un'interfaccia incentrata sulla produttività e sui risultati, senza mai compromettere la riservatezza dei tuoi dati. L'efficienza che conosci, con una sicurezza aggiuntiva.",
+          description: "Goditi un'interfaccia incentrata sulla produttività che offre l'efficienza dei LLM senza compromettere la sicurezza dei tuoi dati.",
         },
         {
           title: 'Riservatezza Assoluta',
@@ -711,4 +711,6 @@ export const translations = {
 };
 
     
+    
+
     
