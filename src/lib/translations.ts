@@ -9,7 +9,7 @@ export const translations = {
     hero: {
       title: 'Novix',
       subtitle: "Vos données n'appartiennent qu'à vous.",
-      description: ["Aucune fuite. Aucune collecte. Aucune surprise.","L'IA de confiance qui protège vos idées."],
+      description: ["Aucune fuite. Aucune collecte. Aucune surprise.","L'IA de confiance qui protège vos idées en toute confidentialité."],
       ctaDownloadApp: "Télécharger l'app",
       ctaTryFree: 'Essayer gratuitement',
     },
@@ -186,7 +186,7 @@ export const translations = {
     hero: {
       title: 'Novix',
       subtitle: 'Your data belongs to you alone.',
-      description: ["No leaks. No collection. No surprises.","The trusted AI that protects your ideas."],
+      description: ["No leaks. No collection. No surprises.","The trusted AI that protects your ideas in complete confidentiality."],
       ctaDownloadApp: 'Download the App',
       ctaTryFree: 'Try for free',
     },
@@ -363,7 +363,7 @@ export const translations = {
     hero: {
       title: 'Novix',
       subtitle: 'Ihre Daten gehören nur Ihnen.',
-      description: ['Keine Lecks. Keine Sammlung. Keine Überraschungen.','Die vertrauenswürdige KI, die Ihre Ideen schützt.'],
+      description: ['Keine Lecks. Keine Sammlung. Keine Überraschungen.','Die vertrauenswürdige KI, die Ihre Ideen in voller Vertraulichkeit schützt.'],
       ctaDownloadApp: 'App herunterladen',
       ctaTryFree: 'Kostenlos ausprobieren',
     },
@@ -540,7 +540,7 @@ export const translations = {
     hero: {
       title: 'Novix',
       subtitle: 'I tuoi dati appartengono solo a te.',
-      description: ["Nessuna fuga. Nessuna raccolta. Nessuna sorpresa.","L'IA affidabile che protegge le tue idee."],
+      description: ["Nessuna fuga. Nessuna raccolta. Nessuna sorpresa.","L'IA affidabile che protegge le tue idee in completa riservatezza."],
       ctaDownloadApp: "Scarica l'app",
       ctaTryFree: 'Prova gratuitamente',
     },
@@ -709,3 +709,5 @@ export const translations = {
     },
   },
 };
+
+    
