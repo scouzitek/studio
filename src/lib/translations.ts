@@ -36,6 +36,8 @@ export const translations = {
       ],
     },
     moreFeatures: {
+      mainTitle: "Nos Engagements : Transparence et Sécurité",
+      mainDescription: "Découvrez comment nous protégeons vos données et respectons nos valeurs à chaque étape.",
       featureList: [
         {
           id: 'secure',
@@ -216,6 +218,8 @@ export const translations = {
       ],
     },
     moreFeatures: {
+      mainTitle: "Our Commitments: Transparency and Security",
+      mainDescription: "Discover how we protect your data and uphold our values at every step.",
       featureList: [
         {
           id: 'secure',
@@ -396,6 +400,8 @@ export const translations = {
       ],
     },
     moreFeatures: {
+      mainTitle: "Unsere Verpflichtungen: Transparenz und Sicherheit",
+      mainDescription: "Entdecken Sie, wie wir Ihre Daten schützen und unsere Werte bei jedem Schritt wahren.",
       featureList: [
         {
           id: 'secure',
@@ -576,6 +582,8 @@ export const translations = {
       ],
     },
     moreFeatures: {
+      mainTitle: "I nostri impegni: trasparenza e sicurezza",
+      mainDescription: "Scopri come proteggiamo i tuoi dati e rispettiamo i nostri valori in ogni fase.",
       featureList: [
         {
           id: 'secure',
