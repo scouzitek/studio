@@ -68,7 +68,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-800 text-center">
           <div className="flex justify-center items-center space-x-2 mb-4">
               <Shield className="h-6 w-6 text-destructive" />
-              <span className="font-bold text-white text-lg font-headline">Novix</span>
+              <span className="font-bold text-white text-lg font-headline">Novix 🇨🇭</span>
           </div>
           <p className="text-sm">&copy; {new Date().getFullYear()} Novix. {t.rightsReserved}</p>
         </div>
