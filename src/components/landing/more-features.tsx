@@ -4,8 +4,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
 
-const featureImageIds = ['feature-secure', 'feature-local', 'feature-export', 'feature-green'];
-const imageSides = ['left', 'right', 'left', 'right'];
+const featureImageIds = ['feature-secure', 'feature-local', 'feature-export'];
+const imageSides = ['left', 'right', 'left'];
 
 export default function MoreFeatures() {
   const { language } = useLanguage();
@@ -60,3 +60,5 @@ export default function MoreFeatures() {
     </section>
   );
 }
+
+    

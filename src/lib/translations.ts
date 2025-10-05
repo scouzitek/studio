@@ -54,11 +54,6 @@ export const translations = {
           title: 'Portabilité totale des données',
           description: "Vous avez un contrôle total sur vos données. Exportez facilement tout votre historique de conversation dans un format standard et importez-le sur un nouvel appareil. Vos données vous appartiennent et vous pouvez les emporter avec vous à tout moment.",
         },
-        {
-          id: 'green-ai',
-          title: "IA respectueuse de l'environnement",
-          description: "En traitant les données localement, nous réduisons considérablement le besoin de centres de données énergivores. Cette approche améliore non seulement la confidentialité, mais contribue également à une empreinte carbone plus faible par rapport aux services d'IA traditionnels basés sur le cloud.",
-        },
       ],
     },
     pricing: {
@@ -96,16 +91,16 @@ export const translations = {
       mainDescription: 'Que vous soyez un particulier cherchant un assistant personnel ou une entreprise protégeant ses données, Novix AI est fait pour vous.',
       sections: [
         {
-          id: 'cta-personal',
-          title: 'Votre Assistant Personnel',
-          description: "Libérez votre créativité et boostez votre productivité. Novix AI est l'outil idéal pour rédiger, coder, apprendre et créer, tout en gardant vos idées et vos données en sécurité sur votre appareil. La puissance de l'IA, votre vie privée en plus.",
-          cta: 'Commencer Gratuitement',
-        },
-        {
           id: 'cta-business',
           title: "L'Avantage Concurrentiel pour Votre Entreprise",
           description: 'Intégrez une IA puissante sans compromettre la confidentialité de vos données stratégiques. Novix AI fonctionne en circuit fermé sur les postes de vos collaborateurs, garantissant que vos informations sensibles ne quittent jamais votre entreprise.',
           cta: 'Sécuriser Vos Données',
+        },
+        {
+          id: 'cta-personal',
+          title: 'Votre Assistant Personnel',
+          description: "Libérez votre créativité et boostez votre productivité. Novix AI est l'outil idéal pour rédiger, coder, apprendre et créer, tout en gardant vos idées et vos données en sécurité sur votre appareil. La puissance de l'IA, votre vie privée en plus.",
+          cta: 'Commencer Gratuitement',
         }
       ],
     },
@@ -236,11 +231,6 @@ export const translations = {
           title: 'Full Data Portability',
           description: 'You have full control over your data. Easily export your entire conversation history in a standard format and import it to a new device. Your data is yours, and you can take it with you anytime.',
         },
-        {
-          id: 'green-ai',
-          title: 'Environmentally Friendly AI',
-          description: 'By processing data locally, we significantly reduce the need for energy-intensive data centers. This approach not only enhances privacy but also contributes to a lower carbon footprint compared to traditional cloud-based AI services.',
-        },
       ],
     },
     pricing: {
@@ -278,16 +268,16 @@ export const translations = {
       mainDescription: "Whether you're an individual looking for a personal assistant or a business protecting its data, Novix AI is for you.",
       sections: [
         {
-          id: 'cta-personal',
-          title: 'Your Personal Assistant',
-          description: 'Unleash your creativity and boost your productivity. Novix AI is the ideal tool to write, code, learn, and create, all while keeping your ideas and data secure on your device. The power of AI, with your privacy included.',
-          cta: 'Get Started for Free',
-        },
-        {
           id: 'cta-business',
           title: 'The Competitive Edge for Your Business',
           description: 'Integrate powerful AI without compromising the confidentiality of your strategic data. Novix AI operates in a closed loop on your employees\' workstations, ensuring that your sensitive information never leaves your company.',
           cta: 'Secure Your Data',
+        },
+        {
+          id: 'cta-personal',
+          title: 'Your Personal Assistant',
+          description: 'Unleash your creativity and boost your productivity. Novix AI is the ideal tool to write, code, learn, and create, all while keeping your ideas and data secure on your device. The power of AI, with your privacy included.',
+          cta: 'Get Started for Free',
         }
       ],
     },
@@ -418,11 +408,6 @@ export const translations = {
           title: 'Vollständige Datenübertragbarkeit',
           description: 'Sie haben die volle Kontrolle über Ihre Daten. Exportieren Sie einfach Ihren gesamten Gesprächsverlauf in einem Standardformat und importieren Sie ihn auf ein neues Gerät. Ihre Daten gehören Ihnen, und Sie können sie jederzeit mitnehmen.',
         },
-        {
-          id: 'green-ai',
-          title: 'Umweltfreundliche KI',
-          description: 'Durch die lokale Datenverarbeitung reduzieren wir den Bedarf an energieintensiven Rechenzentren erheblich. Dieser Ansatz verbessert nicht nur die Privatsphäre, sondern trägt auch zu einem geringeren CO2-Fußabdruck im Vergleich zu herkömmlichen Cloud-basierten KI-Diensten bei.',
-        },
       ],
     },
     pricing: {
@@ -460,16 +445,16 @@ export const translations = {
       mainDescription: 'Egal, ob Sie eine Privatperson sind, die einen persönlichen Assistenten sucht, oder ein Unternehmen, das seine Daten schützt, Novix AI ist für Sie da.',
       sections: [
         {
-          id: 'cta-personal',
-          title: 'Ihr persönlicher Assistent',
-          description: 'Entfesseln Sie Ihre Kreativität und steigern Sie Ihre Produktivität. Novix AI ist das ideale Werkzeug zum Schreiben, Programmieren, Lernen und Erstellen, während Ihre Ideen und Daten sicher auf Ihrem Gerät bleiben. Die Kraft der KI, plus Ihre Privatsphäre.',
-          cta: 'Kostenlos loslegen',
-        },
-        {
           id: 'cta-business',
           title: 'Der Wettbewerbsvorteil für Ihr Unternehmen',
           description: 'Integrieren Sie leistungsstarke KI, ohne die Vertraulichkeit Ihrer strategischen Daten zu gefährden. Novix AI arbeitet in einem geschlossenen Kreislauf auf den Arbeitsplätzen Ihrer Mitarbeiter und stellt sicher, dass Ihre sensiblen Informationen Ihr Unternehmen niemals verlassen.',
           cta: 'Sichern Sie Ihre Daten',
+        },
+        {
+          id: 'cta-personal',
+          title: 'Ihr persönlicher Assistent',
+          description: 'Entfesseln Sie Ihre Kreativität und steigern Sie Ihre Produktivität. Novix AI ist das ideale Werkzeug zum Schreiben, Programmieren, Lernen und Erstellen, während Ihre Ideen und Daten sicher auf Ihrem Gerät bleiben. Die Kraft der KI, plus Ihre Privatsphäre.',
+          cta: 'Kostenlos loslegen',
         }
       ],
     },
@@ -593,17 +578,12 @@ export const translations = {
         {
           id: 'compliance',
           title: 'Conforme alla legge svizzera sulla protezione dei dati',
-          description: 'Progettata in Svizzera, la nostra applicazione è conforme alla nuova Legge federale sulla protezione dei dati (nLPD). Ci impegniamo a rispettare i più alti standard di privacy e sicurezza dei dati.',
+          description: 'Progettata in Svizzera, la nostra applicazione è conforme alla new Legge federale sulla protezione dei dati (nLPD). Ci impegniamo a rispettare i più alti standard di privacy e sicurezza dei dati.',
         },
         {
           id: 'export',
           title: 'Portabilità completa dei dati',
           description: "Hai il pieno controllo sui tuoi dati. Esporta facilmente l'intera cronologia delle conversazioni in un formato standard e importala su un nuovo dispositivo. I tuoi dati sono tuoi e puoi portarli con te in qualsiasi momento.",
-        },
-        {
-          id: 'green-ai',
-          title: "IA rispettosa dell'ambiente",
-          description: "Elaborando i dati localmente, riduciamo significativamente la necessità di data center ad alta intensità energetica. Questo approccio non solo migliora la privacy, ma contribuisce anche a un'impronta di carbonio inferiore rispetto ai tradizionali servizi di IA basati su cloud.",
         },
       ],
     },
@@ -642,16 +622,16 @@ export const translations = {
       mainDescription: 'Che tu sia un privato alla ricerca di un assistente personale o un\'azienda che protegge i propri dati, Novix AI è la soluzione per te.',
       sections: [
         {
-          id: 'cta-personal',
-          title: 'Il tuo assistente personale',
-          description: 'Scatena la tua creatività e aumenta la tua produttività. Novix AI è lo strumento ideale per scrivere, programmare, imparare e creare, mantenendo le tue idee e i tuoi dati al sicuro sul tuo dispositivo. La potenza dell\'IA, con la tua privacy in più.',
-          cta: 'Inizia gratuitamente',
-        },
-        {
           id: 'cta-business',
           title: 'Il vantaggio competitivo per la tua azienda',
           description: 'Integra una potente IA senza compromettere la riservatezza dei tuoi dati strategici. Novix AI opera in un circuito chiuso sulle postazioni di lavoro dei tuoi dipendenti, garantendo che le tue informazioni sensibili non lascino mai la tua azienda.',
           cta: 'Proteggi i tuoi dati',
+        },
+        {
+          id: 'cta-personal',
+          title: 'Il tuo assistente personale',
+          description: 'Scatena la tua creatività e aumenta la tua produttività. Novix AI è lo strumento ideale per scrivere, programmare, imparare e creare, mantenendo le tue idee e i tuoi dati al sicuro sul tuo dispositivo. La potenza dell\'IA, con la tua privacy in più.',
+          cta: 'Inizia gratuitamente',
         }
       ],
     },
@@ -730,5 +710,6 @@ export const translations = {
   },
 };
 
+    
     
     
