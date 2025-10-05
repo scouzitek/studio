@@ -4,18 +4,19 @@ import { Button } from '@/components/ui/button';
 import { Check, User, Building } from 'lucide-react';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
-import { ContactModal } from './contact-modal';
-import { useState } from 'react';
 
 const pricingIcons = [
   <User key="1" className="w-10 h-10 text-destructive" />,
   <Building key="2" className="w-10 h-10 text-destructive" />,
 ];
 
-export default function Pricing() {
+interface PricingProps {
+  onContactClick: () => void;
+}
+
+export default function Pricing({ onContactClick }: PricingProps) {
   const { language } = useLanguage();
   const t = translations[language].pricing;
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <section id="pricing" className="w-full py-12 md:py-24 lg:py-32 bg-background">
@@ -50,7 +51,7 @@ export default function Pricing() {
               </CardContent>
               <CardFooter className="flex flex-col items-center text-center p-6 mt-auto">
                 {tier.id === 'business' ? (
-                   <Button variant="destructive" size="lg" className="w-full font-headline" onClick={() => setIsModalOpen(true)}>{tier.cta}</Button>
+                   <Button variant="destructive" size="lg" className="w-full font-headline" onClick={onContactClick}>{tier.cta}</Button>
                 ) : (
                   <Button variant="destructive" size="lg" className="w-full font-headline">{tier.cta}</Button>
                 )}
@@ -59,7 +60,6 @@ export default function Pricing() {
           ))}
         </div>
       </div>
-      <ContactModal isOpen={isModalOpen} onOpenChange={setIsModalOpen} />
     </section>
   );
 }

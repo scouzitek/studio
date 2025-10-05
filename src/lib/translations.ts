@@ -160,7 +160,7 @@ export const translations = {
         title: 'Entreprise',
         links: [
           { text: 'À propos', href: '#' },
-          { text: 'Contact', href: '#' },
+          { text: 'Contact', href: '#', id: 'contact' },
         ],
       },
       legal: {
@@ -340,7 +340,7 @@ export const translations = {
         title: 'Company',
         links: [
           { text: 'About', href: '#' },
-          { text: 'Contact', href: '#' },
+          { text: 'Contact', href: '#', id: 'contact' },
         ],
       },
       legal: {
@@ -520,7 +520,7 @@ export const translations = {
         title: 'Unternehmen',
         links: [
           { text: 'Über uns', href: '#' },
-          { text: 'Kontakt', href: '#' },
+          { text: 'Kontakt', href: '#', id: 'contact' },
         ],
       },
       legal: {
@@ -700,7 +700,7 @@ export const translations = {
         title: 'Azienda',
         links: [
           { text: 'Chi siamo', href: '#' },
-          { text: 'Contatti', href: '#' },
+          { text: 'Contatti', href: '#', id: 'contact' },
         ],
       },
       legal: {
@@ -726,3 +726,4 @@ export const translations = {
     
 
     
+

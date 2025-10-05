@@ -5,7 +5,11 @@ import Link from 'next/link';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
 
-export default function Footer() {
+interface FooterProps {
+  onContactClick: () => void;
+}
+
+export default function Footer({ onContactClick }: FooterProps) {
   const { language } = useLanguage();
   const t = translations[language].footer;
 
@@ -31,9 +35,15 @@ export default function Footer() {
             <ul className="mt-4 space-y-3">
                {t.company.links.map((link) => (
                 <li key={link.text}>
-                  <Link href={link.href} className="hover:text-white transition-colors duration-300">
-                    {link.text}
-                  </Link>
+                  {link.id === 'contact' ? (
+                    <button onClick={onContactClick} className="text-left hover:text-white transition-colors duration-300">
+                      {link.text}
+                    </button>
+                  ) : (
+                    <Link href={link.href} className="hover:text-white transition-colors duration-300">
+                      {link.text}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
