@@ -24,14 +24,12 @@ export function LegalModal({ isOpen, onOpenChange, title, content }: LegalModalP
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
         </DialogHeader>
-        <div className="flex-grow overflow-hidden">
-          <ScrollArea className="h-full pr-6">
+        <ScrollArea className="flex-1 -mx-6">
             <div 
-              className="prose prose-sm dark:prose-invert whitespace-pre-wrap" 
+              className="prose prose-sm dark:prose-invert whitespace-pre-wrap px-6" 
               dangerouslySetInnerHTML={{ __html: content }} 
             />
-          </ScrollArea>
-        </div>
+        </ScrollArea>
       </DialogContent>
     </Dialog>
   );
