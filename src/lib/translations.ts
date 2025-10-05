@@ -23,7 +23,7 @@ export const translations = {
       featureList: [
         {
           title: "Facilité d'utilisation",
-          description: "Une interface claire et intuitive, conçue pour la productivité. Toutes vos données sont cryptées pour une sécurité maximale.",
+          description: "Profitez de la puissance des grands modèles de langage dans une interface axée sur la productivité et les résultats, sans jamais compromettre la confidentialité de vos données. L'efficacité que vous connaissez, la sécurité en plus.",
         },
         {
           title: 'Confidentialité Absolue',
@@ -200,7 +200,7 @@ export const translations = {
       featureList: [
         {
           title: 'Ease of Use',
-          description: 'A clear and intuitive interface, designed for productivity. All your data is encrypted for maximum security.',
+          description: "Enjoy the power of large language models in an interface focused on productivity and results, without ever compromising the confidentiality of your data. The efficiency you know, with added security.",
         },
         {
           title: 'Absolute Confidentiality',
@@ -377,7 +377,7 @@ export const translations = {
       featureList: [
         {
           title: 'Benutzerfreundlichkeit',
-          description: 'Eine klare und intuitive Benutzeroberfläche, die auf Produktivität ausgelegt ist. Alle Ihre Daten werden für maximale Sicherheit verschlüsselt.',
+          description: 'Nutzen Sie die Leistung großer Sprachmodelle in einer auf Produktivität und Ergebnisse ausgerichteten Oberfläche, ohne jemals die Vertraulichkeit Ihrer Daten zu gefährden. Die Effizienz, die Sie kennen, mit zusätzlicher Sicherheit.',
         },
         {
           title: 'Absolute Vertraulichkeit',
@@ -554,7 +554,7 @@ export const translations = {
       featureList: [
         {
           title: "Facilità d'uso",
-          description: "Un'interfaccia chiara e intuitiva, progettata per la produttività. Tutti i tuoi dati sono crittografati per la massima sicurezza.",
+          description: "Sfrutta la potenza dei grandi modelli linguistici in un'interfaccia incentrata sulla produttività e sui risultati, senza mai compromettere la riservatezza dei tuoi dati. L'efficienza che conosci, con una sicurezza aggiuntiva.",
         },
         {
           title: 'Riservatezza Assoluta',
