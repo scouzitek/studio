@@ -4,12 +4,14 @@ import { Shield } from 'lucide-react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
+import { LegalContentType } from '@/components/landing/legal-modal';
 
 interface FooterProps {
   onContactClick: () => void;
+  onLegalClick: (type: LegalContentType) => void;
 }
 
-export default function Footer({ onContactClick }: FooterProps) {
+export default function Footer({ onContactClick, onLegalClick }: FooterProps) {
   const { language } = useLanguage();
   const t = translations[language].footer;
 
@@ -52,13 +54,16 @@ export default function Footer({ onContactClick }: FooterProps) {
           <div>
             <h3 className="font-headline font-semibold text-white tracking-wider uppercase">{t.legal.title}</h3>
             <ul className="mt-4 space-y-3">
-              {t.legal.links.map((link) => (
-                <li key={link.text}>
-                  <Link href={link.href} className="hover:text-white transition-colors duration-300">
-                    {link.text}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <button onClick={() => onLegalClick('privacy')} className="text-left hover:text-white transition-colors duration-300">
+                  {t.legal.links[0].text}
+                </button>
+              </li>
+              <li>
+                <button onClick={() => onLegalClick('terms')} className="text-left hover:text-white transition-colors duration-300">
+                  {t.legal.links[1].text}
+                </button>
+              </li>
             </ul>
           </div>
 
