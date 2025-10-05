@@ -18,7 +18,7 @@ export const translations = {
       mainDescription: 'Notre application repose sur trois principes fondamentaux pour garantir la sécurité et la confidentialité de vos données.',
       conceptBox: {
         title: "Qu'est-ce que Novix ?",
-        text: "Novix AI réconcilie la puissance de l'IA avec le respect absolu de votre vie privée. Contrairement aux solutions traditionnelles, vos conversations ne sont pas stockées sur des serveurs externes. Elles sont enregistrées et cryptées uniquement sur votre appareil. Vous bénéficiez ainsi d'une IA performante tout en gardant le contrôle total sur vos informations, pour une expérience intelligente, sécurisée et 100% confidentielle."
+        text: "Développé au cœur de la Suisse, Novix AI est le fruit de l'excellence et de la fiabilité helvétiques. Nos modèles d'intelligence artificielle sont hébergés exclusivement sur des serveurs suisses, garantissant une souveraineté totale de vos données. Alors que vos conversations restent cryptées sur votre appareil, l'inférence est réalisée en Suisse, sous la protection des lois les plus strictes au monde. Bénéficiez d'une IA de pointe, synonyme de 'Swiss Quality', alliant performance, sécurité et confidentialité absolue."
       },
       featureList: [
         {
@@ -195,7 +195,7 @@ export const translations = {
       mainDescription: 'Our application is based on three fundamental principles to ensure the security and confidentiality of your data.',
       conceptBox: {
         title: 'What is Novix?',
-        text: 'Novix AI reconciles the power of AI with absolute respect for your privacy. Unlike traditional solutions, your conversations are not stored on external servers. They are saved and encrypted only on your device. This allows you to benefit from powerful AI while maintaining full control over your information, for an intelligent, secure, and 100% confidential experience.'
+        text: 'Developed in the heart of Switzerland, Novix AI is the result of Swiss excellence and reliability. Our artificial intelligence models are hosted exclusively on Swiss servers, guaranteeing total sovereignty of your data. While your conversations remain encrypted on your device, inference is carried out in Switzerland, under the protection of the strictest laws in the world. Benefit from cutting-edge AI, synonymous with "Swiss Quality", combining performance, security, and absolute confidentiality.'
       },
       featureList: [
         {
@@ -372,7 +372,7 @@ export const translations = {
       mainDescription: 'Unsere Anwendung basiert auf drei Grundprinzipien, um die Sicherheit und Vertraulichkeit Ihrer Daten zu gewährleisten.',
       conceptBox: {
         title: 'Was ist Novix?',
-        text: 'Novix AI bringt die Leistung von KI mit dem absoluten Respekt für Ihre Privatsphäre in Einklang. Im Gegensatz zu herkömmlichen Lösungen werden Ihre Gespräche nicht auf externen Servern gespeichert. Sie werden nur auf Ihrem Gerät gespeichert und verschlüsselt. So profitieren Sie von einer leistungsstarken KI und behalten gleichzeitig die volle Kontrolle über Ihre Informationen – für eine intelligente, sichere und 100% vertrauliche Erfahrung.'
+        text: 'Im Herzen der Schweiz entwickelt, ist Novix AI das Ergebnis von Schweizer Exzellenz und Zuverlässigkeit. Unsere künstlichen Intelligenzmodelle werden ausschliesslich auf Schweizer Servern gehostet, was die totale Souveränität Ihrer Daten garantiert. Während Ihre Gespräche auf Ihrem Gerät verschlüsselt bleiben, wird die Inferenz in der Schweiz durchgeführt, unter dem Schutz der strengsten Gesetze der Welt. Profitieren Sie von einer hochmodernen KI, die für "Swiss Quality" steht und Leistung, Sicherheit und absolute Vertraulichkeit vereint.'
       },
       featureList: [
         {
@@ -549,7 +549,7 @@ export const translations = {
       mainDescription: 'La nostra applicazione si basa su tre principi fondamentali per garantire la sicurezza e la riservatezza dei tuoi dati.',
       conceptBox: {
         title: 'Cos\'è Novix?',
-        text: 'Novix AI concilia la potenza dell\'IA con il rispetto assoluto della tua privacy. A differenza delle soluzioni tradizionali, le tue conversazioni non vengono archiviate su server esterni. Vengono salvate e crittografate solo sul tuo dispositivo. In questo modo, puoi beneficiare di un\'IA potente mantenendo il pieno controllo sulle tue informazioni, per un\'esperienza intelligente, sicura e confidenziale al 100%.'
+        text: 'Sviluppato nel cuore della Svizzera, Novix AI è il risultato dell\'eccellenza e dell\'affidabilità svizzere. I nostri modelli di intelligenza artificiale sono ospitati esclusivamente su server svizzeri, garantendo la totale sovranità dei tuoi dati. Mentre le tue conversazioni rimangono crittografate sul tuo dispositivo, l\'inferenza viene eseguita in Svizzera, sotto la protezione delle leggi più severe al mondo. Approfitta di un\'IA all\'avanguardia, sinonimo di "Swiss Quality", che combina prestazioni, sicurezza e assoluta riservatezza.'
       },
       featureList: [
         {
@@ -709,7 +709,3 @@ export const translations = {
     },
   },
 };
-
-    
-    
-    
