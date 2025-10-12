@@ -26,7 +26,7 @@ export const translations = {
       featureList: [
         {
           title: "Facilité d'utilisation",
-          description: "Profitez d'une interface axée sur la productivité, offrant l'efficacité des LLMs sans compromettre la sécurité de vos données.",
+          description: "Boostez votre productivité au quotidien. Traduisez des documents, analysez des textes complexes, recherchez sur Internet ou générez du code, le tout dans une interface intuitive et sécurisée.",
         },
         {
           title: 'Confidentialité Absolue',
@@ -220,7 +220,7 @@ export const translations = {
       featureList: [
         {
           title: 'Ease of Use',
-          description: "Enjoy a productivity-focused interface that delivers the efficiency of LLMs without compromising your data's security.",
+          description: "Boost your daily productivity. Translate documents, analyze complex texts, search the internet, or generate code, all within an intuitive and secure interface.",
         },
         {
           title: 'Absolute Confidentiality',
@@ -414,7 +414,7 @@ export const translations = {
       featureList: [
         {
           title: 'Benutzerfreundlichkeit',
-          description: 'Geniessen Sie eine produktivitätsorientierte Benutzeroberfläche, die die Effizienz von LLMs bietet, ohne die Sicherheit Ihrer Daten zu beeinträchtigen.',
+          description: 'Steigern Sie Ihre tägliche Produktivität. Übersetzen Sie Dokumente, analysieren Sie komplexe Texte, suchen Sie im Internet oder generieren Sie Code – alles in einer intuitiven und sicheren Oberfläche.',
         },
         {
           title: 'Absolute Vertraulichkeit',
@@ -608,7 +608,7 @@ export const translations = {
       featureList: [
         {
           title: "Facilità d'uso",
-          description: "Goditi un'interfaccia incentrata sulla produttività che offre l'efficienza dei LLM senza compromettere la sicurezza dei tuoi dati.",
+          description: "Aumenta la tua produttività quotidiana. Traduci documenti, analizza testi complessi, cerca su Internet o genera codice, tutto in un'interfaccia intuitiva e sicura.",
         },
         {
           title: 'Riservatezza Assoluta',
@@ -791,5 +791,7 @@ cta: 'Inizia',
 
 
 
+
+    
 
     
