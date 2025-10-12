@@ -4,11 +4,11 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
 
-const featureIcons = [
-  <Cpu key="1" className="w-10 h-10 text-destructive" />,
-  <ShieldCheck key="2" className="w-10 h-10 text-destructive" />,
-  <MousePointerClick key="3" className="w-10 h-10 text-destructive" />,
-];
+const featureIcons = {
+  "Facilité d'utilisation": <Cpu key="1" className="w-10 h-10 text-destructive" />,
+  "Confidentialité Absolue": <ShieldCheck key="2" className="w-10 h-10 text-destructive" />,
+  "Stockage Local": <MousePointerClick key="3" className="w-10 h-10 text-destructive" />,
+};
 
 export default function Features() {
   const { language } = useLanguage();
@@ -30,7 +30,7 @@ export default function Features() {
           {t.featureList.map((feature, index) => (
             <Card key={index} className="flex flex-col bg-card hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="flex flex-col items-center text-center gap-4 p-6">
-                {featureIcons[index]}
+                {featureIcons[feature.title as keyof typeof featureIcons]}
                 <CardTitle className="font-headline text-2xl">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow text-center font-body text-muted-foreground px-6 pb-6">
