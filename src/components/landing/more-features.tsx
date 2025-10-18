@@ -1,30 +1,37 @@
 'use client';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { useLanguage } from '@/context/language-context';
-import { translations } from '@/lib/translations';
 
-const featureImageIds = ['feature-secure', 'feature-local', 'feature-export'];
-const imageSides = ['left', 'right', 'left'];
+interface Feature {
+  id: string;
+  title: string;
+  description: string;
+  imageId: string;
+}
 
-export default function MoreFeatures() {
-  const { language } = useLanguage();
-  const t = translations[language].moreFeatures;
+interface MoreFeaturesProps {
+  mainTitle: string;
+  mainDescription: string;
+  featureList: Feature[];
+}
+
+export default function MoreFeatures({ mainTitle, mainDescription, featureList }: MoreFeaturesProps) {
+  const imageSides = ['left', 'right', 'left'];
 
   return (
-    <section id="trust" className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl">{t.mainTitle}</h2>
+            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl">{mainTitle}</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              {t.mainDescription}
+              {mainDescription}
             </p>
           </div>
         </div>
         <div className="space-y-20">
-          {t.featureList.map((feature, index) => {
-            const image = PlaceHolderImages.find((img) => img.id === featureImageIds[index]);
+          {featureList.map((feature, index) => {
+            const image = PlaceHolderImages.find((img) => img.id === feature.imageId);
             const imageComponent = image && (
               <div className="flex justify-center">
                 <Image

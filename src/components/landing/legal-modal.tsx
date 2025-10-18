@@ -20,11 +20,11 @@ interface LegalModalProps {
 export function LegalModal({ isOpen, onOpenChange, title, content }: LegalModalProps) {
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-3xl max-h-[90vh]">
+      <DialogContent className="sm:max-w-3xl h-[90vh] flex flex-col">
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
         </DialogHeader>
-        <ScrollArea className="h-[70vh] pr-4">
+        <ScrollArea className="flex-grow pr-4">
           <div 
             className="prose prose-sm dark:prose-invert whitespace-pre-wrap" 
             dangerouslySetInnerHTML={{ __html: content }} 

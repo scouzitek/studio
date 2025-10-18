@@ -1,46 +1,42 @@
 'use client';
 import { ShieldCheck, Rocket } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { useLanguage } from '@/context/language-context';
-import { translations } from '@/lib/translations';
 
-const featureIcons: { [key: string]: JSX.Element } = {
-  "Novix PRIVATE : Le Penseur": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
-  "Novix ACTION : L'Agent Exécutif": <Rocket key="2" className="w-10 h-10 text-destructive" />,
+const icons: { [key: string]: JSX.Element } = {
+  private: <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
+  action: <Rocket key="2" className="w-10 h-10 text-destructive" />,
 };
 
-export default function Features() {
-  const { language } = useLanguage();
-  const t = translations[language].features;
+interface Feature {
+    title: string;
+    description: string;
+    iconId: 'private' | 'action';
+}
 
-  const nonFrIcons: { [key: string]: JSX.Element } = {
-    "Novix PRIVATE: The Thinker": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
-    "Novix ACTION: The Executive Agent": <Rocket key="2" className="w-10 h-10 text-destructive" />,
-    "Novix PRIVATE: Der Denker": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
-    "Novix ACTION: Der ausführende Agent": <Rocket key="2" className="w-10 h-10 text-destructive" />,
-    "Novix PRIVATE: Il Pensatore": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
-    "Novix ACTION: L'Agente Esecutivo": <Rocket key="2" className="w-10 h-10 text-destructive" />,
-  };
-  
-  const icons = language === 'fr' ? featureIcons : nonFrIcons;
+interface FeaturesProps {
+  mainTitle: string;
+  mainDescription: string;
+  featureList: Feature[];
+}
 
+export default function Features({ mainTitle, mainDescription, featureList }: FeaturesProps) {
   return (
-    <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-background">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl">{t.mainTitle}</h2>
+            <h2 className="text-3xl font-bold tracking-tighter font-headline sm:text-5xl">{mainTitle}</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-body">
-              {t.mainDescription}
+              {mainDescription}
             </p>
           </div>
         </div>
         
         <div className="mx-auto grid max-w-5xl items-stretch gap-8 sm:grid-cols-2 md:gap-12 mt-12">
-          {t.featureList.map((feature, index) => (
+          {featureList.map((feature, index) => (
             <Card key={index} className="flex flex-col bg-card hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="flex flex-col items-center text-center gap-4 p-6">
-                {icons[feature.title as keyof typeof icons]}
+                {icons[feature.iconId]}
                 <CardTitle className="font-headline text-2xl">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow text-center font-body text-muted-foreground px-6 pb-6">
@@ -53,5 +49,3 @@ export default function Features() {
     </section>
   );
 }
-
-    

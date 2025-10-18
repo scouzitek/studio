@@ -4,7 +4,7 @@ import { translations } from '@/lib/translations';
 
 export default function Concept() {
   const { language } = useLanguage();
-  const t = translations[language].features.conceptBox;
+  const t = translations[language].concept;
 
   return (
     <section id="concept" className="w-full py-12 md:py-24 lg:py-32 bg-background">
