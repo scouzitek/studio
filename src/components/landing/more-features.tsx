@@ -32,18 +32,18 @@ export default function MoreFeatures({ mainTitle, mainDescription, featureList }
         <div className="space-y-20">
           {featureList.map((feature, index) => {
             const image = PlaceHolderImages.find((img) => img.id === feature.imageId);
+            
             const imageComponent = image && (
-              <div className="flex justify-center">
                 <Image
                   src={image.imageUrl}
                   alt={image.description}
                   width={600}
                   height={500}
-                  className="rounded-lg object-cover shadow-2xl aspect-[6/5]"
+                  className="rounded-lg object-cover shadow-2xl aspect-[6/5] mx-auto"
                   data-ai-hint={image.imageHint}
                 />
-              </div>
             );
+
             const textComponent = (
               <div className="flex flex-col justify-center space-y-4">
                 <h3 className="text-3xl font-bold font-headline">{feature.title}</h3>
@@ -55,7 +55,7 @@ export default function MoreFeatures({ mainTitle, mainDescription, featureList }
 
             return (
               <div key={feature.id} className="grid gap-12 lg:grid-cols-2 lg:gap-20 items-center">
-                <div className={`flex flex-col gap-12 ${imageSides[index % imageSides.length] === 'right' ? 'lg:order-last' : ''}`}>
+                <div className={`${imageSides[index % imageSides.length] === 'right' ? 'lg:order-last' : ''}`}>
                   {imageComponent}
                 </div>
                 {textComponent}
@@ -67,4 +67,3 @@ export default function MoreFeatures({ mainTitle, mainDescription, featureList }
     </section>
   );
 }
-
