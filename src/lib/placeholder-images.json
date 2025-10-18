@@ -21,26 +21,26 @@
     {
       "id": "feature-export",
       "description": "Illustration for data export showing data flowing between devices",
-      "imageUrl": "https://images.unsplash.com/photo-1746014601017-4e515ef51722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGF0YSUyMHRyYW5zZmVyfGVufDB8fHx8MTc1OTE4MDM3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1746014601017-4e515ef51722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGF0YSUyMHRyYW5zZmVyfGVufDB8fHx8MTc1OTE4MDM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "data transfer"
     },
     {
       "id": "feature-green",
       "description": "Illustration for green AI showing a leaf with circuits",
-      "imageUrl": "https://images.unsplash.com/photo-1554769945-af468c934022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncmVlbiUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzU5MTgwODU5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1554769945-af468c934022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncmVlbiUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzU5MTgwODU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "green technology"
     },
     {
       "id": "cta-personal",
       "description": "A person working creatively on a laptop in a cozy environment.",
-      "imageUrl": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGF2aWVyJTIwY3JlYXRpdmV8ZW58MHx8fHwxNzU5MjU0ODg5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGF2aWVyJTIwY3JlYXRpdmV8ZW58MHx8fHwxNzU5MjU0ODg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "creative workspace"
     },
     {
       "id": "cta-business",
       "description": "A modern and secure office environment, representing data privacy for businesses.",
-      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzYwNDAwNzU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "business team"
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHRlY2h8ZW58MHx8fHwxNzYwNDAyMjA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business tech"
     }
   ]
 }
