@@ -12,7 +12,7 @@ export const translations = {
     hero: {
       title: 'Novix',
       subtitle: "L'IA qui Pense ET Agit.",
-      description: "L'IA de confiance qui protège vos idées, sans jamais les collecter.",
+      description: "Une puissance sans limite, une confidentialité absolue.",
       ctaDownloadApp: "Télécharger l'app",
       ctaTryFree: 'Essayer gratuitement',
     },
@@ -206,7 +206,7 @@ export const translations = {
     hero: {
       title: 'Novix',
       subtitle: 'The AI that Thinks AND Acts.',
-      description: "The trusted AI that protects your ideas, without ever collecting them.",
+      description: "Unlimited power, absolute privacy.",
       ctaDownloadApp: 'Download the App',
       ctaTryFree: 'Try for free',
     },
@@ -400,7 +400,7 @@ export const translations = {
     hero: {
       title: 'Novix',
       subtitle: 'Die KI, die denkt UND handelt.',
-      description: 'Die vertrauenswürdige KI, die Ihre Ideen schützt, ohne sie jemals zu sammeln.',
+      description: 'Unbegrenzte Leistung, absolute Vertraulichkeit.',
       ctaDownloadApp: 'App herunterladen',
       ctaTryFree: 'Kostenlos ausprobieren',
     },
@@ -594,7 +594,7 @@ export const translations = {
     hero: {
       title: 'Novix',
       subtitle: "L'IA che Pensa E Agisce.",
-      description: "L'IA affidabile che protegge le tue idee, senza mai raccoglierle.",
+      description: "Potenza illimitata, privacy assoluta.",
       ctaDownloadApp: "Scarica l'app",
       ctaTryFree: 'Prova gratuitamente',
     },
@@ -777,23 +777,3 @@ cta: 'Inizia',
     }
   },
 };
-
-    
-    
-
-    
-
-
-
-
-    
-
-
-
-
-
-    
-
-    
-
-    
