@@ -19,7 +19,7 @@ export default function MoreFeatures({ mainTitle, mainDescription, featureList }
   const imageSides = ['left', 'right', 'left'];
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section id="trust" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
@@ -55,7 +55,7 @@ export default function MoreFeatures({ mainTitle, mainDescription, featureList }
 
             return (
               <div key={feature.id} className="grid gap-12 lg:grid-cols-2 lg:gap-20 items-center">
-                <div className={`flex flex-col gap-12 ${imageSides[index] === 'right' ? 'lg:order-last' : ''}`}>
+                <div className={`flex flex-col gap-12 ${imageSides[index % imageSides.length] === 'right' ? 'lg:order-last' : ''}`}>
                   {imageComponent}
                 </div>
                 {textComponent}
@@ -67,3 +67,4 @@ export default function MoreFeatures({ mainTitle, mainDescription, featureList }
     </section>
   );
 }
+

@@ -2,9 +2,9 @@
 import { ShieldCheck, Rocket } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 
-const icons: { [key: string]: JSX.Element } = {
-  private: <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
-  action: <Rocket key="2" className="w-10 h-10 text-destructive" />,
+const icons: { [key: string]: React.ReactNode } = {
+  private: <ShieldCheck className="w-10 h-10 text-destructive" />,
+  action: <Rocket className="w-10 h-10 text-destructive" />,
 };
 
 interface Feature {
@@ -21,7 +21,7 @@ interface FeaturesProps {
 
 export default function Features({ mainTitle, mainDescription, featureList }: FeaturesProps) {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
+    <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -49,3 +49,4 @@ export default function Features({ mainTitle, mainDescription, featureList }: Fe
     </section>
   );
 }
+

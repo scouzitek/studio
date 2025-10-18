@@ -26,37 +26,42 @@ export const translations = {
     },
     private: {
       features: {
-        mainTitle: 'Un Penseur à votre service',
-        mainDescription: "Explorez les capacités de Novix Private, votre partenaire de confiance pour la réflexion et la créativité.",
+        mainTitle: 'Novix Private : Le Penseur',
+        mainDescription: "Votre partenaire de réflexion confidentiel. Idéal pour brainstormer, rédiger, analyser et créer en toute sérénité. Vos idées restent les vôtres, toujours.",
         featureList: [
           {
-            title: "Novix PRIVATE : Le Penseur",
-            description: "La Souveraineté des Données. Bénéficiez de l'IA 'Swiss Quality'. Inférence exclusivement sur serveurs suisses pour une confidentialité absolue. Vos données sont protégées par les lois les plus strictes au monde.",
+            title: "Créativité & Productivité sans limites",
+            description: "De la rédaction d'e-mails à l'écriture de scénarios, en passant par la traduction ou la génération de code, Novix Private est votre partenaire de réflexion. Affinez vos textes, explorez de nouveaux angles et surmontez le syndrome de la page blanche.",
+            iconId: 'private'
+          },
+           {
+            title: "Analyse et synthèse de documents",
+            description: "Soumettez des documents, des rapports ou des articles. Obtenez des résumés clairs, des analyses pertinentes et des extractions d'informations clés en quelques secondes, sans jamais exposer vos données sources.",
             iconId: 'private'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: "Conçu pour votre confiance",
+        mainTitle: "Conçu pour une confiance absolue",
         mainDescription: "Avec Novix Private, la sécurité et la confidentialité ne sont pas des options, mais le fondement même du produit.",
         featureList: [
           {
             id: 'secure',
-            title: 'Votre Forteresse Numérique',
-            description: "Tout est conçu pour une confidentialité maximale. Vos conversations sont cryptées et stockées exclusivement sur votre appareil. Elles ne sont jamais envoyées sur nos serveurs, sauf pour l'inférence qui s'effectue en Suisse. Personne d'autre que vous ne peut y accéder.",
+            title: 'Votre Forteresse Numérique Personnelle',
+            description: "Chaque conversation est cryptée de bout en bout et stockée exclusivement sur votre appareil. Nos serveurs suisses traitent vos requêtes de manière éphémère et ne conservent aucune trace. Personne d'autre que vous, pas même nous, ne peut accéder à votre historique.",
             imageId: 'feature-secure',
           },
           {
             id: 'export',
-            title: 'Portabilité et Contrôle de vos Données',
-            description: "Vos données vous appartiennent. Vous pouvez exporter l'intégralité de votre historique de conversation à tout moment, dans un format standard. Vous restez maître de vos informations, que vous changiez d'appareil ou souhaitiez simplement archiver vos idées.",
+            title: 'Souveraineté Totale sur Vos Données',
+            description: "Vos données vous appartiennent, sans condition. Exportez l'intégralité de votre historique de conversation à tout moment dans des formats standards (JSON, CSV). Vous restez maître de vos informations pour les archiver, les analyser ou migrer où vous le souhaitez.",
             imageId: 'feature-export',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Des forfaits adaptés à votre usage',
-        mainDescription: 'Une tarification simple et transparente, sans abonnement et sans surprise.',
+        mainTitle: 'Une tarification simple pour les particuliers',
+        mainDescription: 'Pas d\'abonnement, pas de frais cachés. Vous ne payez que ce que vous consommez, en toute transparence.',
         pricingTiers: [
           {
             name: 'Novix Private',
@@ -74,66 +79,75 @@ export const translations = {
       },
       faq: {
         mainTitle: 'Questions fréquentes sur Novix Private',
-        mainDescription: 'Tout ce que vous devez savoir sur notre IA confidentielle.',
+        mainDescription: 'Tout ce que vous devez savoir sur notre IA 100% confidentielle.',
         questions: [
           {
             question: 'Où sont stockées mes conversations ?',
-            answer: "Vos conversations avec Novix Private sont cryptées et stockées exclusivement sur votre propre appareil. Nous n'y avons jamais accès."
+            answer: "Vos conversations avec Novix Private sont cryptées et stockées exclusivement sur votre propre appareil (ordinateur ou smartphone). Nous n'y avons jamais accès."
           },
           {
-            question: "Qu'est-ce qui est envoyé sur vos serveurs ?",
-            answer: "Uniquement la requête que vous tapez (le 'prompt') est envoyée de manière sécurisée à nos serveurs en Suisse pour être traitée par l'IA. La requête n'est pas stockée après le traitement. Votre historique reste local."
+            question: "Qu'est-ce qui est envoyé sur vos serveurs en Suisse ?",
+            answer: "Uniquement la requête que vous tapez (le 'prompt') est envoyée de manière sécurisée et temporaire à nos serveurs en Suisse pour être traitée par l'IA. La requête et la réponse ne sont jamais stockées sur nos serveurs. Votre historique, lui, reste local sur votre appareil."
           },
           {
+            question: "Utilisez-vous mes données pour entraîner vos modèles ?",
+            answer: "Jamais. C'est un engagement fondamental. Vos données ne sont ni stockées, ni utilisées pour entraîner nos modèles d'IA ou ceux de tiers."
+          },
+           {
             question: "Y a-t-il un abonnement ?",
-            answer: "Non. Novix Private pour les particuliers fonctionne avec des forfaits prépayés sans abonnement. Vous achetez un pack de requêtes et vous l'utilisez à votre rythme."
+            answer: "Non. Novix Private pour les particuliers fonctionne avec des forfaits prépayés sans abonnement. Vous achetez un pack de requêtes et vous l'utilisez à votre rythme, sans limite de temps."
           }
         ]
       }
     },
     action: {
       features: {
-        mainTitle: 'Un Acteur à votre commande',
-        mainDescription: "Découvrez la puissance de Novix Action, l'agent IA capable d'exécuter des tâches complexes pour vous.",
+        mainTitle: 'Novix Action : L\'Agent Exécutif',
+        mainDescription: "Déléguez les tâches complexes. Novix Action navigue sur le web, interagit avec des applications et automatise vos processus pour vous donner un avantage concurrentiel.",
         featureList: [
           {
-            title: "Novix ACTION : L'Agent Exécutif",
-            description: "L'Exécution Sans Compromis. Notre Agent d'Action s'active pour agir en ligne, naviguer sur le Web et exécuter du code. Déployez une IA débridée pour les tâches complexes qui exigent de l'action rapide.",
+            title: "Automatisation de la Veille Stratégique",
+            description: "Chargez Novix Action de surveiller vos concurrents, d'analyser les tendances du marché, ou de collecter des données spécifiques sur le web. Il peut suivre des sites, des forums et des réseaux sociaux pour vous fournir des rapports synthétiques et exploitables.",
+            iconId: 'action'
+          },
+          {
+            title: "Agent d'Interaction et d'Exécution",
+            description: "Capable de remplir des formulaires, d'interagir avec des API et même d'exécuter du code dans un environnement sécurisé, Novix Action devient le bras armé de votre stratégie. Automatisez la génération de leads, la qualification de contacts et bien plus encore.",
             iconId: 'action'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: 'Conçu pour l\'efficacité et la sécurité',
-        mainDescription: "Novix Action est conçu pour interagir avec le monde extérieur de manière sécurisée et contrôlée.",
+        mainTitle: 'Conçu pour l\'action, sécurisé par nature',
+        mainDescription: "Novix Action est l'équilibre parfait entre la capacité d'agir sur le monde numérique et la sécurité d'une infrastructure robuste hébergée en Suisse.",
         featureList: [
           {
             id: 'compliance',
-            title: 'Des Actions Maîtrisées',
-            description: "Novix Action est conçu pour interagir avec le monde extérieur en votre nom. Bien que cela implique une connexion à des services en ligne, toutes les opérations sont initiées depuis notre infrastructure sécurisée en Suisse. Nous ne stockons pas les résultats de ses actions, vous garantissant le contrôle.",
+            title: 'Opérations maîtrisées depuis la Suisse',
+            description: "Toutes les actions sont orchestrées depuis notre infrastructure sécurisée en Suisse. Bien que l'agent interagisse avec des services externes, le 'cerveau' de l'opération reste sous la protection des lois suisses, garantissant une supervision et un contrôle stricts des processus.",
             imageId: 'feature-local',
           },
           {
             id: 'integration',
-            title: 'Intégration et Automatisation',
-            description: "Connectez Novix Action à vos outils et flux de travail existants. Automatisez la veille concurrentielle, la génération de rapports, la recherche d'informations et bien plus encore. Libérez le potentiel de votre équipe en déléguant les tâches répétitives.",
+            title: 'Intégration transparente et puissante',
+            description: "Connectez Novix Action à vos outils (CRM, ERP, plateformes d'analyse) via des APIs. Créez des flux de travail personnalisés pour automatiser la génération de rapports, la veille concurrentielle, la recherche d'informations et décuplez la productivité de vos équipes.",
             imageId: 'cta-business',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Des offres pour les professionnels',
-        mainDescription: 'Une tarification évolutive pour les entreprises qui veulent intégrer une véritable force de frappe IA.',
+        mainTitle: 'Des offres sur-mesure pour les professionnels',
+        mainDescription: 'Une tarification évolutive pour les entreprises qui veulent intégrer une véritable force de frappe IA dans leurs opérations.',
         pricingTiers: [
           {
             name: 'Novix Action',
             id: 'business',
             description: "Offre personnalisée pour l'intégration en volume. Accédez à nos forfaits exclusifs utilisateurs illimités et à notre infrastructure suisse sécurisée.",
             features: [
-              'BUSINESS PRO (2 000 CHF/mois) : Jusqu\'à 100 000 requêtes incluses.',
-              'ENTERPRISE MAX (5 000 CHF/mois) : Jusqu\'à 250 000 requêtes incluses.',
-              'AVANTAGE : Nombre d\'utilisateurs/collaborateurs illimité.',
-              'SÉCURITÉ : Déploiement souverain en Suisse, support prioritaire 24/7.',
+              'BUSINESS PRO (2 000 CHF/mois) : Jusqu\'à 100 000 requêtes complexes (actions) incluses.',
+              'ENTERPRISE MAX (5 000 CHF/mois) : Jusqu\'à 250 000 requêtes complexes (actions) incluses.',
+              'AVANTAGE : Nombre d\'utilisateurs/collaborateurs illimité pour chaque licence.',
+              'SÉCURITÉ : Déploiement et supervision depuis la Suisse, support prioritaire 24/7.',
             ],
             cta: 'Nous contacter pour Action',
           }
@@ -144,23 +158,27 @@ export const translations = {
         mainDescription: 'Les réponses à vos questions sur notre agent IA exécutif.',
         questions: [
           {
-            question: 'Mes données sont-elles en sécurité avec Novix Action ?',
-            answer: "Oui. Bien que Novix Action interagisse avec des services en ligne, toutes les opérations sont menées via notre infrastructure sécurisée. Les données sensibles de votre entreprise restent protégées et ne sont pas utilisées pour l'entraînement de modèles tiers."
+            question: 'Comment la sécurité est-elle garantie si l\'agent accède à Internet ?',
+            answer: "La sécurité repose sur notre architecture. Le 'cerveau' de Novix Action, qui décide des actions à entreprendre, est isolé dans notre infrastructure suisse. Seules les requêtes nécessaires sont envoyées à l'extérieur. De plus, toutes les actions sont journalisées pour une traçabilité complète."
           },
           {
             question: 'Quels types de tâches Novix Action peut-il effectuer ?',
-            answer: "Novix Action peut naviguer sur des sites web, collecter et synthétiser des informations, remplir des formulaires, interagir avec des API et exécuter des scripts. Il est idéal pour l'automatisation de la recherche, la veille concurrentielle, la génération de leads, etc."
+            answer: "Il peut naviguer sur des sites web, collecter et synthétiser des informations, remplir des formulaires, interagir avec des API tierces, et exécuter des scripts. Il est parfait pour automatiser la recherche, la veille concurrentielle, la qualification de leads, etc."
           },
           {
-            question: "Comment fonctionne la facturation ?",
-            answer: "Novix Action pour les entreprises est un service par abonnement mensuel basé sur le volume de requêtes, avec un nombre d'utilisateurs illimité. Contactez-nous pour un devis personnalisé."
+            question: "Est-ce que Novix Action stocke les données qu'il collecte ?",
+            answer: "Non, par défaut. Novix Action traite les données de manière volatile pour accomplir sa mission. Il ne stocke les résultats que si vous le configurez explicitement pour le faire, par exemple en lui demandant de remplir votre CRM ou de générer un fichier de rapport."
+          },
+          {
+            question: "Comment fonctionne la facturation pour les entreprises ?",
+            answer: "Novix Action est un service par abonnement mensuel basé sur le volume de requêtes complexes (actions), avec un nombre d'utilisateurs illimité par licence. Contactez-nous pour une démonstration et un devis personnalisé."
           }
         ]
       }
     },
     contactForm: {
       title: "Contactez-nous",
-      description: "Remplissez ce formulaire pour discuter de nos offres pour entreprise.",
+      description: "Remplissez ce formulaire pour discuter de nos offres pour entreprise et obtenir une démonstration de Novix Action.",
       companyName: "Nom de l'entreprise",
       firstName: "Prénom",
       lastName: "Nom",
@@ -170,9 +188,9 @@ export const translations = {
       city: "Ville",
       zipCode: "Code Postal",
       country: "Pays",
-      userCount: "Nombre d'utilisateurs",
-      submit: "Envoyer",
-      success: "Votre message a été envoyé avec succès.",
+      userCount: "Nombre d'utilisateurs potentiels",
+      submit: "Demander une démo",
+      success: "Votre demande a été envoyée avec succès. Nous vous recontacterons rapidement.",
       error: "Une erreur est survenue lors de l'envoi du message.",
     },
     footer: {
@@ -249,37 +267,42 @@ export const translations = {
     },
     private: {
       features: {
-        mainTitle: 'A Thinker at Your Service',
-        mainDescription: "Explore the capabilities of Novix Private, your trusted partner for thought and creativity.",
+        mainTitle: 'Novix Private: The Thinker',
+        mainDescription: "Your confidential thinking partner. Ideal for brainstorming, writing, analyzing, and creating with complete peace of mind. Your ideas remain yours, always.",
         featureList: [
           {
-            title: "Novix PRIVATE: The Thinker",
-            description: "Data Sovereignty. Benefit from 'Swiss Quality' AI. Inference exclusively on Swiss servers for absolute privacy. Your data is protected by the strictest laws in the world.",
+            title: "Limitless Creativity & Productivity",
+            description: "From drafting emails to writing scripts, translating, or generating code, Novix Private is your thinking partner. Refine your texts, explore new angles, and overcome writer's block.",
+            iconId: 'private'
+          },
+           {
+            title: "Document Analysis and Synthesis",
+            description: "Submit documents, reports, or articles. Get clear summaries, relevant analyses, and key information extraction in seconds, without ever exposing your source data.",
             iconId: 'private'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: "Designed for Your Trust",
+        mainTitle: "Designed for Absolute Trust",
         mainDescription: "With Novix Private, security and privacy are not options, but the very foundation of the product.",
         featureList: [
           {
             id: 'secure',
-            title: 'Your Digital Fortress',
-            description: "Everything is designed for maximum privacy. Your conversations are encrypted and stored exclusively on your device. They are never sent to our servers, except for inference which takes place in Switzerland. No one but you can access them.",
+            title: 'Your Personal Digital Fortress',
+            description: "Every conversation is end-to-end encrypted and stored exclusively on your device. Our Swiss servers process your requests ephemerally and keep no records. No one but you, not even us, can access your history.",
             imageId: 'feature-secure',
           },
           {
             id: 'export',
-            title: 'Data Portability and Control',
-            description: "Your data is yours. You can export your entire conversation history at any time, in a standard format. You remain in control of your information, whether you switch devices or simply want to archive your ideas.",
+            title: 'Total Sovereignty Over Your Data',
+            description: "Your data is yours, unconditionally. Export your entire conversation history at any time in standard formats (JSON, CSV). You remain in control of your information to archive, analyze, or migrate it wherever you want.",
             imageId: 'feature-export',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Plans Adapted to Your Usage',
-        mainDescription: 'Simple and transparent pricing, without subscriptions or surprises.',
+        mainTitle: 'Simple pricing for individuals',
+        mainDescription: 'No subscription, no hidden fees. You only pay for what you use, with full transparency.',
         pricingTiers: [
           {
             name: 'Novix Private',
@@ -297,66 +320,75 @@ export const translations = {
       },
       faq: {
         mainTitle: 'Frequently Asked Questions about Novix Private',
-        mainDescription: 'Everything you need to know about our confidential AI.',
+        mainDescription: 'Everything you need to know about our 100% confidential AI.',
         questions: [
           {
             question: 'Where are my conversations stored?',
-            answer: 'Your conversations with Novix Private are encrypted and stored exclusively on your own device. We never have access to them.'
+            answer: 'Your conversations with Novix Private are encrypted and stored exclusively on your own device (computer or smartphone). We never have access to them.'
           },
           {
-            question: 'What is sent to your servers?',
-            answer: "Only the prompt you type is securely sent to our servers in Switzerland to be processed by the AI. The prompt is not stored after processing. Your history remains local."
+            question: 'What is sent to your servers in Switzerland?',
+            answer: "Only the prompt you type is securely and temporarily sent to our servers in Switzerland to be processed by the AI. The prompt and response are never stored on our servers. Your history remains local on your device."
           },
           {
+            question: 'Do you use my data to train your models?',
+            answer: 'Never. This is a fundamental commitment. Your data is not stored or used to train our AI models or those of third parties.'
+          },
+           {
             question: 'Is there a subscription?',
-            answer: 'No. Novix Private for individuals works with prepaid plans without a subscription. You buy a request bundle and use it at your own pace.'
+            answer: 'No. Novix Private for individuals works with prepaid plans without a subscription. You buy a request bundle and use it at your own pace, with no time limit.'
           }
         ]
       }
     },
     action: {
       features: {
-        mainTitle: 'An Actor at Your Command',
-        mainDescription: "Discover the power of Novix Action, the AI agent capable of executing complex tasks for you.",
+        mainTitle: 'Novix Action: The Executive Agent',
+        mainDescription: "Delegate complex tasks. Novix Action browses the web, interacts with applications, and automates your processes to give you a competitive edge.",
         featureList: [
           {
-            title: "Novix ACTION: The Executive Agent",
-            description: "Execution Without Compromise. Our Action Agent gets to work online, navigating the web and executing code. Deploy an unbridled AI for complex tasks that demand swift action.",
+            title: "Strategic Intelligence Automation",
+            description: "Task Novix Action with monitoring your competitors, analyzing market trends, or collecting specific data from the web. It can track sites, forums, and social networks to provide you with concise and actionable reports.",
+            iconId: 'action'
+          },
+          {
+            title: "Interaction and Execution Agent",
+            description: "Capable of filling out forms, interacting with APIs, and even executing code in a secure environment, Novix Action becomes the armed wing of your strategy. Automate lead generation, contact qualification, and much more.",
             iconId: 'action'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: 'Designed for Efficiency and Security',
-        mainDescription: "Novix Action is designed to interact with the outside world securely and in a controlled manner.",
+        mainTitle: 'Designed for Action, Secure by Nature',
+        mainDescription: "Novix Action is the perfect balance between the ability to act on the digital world and the security of a robust infrastructure hosted in Switzerland.",
         featureList: [
           {
             id: 'compliance',
-            title: 'Controlled Actions',
-            description: "Novix Action is designed to interact with the outside world on your behalf. Although this involves connecting to online services, all operations are initiated from our secure infrastructure in Switzerland. We do not store the results of its actions, ensuring you remain in control.",
+            title: 'Operations Controlled from Switzerland',
+            description: "All actions are orchestrated from our secure infrastructure in Switzerland. Although the agent interacts with external services, the 'brain' of the operation remains under the protection of Swiss laws, ensuring strict supervision and control of processes.",
             imageId: 'feature-local',
           },
           {
             id: 'integration',
-            title: 'Integration and Automation',
-            description: "Connect Novix Action to your existing tools and workflows. Automate competitive intelligence, report generation, information retrieval, and much more. Unleash your team's potential by delegating repetitive tasks.",
+            title: 'Seamless and Powerful Integration',
+            description: "Connect Novix Action to your tools (CRM, ERP, analytics platforms) via APIs. Create custom workflows to automate report generation, competitive intelligence, information retrieval, and multiply your team's productivity.",
             imageId: 'cta-business',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Offers for Professionals',
-        mainDescription: 'Scalable pricing for businesses that want to integrate a true AI powerhouse.',
+        mainTitle: 'Tailor-made offers for professionals',
+        mainDescription: 'Scalable pricing for companies that want to integrate a true AI strike force into their operations.',
         pricingTiers: [
           {
             name: 'Novix Action',
             id: 'business',
             description: 'Custom offer for volume integration. Access our exclusive unlimited user plans and our secure Swiss infrastructure.',
             features: [
-              'BUSINESS PRO (2,000 CHF/month): Up to 100,000 requests included.',
-              'ENTERPRISE MAX (5,000 CHF/month): Up to 250,000 requests included.',
-              'ADVANTAGE: Unlimited number of users/employees.',
-              'SECURITY: Sovereign deployment in Switzerland, 24/7 priority support.',
+              'BUSINESS PRO (2,000 CHF/month): Up to 100,000 complex requests (actions) included.',
+              'ENTERPRISE MAX (5,000 CHF/month): Up to 250,000 complex requests (actions) included.',
+              'ADVANTAGE: Unlimited number of users/employees for each license.',
+              'SECURITY: Deployment and supervision from Switzerland, 24/7 priority support.',
             ],
             cta: 'Contact Us for Action',
           }
@@ -367,23 +399,27 @@ export const translations = {
         mainDescription: 'Answers to your questions about our executive AI agent.',
         questions: [
           {
-            question: 'Is my data secure with Novix Action?',
-            answer: 'Yes. Although Novix Action interacts with online services, all operations are conducted through our secure infrastructure. Your company\'s sensitive data remains protected and is not used for training third-party models.'
+            question: 'How is security guaranteed if the agent accesses the Internet?',
+            answer: 'Security is based on our architecture. The "brain" of Novix Action, which decides which actions to take, is isolated in our Swiss infrastructure. Only the necessary requests are sent externally. In addition, all actions are logged for complete traceability.'
           },
           {
             question: 'What types of tasks can Novix Action perform?',
-            answer: "Novix Action can browse websites, collect and summarize information, fill out forms, interact with APIs, and execute scripts. It is ideal for automating research, competitive intelligence, lead generation, etc."
+            answer: "It can browse websites, collect and summarize information, fill out forms, interact with third-party APIs, and execute scripts. It is perfect for automating research, competitive intelligence, lead qualification, etc."
           },
           {
-            question: 'How does billing work?',
-            answer: "Novix Action for businesses is a monthly subscription service based on request volume, with an unlimited number of users. Contact us for a custom quote."
+            question: "Does Novix Action store the data it collects?",
+            answer: "No, by default. Novix Action processes data volatilely to accomplish its mission. It only stores the results if you explicitly configure it to do so, for example by asking it to fill your CRM or generate a report file."
+          },
+          {
+            question: 'How does billing work for businesses?',
+            answer: "Novix Action for businesses is a monthly subscription service based on the volume of complex requests (actions), with an unlimited number of users per license. Contact us for a demonstration and a custom quote."
           }
         ]
       }
     },
     contactForm: {
       title: "Contact Us",
-      description: "Fill out this form to discuss our business offerings.",
+      description: "Fill out this form to discuss our business offerings and get a demo of Novix Action.",
       companyName: "Company Name",
       firstName: "First Name",
       lastName: "Last Name",
@@ -393,9 +429,9 @@ export const translations = {
       city: "City",
       zipCode: "Zip Code",
       country: "Country",
-      userCount: "Number of Users",
-      submit: "Submit",
-      success: "Your message has been sent successfully.",
+      userCount: "Number of potential users",
+      submit: "Request a demo",
+      success: "Your request has been sent successfully. We will contact you shortly.",
       error: "An error occurred while sending the message.",
     },
     footer: {
@@ -472,37 +508,42 @@ export const translations = {
     },
     private: {
       features: {
-        mainTitle: 'Ein Denker zu Ihren Diensten',
-        mainDescription: "Entdecken Sie die Fähigkeiten von Novix Private, Ihrem vertrauenswürdigen Partner für Denken und Kreativität.",
+        mainTitle: 'Novix Private: Der Denker',
+        mainDescription: "Ihr vertraulicher Denkpartner. Ideal zum Brainstorming, Schreiben, Analysieren und Gestalten in aller Ruhe. Ihre Ideen bleiben Ihre, für immer.",
         featureList: [
           {
-            title: "Novix PRIVATE: Der Denker",
-            description: "Datensouveränität. Profitieren Sie von 'Swiss Quality' KI. Inferenz ausschließlich auf Schweizer Servern für absolute Vertraulichkeit. Ihre Daten sind durch die strengsten Gesetze der Welt geschützt.",
+            title: "Grenzenlose Kreativität & Produktivität",
+            description: "Vom Verfassen von E-Mails über das Schreiben von Drehbüchern bis hin zum Übersetzen oder Generieren von Code – Novix Private ist Ihr Denkpartner. Verfeinern Sie Ihre Texte, entdecken Sie neue Perspektiven und überwinden Sie die Schreibblockade.",
+            iconId: 'private'
+          },
+           {
+            title: "Analyse und Synthese von Dokumenten",
+            description: "Reichen Sie Dokumente, Berichte oder Artikel ein. Erhalten Sie klare Zusammenfassungen, relevante Analysen und die Extraktion wichtiger Informationen in Sekundenschnelle, ohne Ihre Quelldaten preiszugeben.",
             iconId: 'private'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: "Für Ihr Vertrauen entwickelt",
+        mainTitle: "Für absolutes Vertrauen entwickelt",
         mainDescription: "Bei Novix Private sind Sicherheit und Datenschutz keine Optionen, sondern die Grundlage des Produkts.",
         featureList: [
           {
             id: 'secure',
-            title: 'Ihre digitale Festung',
-            description: "Alles ist auf maximale Privatsphäre ausgelegt. Ihre Gespräche werden verschlüsselt und ausschließlich auf Ihrem Gerät gespeichert. Sie werden niemals an unsere Server gesendet, außer zur Inferenz, die in der Schweiz stattfindet. Niemand außer Ihnen kann darauf zugreifen.",
+            title: 'Ihre persönliche digitale Festung',
+            description: "Jedes Gespräch wird Ende-zu-Ende verschlüsselt und ausschließlich auf Ihrem Gerät gespeichert. Unsere Schweizer Server verarbeiten Ihre Anfragen flüchtig und speichern keine Aufzeichnungen. Niemand außer Ihnen, nicht einmal wir, kann auf Ihren Verlauf zugreifen.",
             imageId: 'feature-secure',
           },
           {
             id: 'export',
-            title: 'Datenübertragbarkeit und Kontrolle',
-            description: "Ihre Daten gehören Ihnen. Sie können Ihren gesamten Gesprächsverlauf jederzeit in einem Standardformat exportieren. Sie behalten die Kontrolle über Ihre Informationen, egal ob Sie das Gerät wechseln oder einfach Ihre Ideen archivieren möchten.",
+            title: 'Vollständige Souveränität über Ihre Daten',
+            description: "Ihre Daten gehören Ihnen, bedingungslos. Exportieren Sie Ihren gesamten Gesprächsverlauf jederzeit in Standardformaten (JSON, CSV). Sie behalten die Kontrolle über Ihre Informationen, um sie zu archivieren, zu analysieren oder dorthin zu migrieren, wo Sie möchten.",
             imageId: 'feature-export',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Pläne, die auf Ihre Nutzung zugeschnitten sind',
-        mainDescription: 'Einfache und transparente Preise, ohne Abonnements oder Überraschungen.',
+        mainTitle: 'Einfache Preise für Einzelpersonen',
+        mainDescription: 'Kein Abonnement, keine versteckten Gebühren. Sie zahlen nur für das, was Sie verbrauchen, mit voller Transparenz.',
         pricingTiers: [
           {
             name: 'Novix Private',
@@ -520,66 +561,75 @@ export const translations = {
       },
       faq: {
         mainTitle: 'Häufig gestellte Fragen zu Novix Private',
-        mainDescription: 'Alles, was Sie über unsere vertrauliche KI wissen müssen.',
+        mainDescription: 'Alles, was Sie über unsere 100% vertrauliche KI wissen müssen.',
         questions: [
           {
             question: 'Wo werden meine Gespräche gespeichert?',
-            answer: 'Ihre Gespräche mit Novix Private werden verschlüsselt und ausschließlich auf Ihrem eigenen Gerät gespeichert. Wir haben niemals Zugriff darauf.'
+            answer: 'Ihre Gespräche mit Novix Private werden verschlüsselt und ausschließlich auf Ihrem eigenen Gerät (Computer oder Smartphone) gespeichert. Wir haben niemals Zugriff darauf.'
           },
           {
-            question: 'Was wird an Ihre Server gesendet?',
-            answer: 'Nur die von Ihnen eingegebene Anfrage (der "Prompt") wird sicher an unsere Server in der Schweiz gesendet, um von der KI verarbeitet zu werden. Der Prompt wird nach der Verarbeitung nicht gespeichert. Ihr Verlauf bleibt lokal.'
+            question: 'Was wird an Ihre Server in der Schweiz gesendet?',
+            answer: 'Nur die von Ihnen eingegebene Anfrage (der "Prompt") wird sicher und vorübergehend an unsere Server in der Schweiz gesendet, um von der KI verarbeitet zu werden. Die Anfrage und die Antwort werden niemals auf unseren Servern gespeichert. Ihr Verlauf bleibt lokal auf Ihrem Gerät.'
           },
           {
+            question: 'Verwenden Sie meine Daten, um Ihre Modelle zu trainieren?',
+            answer: 'Niemals. Das ist eine grundlegende Verpflichtung. Ihre Daten werden nicht gespeichert oder verwendet, um unsere KI-Modelle oder die von Dritten zu trainieren.'
+          },
+           {
             question: 'Gibt es ein Abonnement?',
-            answer: 'Nein. Novix Private für Einzelpersonen funktioniert mit Prepaid-Plänen ohne Abonnement. Sie kaufen ein Anfragepaket und nutzen es in Ihrem eigenen Tempo.'
+            answer: 'Nein. Novix Private für Einzelpersonen funktioniert mit Prepaid-Plänen ohne Abonnement. Sie kaufen ein Anfragepaket und nutzen es in Ihrem eigenen Tempo, ohne Zeitlimit.'
           }
         ]
       }
     },
     action: {
       features: {
-        mainTitle: 'Ein Akteur auf Ihren Befehl',
-        mainDescription: "Entdecken Sie die Leistungsfähigkeit von Novix Action, dem KI-Agenten, der komplexe Aufgaben für Sie ausführen kann.",
+        mainTitle: 'Novix Action: Der ausführende Agent',
+        mainDescription: "Delegieren Sie komplexe Aufgaben. Novix Action durchsucht das Web, interagiert mit Anwendungen und automatisiert Ihre Prozesse, um Ihnen einen Wettbewerbsvorteil zu verschaffen.",
         featureList: [
           {
-            title: "Novix ACTION: Der ausführende Agent",
-            description: "Ausführung ohne Kompromisse. Unser Action Agent wird online aktiv, navigiert im Web und führt Code aus. Setzen Sie eine entfesselte KI für komplexe Aufgaben ein, die schnelles Handeln erfordern.",
+            title: "Automatisierung der strategischen Überwachung",
+            description: "Beauftragen Sie Novix Action mit der Überwachung Ihrer Wettbewerber, der Analyse von Markttrends oder der Sammlung spezifischer Daten aus dem Web. Es kann Websites, Foren und soziale Netzwerke verfolgen, um Ihnen prägnante und umsetzbare Berichte zu liefern.",
+            iconId: 'action'
+          },
+          {
+            title: "Interaktions- und Ausführungsagent",
+            description: "In der Lage, Formulare auszufüllen, mit APIs zu interagieren und sogar Code in einer sicheren Umgebung auszuführen, wird Novix Action zum bewaffneten Arm Ihrer Strategie. Automatisieren Sie die Lead-Generierung, die Kontaktqualifizierung und vieles mehr.",
             iconId: 'action'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: 'Entwickelt für Effizienz und Sicherheit',
-        mainDescription: "Novix Action ist so konzipiert, dass es sicher und kontrolliert mit der Außenwelt interagiert.",
+        mainTitle: 'Für die Aktion konzipiert, von Natur aus sicher',
+        mainDescription: "Novix Action ist die perfekte Balance zwischen der Fähigkeit, auf die digitale Welt einzuwirken, und der Sicherheit einer robusten, in der Schweiz gehosteten Infrastruktur.",
         featureList: [
           {
             id: 'compliance',
-            title: 'Kontrollierte Aktionen',
-            description: "Novix Action ist dafür konzipiert, in Ihrem Namen mit der Außenwelt zu interagieren. Obwohl dies eine Verbindung zu Online-Diensten beinhaltet, werden alle Operationen von unserer sicheren Infrastruktur in der Schweiz aus initiiert. Wir speichern die Ergebnisse seiner Aktionen nicht, sodass Sie die Kontrolle behalten.",
+            title: 'Kontrollierte Operationen aus der Schweiz',
+            description: "Alle Aktionen werden von unserer sicheren Infrastruktur in der Schweiz aus orchiestriert. Obwohl der Agent mit externen Diensten interagiert, bleibt das 'Gehirn' der Operation unter dem Schutz der Schweizer Gesetze, was eine strikte Überwachung und Kontrolle der Prozesse gewährleistet.",
             imageId: 'feature-local',
           },
           {
             id: 'integration',
-            title: 'Integration und Automatisierung',
-            description: "Verbinden Sie Novix Action mit Ihren vorhandenen Tools und Arbeitsabläufen. Automatisieren Sie Wettbewerbsbeobachtung, Berichterstellung, Informationsrecherche und vieles mehr. Entfesseln Sie das Potenzial Ihres Teams, indem Sie repetitive Aufgaben delegieren.",
+            title: 'Nahtlose und leistungsstarke Integration',
+            description: "Verbinden Sie Novix Action über APIs mit Ihren Tools (CRM, ERP, Analyseplattformen). Erstellen Sie benutzerdefinierte Workflows, um die Berichterstellung, Wettbewerbsbeobachtung und Informationsrecherche zu automatisieren und die Produktivität Ihrer Teams zu vervielfachen.",
             imageId: 'cta-business',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Angebote für Profis',
-        mainDescription: 'Skalierbare Preise für Unternehmen, die eine echte KI-Schlagkraft integrieren möchten.',
+        mainTitle: 'Maßgeschneiderte Angebote für Profis',
+        mainDescription: 'Skalierbare Preise für Unternehmen, die eine echte KI-Schlagkraft in ihre Operationen integrieren möchten.',
         pricingTiers: [
           {
             name: 'Novix Action',
             id: 'business',
             description: 'Maßgeschneidertes Angebot für die Volumenintegration. Greifen Sie auf unsere exklusiven Pläne für unbegrenzte Benutzer und unsere sichere Schweizer Infrastruktur zu.',
             features: [
-              'BUSINESS PRO (2.000 CHF/Monat): Bis zu 100.000 Anfragen inklusive.',
-              'ENTERPRISE MAX (5.000 CHF/Monat): Bis zu 250.000 Anfragen inklusive.',
-              'VORTEIL: Unbegrenzte Anzahl von Benutzern/Mitarbeitern.',
-              'SICHERHEIT: Souveränes Deployment in der Schweiz, 24/7 Priority-Support.',
+              'BUSINESS PRO (2.000 CHF/Monat): Bis zu 100.000 komplexe Anfragen (Aktionen) inklusive.',
+              'ENTERPRISE MAX (5.000 CHF/Monat): Bis zu 250.000 komplexe Anfragen (Aktionen) inklusive.',
+              'VORTEIL: Unbegrenzte Anzahl von Benutzern/Mitarbeitern für jede Lizenz.',
+              'SICHERHEIT: Bereitstellung und Überwachung aus der Schweiz, 24/7 Priority-Support.',
             ],
             cta: 'Kontakt für Action',
           }
@@ -590,23 +640,27 @@ export const translations = {
         mainDescription: 'Antworten auf Ihre Fragen zu unserem ausführenden KI-Agenten.',
         questions: [
           {
-            question: 'Sind meine Daten mit Novix Action sicher?',
-            answer: 'Ja. Obwohl Novix Action mit Online-Diensten interagiert, werden alle Operationen über unsere sichere Infrastruktur durchgeführt. Die sensiblen Daten Ihres Unternehmens bleiben geschützt und werden nicht für das Training von Drittanbieter-Modellen verwendet.'
+            question: 'Wie wird die Sicherheit gewährleistet, wenn der Agent auf das Internet zugreift?',
+            answer: 'Die Sicherheit basiert auf unserer Architektur. Das "Gehirn" von Novix Action, das entscheidet, welche Aktionen durchgeführt werden sollen, ist in unserer Schweizer Infrastruktur isoliert. Nur die notwendigen Anfragen werden nach außen gesendet. Darüber hinaus werden alle Aktionen zur vollständigen Rückverfolgbarkeit protokolliert.'
           },
           {
             question: 'Welche Arten von Aufgaben kann Novix Action ausführen?',
-            answer: 'Novix Action kann Websites durchsuchen, Informationen sammeln und zusammenfassen, Formulare ausfüllen, mit APIs interagieren und Skripte ausführen. Es ist ideal für die Automatisierung von Recherchen, Wettbewerbsbeobachtung, Lead-Generierung usw.'
+            answer: 'Es kann Websites durchsuchen, Informationen sammeln und zusammenfassen, Formulare ausfüllen, mit APIs von Drittanbietern interagieren und Skripte ausführen. Es ist perfekt für die Automatisierung von Recherchen, Wettbewerbsbeobachtung, Lead-Qualifizierung usw.'
           },
           {
-            question: 'Wie funktioniert die Abrechnung?',
-            answer: 'Novix Action für Unternehmen ist ein monatlicher Abonnementdienst, der auf dem Anfragevolumen basiert, mit einer unbegrenzten Anzahl von Benutzern. Kontaktieren Sie uns für ein individuelles Angebot.'
+            question: "Speichert Novix Action die gesammelten Daten?",
+            answer: "Nein, standardmäßig nicht. Novix Action verarbeitet Daten flüchtig, um seine Mission zu erfüllen. Es speichert die Ergebnisse nur, wenn Sie es explizit dafür konfigurieren, zum Beispiel indem Sie es bitten, Ihr CRM zu füllen oder eine Berichtsdatei zu generieren."
+          },
+          {
+            question: 'Wie funktioniert die Abrechnung für Unternehmen?',
+            answer: 'Novix Action für Unternehmen ist ein monatlicher Abonnementdienst, der auf dem Volumen komplexer Anfragen (Aktionen) basiert, mit einer unbegrenzten Anzahl von Benutzern pro Lizenz. Kontaktieren Sie uns für eine Demonstration und ein individuelles Angebot.'
           }
         ]
       }
     },
     contactForm: {
       title: "Kontaktieren Sie uns",
-      description: "Füllen Sie dieses Formular aus, um unsere Geschäftsangebote zu besprechen.",
+      description: "Füllen Sie dieses Formular aus, um unsere Geschäftsangebote zu besprechen und eine Demo von Novix Action zu erhalten.",
       companyName: "Firmenname",
       firstName: "Vorname",
       lastName: "Nachname",
@@ -616,9 +670,9 @@ export const translations = {
       city: "Stadt",
       zipCode: "Postleitzahl",
       country: "Land",
-      userCount: "Anzahl der Benutzer",
-      submit: "Senden",
-      success: "Ihre Nachricht wurde erfolgreich gesendet.",
+      userCount: "Anzahl potenzieller Benutzer",
+      submit: "Demo anfordern",
+      success: "Ihre Anfrage wurde erfolgreich gesendet. Wir werden uns in Kürze mit Ihnen in Verbindung setzen.",
       error: "Beim Senden der Nachricht ist ein Fehler aufgetreten.",
     },
     footer: {
@@ -695,37 +749,42 @@ export const translations = {
     },
     private: {
       features: {
-        mainTitle: 'Un Pensatore al tuo servizio',
-        mainDescription: "Esplora le capacità di Novix Private, il tuo partner di fiducia per la riflessione e la creatività.",
+        mainTitle: 'Novix Private: Il Pensatore',
+        mainDescription: "Il tuo partner di riflessione confidenziale. Ideale per brainstorming, scrittura, analisi e creazione in totale serenità. Le tue idee restano tue, sempre.",
         featureList: [
           {
-            title: "Novix PRIVATE: Il Pensatore",
-            description: "Sovranità dei Dati. Approfitta dell'IA 'Swiss Quality'. Inferenza esclusivamente su server svizzeri per una privacy assoluta. I tuoi dati sono protetti dalle leggi più severe al mondo.",
+            title: "Creatività e produttività senza limiti",
+            description: "Dalla stesura di e-mail alla scrittura di sceneggiature, passando per la traduzione o la generazione di codice, Novix Private è il tuo partner di riflessione. Affina i tuoi testi, esplora nuove prospettive e supera il blocco dello scrittore.",
+            iconId: 'private'
+          },
+           {
+            title: "Analisi e sintesi di documenti",
+            description: "Invia documenti, report o articoli. Ottieni riassunti chiari, analisi pertinenti ed estrazioni di informazioni chiave in pochi secondi, senza mai esporre i tuoi dati di origine.",
             iconId: 'private'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: "Progettato per la tua fiducia",
+        mainTitle: "Progettato per una fiducia assoluta",
         mainDescription: "Con Novix Private, la sicurezza e la privacy non sono opzioni, ma il fondamento stesso del prodotto.",
         featureList: [
           {
             id: 'secure',
-            title: 'La tua fortezza digitale',
-            description: "Tutto è progettato per la massima privacy. Le tue conversazioni sono crittografate e archiviate esclusivamente sul tuo dispositivo. Non vengono mai inviate ai nostri server, tranne che per l'inferenza che avviene in Svizzera. Nessun altro tranne te può accedervi.",
+            title: 'La tua fortezza digitale personale',
+            description: "Ogni conversazione è crittografata end-to-end e archiviata esclusivamente sul tuo dispositivo. I nostri server svizzeri elaborano le tue richieste in modo effimero e non conservano alcuna traccia. Nessun altro tranne te, nemmeno noi, può accedere alla tua cronologia.",
             imageId: 'feature-secure',
           },
           {
             id: 'export',
-            title: 'Portabilità e controllo dei dati',
-            description: "I tuoi dati sono tuoi. Puoi esportare l'intera cronologia delle conversazioni in qualsiasi momento, in un formato standard. Mantieni il controllo delle tue informazioni, sia che tu cambi dispositivo o semplicemente desideri archiviare le tue idee.",
+            title: 'Sovranità totale sui tuoi dati',
+            description: "I tuoi dati sono tuoi, senza condizioni. Esporta l'intera cronologia delle conversazioni in qualsiasi momento in formati standard (JSON, CSV). Mantieni il controllo delle tue informazioni per archiviarle, analizzarle o migrarle dove vuoi.",
             imageId: 'feature-export',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Piani adatti al tuo utilizzo',
-        mainDescription: 'Prezzi semplici e trasparenti, senza abbonamenti o sorprese.',
+        mainTitle: 'Prezzi semplici per i privati',
+        mainDescription: 'Nessun abbonamento, nessun costo nascosto. Paghi solo ciò che consumi, in totale trasparenza.',
         pricingTiers: [
           {
             name: 'Novix Private',
@@ -743,66 +802,75 @@ export const translations = {
       },
       faq: {
         mainTitle: 'Domande frequenti su Novix Private',
-        mainDescription: 'Tutto ciò che devi sapere sulla nostra IA confidenziale.',
+        mainDescription: 'Tutto ciò che devi sapere sulla nostra IA 100% confidenziale.',
         questions: [
           {
             question: 'Dove vengono archiviate le mie conversazioni?',
-            answer: 'Le tue conversazioni con Novix Private sono crittografate e archiviate esclusivamente sul tuo dispositivo. Non abbiamo mai accesso ad esse.'
+            answer: 'Le tue conversazioni con Novix Private sono crittografate e archiviate exclusively sul tuo dispositivo (computer o smartphone). Non abbiamo mai accesso ad esse.'
           },
           {
-            question: 'Cosa viene inviato ai vostri server?',
-            answer: 'Solo la richiesta che digiti (il "prompt") viene inviata in modo sicuro ai nostri server in Svizzera per essere elaborata dall\'IA. La richiesta non viene archiviata dopo l\'elaborazione. La tua cronologia rimane locale.'
+            question: 'Cosa viene inviato ai vostri server in Svizzera?',
+            answer: 'Solo la richiesta che digiti (il "prompt") viene inviata in modo sicuro e temporaneo ai nostri server in Svizzera per essere elaborata dall\'IA. La richiesta e la risposta non vengono mai archiviate sui nostri server. La tua cronologia rimane locale sul tuo dispositivo.'
           },
           {
+            question: 'Utilizzate i miei dati per addestrare i vostri modelli?',
+            answer: 'Mai. Questo è un impegno fondamentale. I tuoi dati non vengono archiviati né utilizzati per addestrare i nostri modelli di IA o quelli di terze parti.'
+          },
+           {
             question: 'C\'è un abbonamento?',
-            answer: 'No. Novix Private per privati funziona con piani prepagati senza abbonamento. Acquisti un pacchetto di richieste e lo usi al tuo ritmo.'
+            answer: 'No. Novix Private per privati funziona con piani prepagati senza abbonamento. Acquisti un pacchetto di richieste e lo usi al tuo ritmo, senza limiti di tempo.'
           }
         ]
       }
     },
     action: {
       features: {
-        mainTitle: 'Un Attore al tuo comando',
-        mainDescription: "Scopri la potenza di Novix Action, l'agente IA in grado di eseguire compiti complessi per te.",
+        mainTitle: 'Novix Action: L\'Agente Esecutivo',
+        mainDescription: "Delega i compiti complessi. Novix Action naviga sul web, interagisce con le applicazioni e automatizza i tuoi processi per darti un vantaggio competitivo.",
         featureList: [
           {
-            title: "Novix ACTION: L'Agente Esecutivo",
-            description: "Esecuzione Senza Compromessi. Il nostro Agente di Azione si attiva per agire online, navigare sul web ed eseguire codice. Implementa un'IA sfrenata per compiti complessi che richiedono un'azione rapida.",
+            title: "Automazione dell'intelligence strategica",
+            description: "Incarica Novix Action di monitorare i tuoi concorrenti, analizzare le tendenze di mercato o raccogliere dati specifici dal web. Può tenere traccia di siti, forum e social network per fornirti report sintetici e attuabili.",
+            iconId: 'action'
+          },
+          {
+            title: "Agente di interazione ed esecuzione",
+            description: "In grado di compilare moduli, interagire con API e persino eseguire script in un ambiente sicuro, Novix Action diventa il braccio armato della tua strategia. Automatizza la lead generation, la qualificazione dei contatti e molto altro.",
             iconId: 'action'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: 'Progettato per l\'efficienza e la sicurezza',
-        mainDescription: "Novix Action è progettato per interagire con il mondo esterno in modo sicuro e controllato.",
+        mainTitle: 'Progettato per l\'azione, sicuro per natura',
+        mainDescription: "Novix Action è il perfetto equilibrio tra la capacità di agire sul mondo digitale e la sicurezza di un'infrastruttura robusta ospitata in Svizzera.",
         featureList: [
           {
             id: 'compliance',
-            title: 'Azioni controllate',
-            description: "Novix Action è progettato per interagire con il mondo esterno per tuo conto. Sebbene ciò comporti la connessione a servizi online, tutte le operazioni vengono avviate dalla nostra infrastruttura sicura in Svizzera. Non archiviamo i risultati delle sue azioni, garantendoti il controllo.",
+            title: 'Operazioni controllate dalla Svizzera',
+            description: "Tutte le azioni sono orchestrate dalla nostra infrastruttura sicura in Svizzera. Sebbene l'agente interagisca con servizi esterni, il 'cervello' dell'operazione rimane sotto la protezione delle leggi svizzere, garantendo una supervisione e un controllo rigorosi dei processi.",
             imageId: 'feature-local',
           },
           {
             id: 'integration',
-            title: 'Integrazione e Automazione',
-            description: "Collega Novix Action ai tuoi strumenti e flussi di lavoro esistenti. Automatizza l'analisi della concorrenza, la generazione di report, la ricerca di informazioni e molto altro. Libera il potenziale del tuo team delegando le attività ripetitive.",
+            title: 'Integrazione trasparente e potente',
+            description: "Collega Novix Action ai tuoi strumenti (CRM, ERP, piattaforme di analisi) tramite API. Crea flussi di lavoro personalizzati per automatizzare la generazione di report, l'analisi della concorrenza, la ricerca di informazioni e moltiplica la produttività dei tuoi team.",
             imageId: 'cta-business',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Offerte per i professionisti',
-        mainDescription: 'Prezzi scalabili per le aziende che vogliono integrare una vera potenza di fuoco IA.',
+        mainTitle: 'Offerte su misura per i professionisti',
+        mainDescription: 'Prezzi scalabili per le aziende che vogliono integrare una vera potenza di fuoco IA nelle loro operazioni.',
         pricingTiers: [
           {
             name: 'Novix Action',
             id: 'business',
             description: 'Offerta personalizzata per l\'integrazione di volumi. Accedi ai nostri piani esclusivi per utenti illimitati e alla nostra infrastruttura svizzera sicura.',
             features: [
-              'BUSINESS PRO (2.000 CHF/mese): Fino a 100.000 richieste incluse.',
-              'ENTERPRISE MAX (5.000 CHF/mese): Fino a 250.000 richieste incluse.',
-              'VANTAGGIO: Numero illimitato di utenti/dipendenti.',
-              'SICUREZZA: Implementazione sovrana in Svizzera, supporto prioritario 24/7.',
+              'BUSINESS PRO (2.000 CHF/mese): Fino a 100.000 richieste complesse (azioni) incluse.',
+              'ENTERPRISE MAX (5.000 CHF/mese): Fino a 250.000 richieste complesse (azioni) incluse.',
+              'VANTAGGIO: Numero illimitato di utenti/dipendenti per ogni licenza.',
+              'SICUREZZA: Implementazione e supervisione dalla Svizzera, supporto prioritario 24/7.',
             ],
             cta: 'Contattaci per Action',
           }
@@ -813,23 +881,27 @@ export const translations = {
         mainDescription: 'Le risposte alle tue domande sul nostro agente IA esecutivo.',
         questions: [
           {
-            question: 'I miei dati sono al sicuro con Novix Action?',
-            answer: 'Sì. Sebbene Novix Action interagisca con servizi online, tutte le operazioni vengono condotte attraverso la nostra infrastruttura sicura. I dati sensibili della tua azienda rimangono protetti e non vengono utilizzati per l\'addestramento di modelli di terze parti.'
+            question: 'Come viene garantita la sicurezza se l\'agente accede a Internet?',
+            answer: 'La sicurezza si basa sulla nostra architettura. Il "cervello" di Novix Action, che decide quali azioni intraprendere, è isolato nella nostra infrastruttura svizzera. Solo le richieste necessarie vengono inviate all\'esterno. Inoltre, tutte le azioni sono registrate per una completa tracciabilità.'
           },
           {
             question: 'Quali tipi di attività può eseguire Novix Action?',
-            answer: 'Novix Action può navigare su siti web, raccogliere e riassumere informazioni, compilare moduli, interagire con API ed eseguire script. È ideale per automatizzare ricerche, analisi della concorrenza, generazione di lead, ecc.'
+            answer: 'Può navigare su siti web, raccogliere e riassumere informazioni, compilare moduli, interagire con API di terze parti ed eseguire script. È perfetto per automatizzare ricerche, analisi della concorrenza, qualificazione di lead, ecc.'
           },
           {
-            question: 'Come funziona la fatturazione?',
-            answer: 'Novix Action per le aziende è un servizio in abbonamento mensile basato sul volume di richieste, con un numero illimitato di utenti. Contattaci per un preventivo personalizzato.'
+            question: "Novix Action archivia i dati che raccoglie?",
+            answer: "No, per impostazione predefinita. Novix Action elabora i dati in modo volatile per compiere la sua missione. Archivia i risultati solo se lo configuri esplicitamente per farlo, ad esempio chiedendogli di compilare il tuo CRM o generare un file di report."
+          },
+          {
+            question: 'Come funziona la fatturazione per le aziende?',
+            answer: 'Novix Action per le aziende è un servizio in abbonamento mensile basato sul volume di richieste complesse (azioni), con un numero illimitato di utenti per licenza. Contattaci per una dimostrazione e un preventivo personalizzato.'
           }
         ]
       }
     },
     contactForm: {
       title: "Contattaci",
-      description: "Compila questo modulo per discutere delle nostre offerte aziendali.",
+      description: "Compila questo modulo per discutere delle nostre offerte aziendali e ottenere una demo di Novix Action.",
       companyName: "Nome dell'azienda",
       firstName: "Nome",
       lastName: "Cognome",
@@ -839,9 +911,9 @@ export const translations = {
       city: "Città",
       zipCode: "Codice Postale",
       country: "Paese",
-      userCount: "Numero di utenti",
-      submit: "Invia",
-      success: "Il tuo messaggio è stato inviato con successo.",
+      userCount: "Numero di utenti potenziali",
+      submit: "Richiedi una demo",
+      success: "La tua richiesta è stata inviata con successo. Ti contatteremo a breve.",
       error: "Si è verificato un errore durante l'invio del messaggio.",
     },
     footer: {
@@ -893,3 +965,5 @@ export const translations = {
     }
   },
 };
+
+
