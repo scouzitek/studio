@@ -49,13 +49,7 @@ export default function CallToAction() {
                   </CardDescription>
                 </CardContent>
                 <CardFooter>
-                  {isBusinessSection ? (
-                    <Link href="#trust" className="w-full">
-                      <Button variant="destructive" size="lg" className="w-full font-headline">{section.cta}</Button>
-                    </Link>
-                  ) : (
-                    <Button variant="destructive" size="lg" className="w-full font-headline">{section.cta}</Button>
-                  )}
+                   <Button variant="destructive" size="lg" className="w-full font-headline">{section.cta}</Button>
                 </CardFooter>
               </Card>
             );

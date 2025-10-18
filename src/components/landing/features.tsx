@@ -1,18 +1,33 @@
 'use client';
-import { MousePointerClick, ShieldCheck, Cpu } from 'lucide-react';
+import { ShieldCheck, Cpu, Rocket } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
 
 const featureIcons = {
-  "Facilité d'utilisation": <Cpu key="1" className="w-10 h-10 text-destructive" />,
-  "Confidentialité Absolue": <ShieldCheck key="2" className="w-10 h-10 text-destructive" />,
-  "Stockage Local": <MousePointerClick key="3" className="w-10 h-10 text-destructive" />,
+  "Novix PRIVATE : Le Penseur": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
+  "Novix ACTION : L'Agent Exécutif": <Rocket key="2" className="w-10 h-10 text-destructive" />,
+  "Contrôle Total": <Cpu key="3" className="w-10 h-10 text-destructive" />,
 };
 
 export default function Features() {
   const { language } = useLanguage();
   const t = translations[language].features;
+
+  // A mapping for English and other languages
+  const nonFrIcons: { [key: string]: JSX.Element } = {
+    "Novix PRIVATE: The Thinker": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
+    "Novix ACTION: The Executive Agent": <Rocket key="2" className="w-10 h-10 text-destructive" />,
+    "Total Control": <Cpu key="3" className="w-10 h-10 text-destructive" />,
+    "Novix PRIVATE: Der Denker": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
+    "Novix ACTION: Der ausführende Agent": <Rocket key="2" className="w-10 h-10 text-destructive" />,
+    "Volle Kontrolle": <Cpu key="3" className="w-10 h-10 text-destructive" />,
+    "Novix PRIVATE: Il Pensatore": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
+    "Novix ACTION: L'Agente Esecutivo": <Rocket key="2" className="w-10 h-10 text-destructive" />,
+    "Controllo Totale": <Cpu key="3" className="w-10 h-10 text-destructive" />,
+  };
+  
+  const icons = language === 'fr' ? featureIcons : nonFrIcons;
 
   return (
     <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-background">
@@ -30,7 +45,7 @@ export default function Features() {
           {t.featureList.map((feature, index) => (
             <Card key={index} className="flex flex-col bg-card hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="flex flex-col items-center text-center gap-4 p-6">
-                {featureIcons[feature.title as keyof typeof featureIcons]}
+                {icons[feature.title as keyof typeof icons]}
                 <CardTitle className="font-headline text-2xl">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow text-center font-body text-muted-foreground px-6 pb-6">

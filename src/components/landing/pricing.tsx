@@ -42,8 +42,8 @@ export default function Pricing({ onContactClick }: PricingProps) {
               <CardContent className="flex-grow px-6 pb-6">
                 <ul className="space-y-3 font-body">
                   {tier.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center">
-                      <Check className="w-5 h-5 mr-3 text-green-600" />
+                    <li key={featureIndex} className="flex items-start">
+                      <Check className="w-5 h-5 mr-3 text-green-600 mt-1 flex-shrink-0" />
                       <span className="text-muted-foreground">{feature}</span>
                     </li>
                   ))}
