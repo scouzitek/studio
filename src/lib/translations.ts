@@ -61,7 +61,7 @@ export const translations = {
       },
       pricing: {
         mainTitle: 'Une tarification simple pour les particuliers',
-        mainDescription: 'Pas d\'abonnement, pas de frais cachés. Vous ne payez que ce que vous consommez, en toute transparence.',
+        mainDescription: "Pas d'abonnement, pas de frais cachés. Vous ne payez que ce que vous consommez, en toute transparence.",
         pricingTiers: [
           {
             name: 'Novix Private',
@@ -103,53 +103,53 @@ export const translations = {
     action: {
       features: {
         mainTitle: 'Novix Action : L\'Agent Exécutif',
-        mainDescription: "Déléguez les tâches complexes. Novix Action navigue sur le web, interagit avec des applications et automatise vos processus pour vous donner un avantage concurrentiel.",
+        mainDescription: "Déléguez vos tâches numériques à une IA qui agit. Novix Action prend le contrôle de vos applications et de votre navigateur pour atteindre vos objectifs, comme le ferait un assistant humain.",
         featureList: [
           {
-            title: "Automatisation de la Veille Stratégique",
-            description: "Chargez Novix Action de surveiller vos concurrents, d'analyser les tendances du marché, ou de collecter des données spécifiques sur le web. Il peut suivre des sites, des forums et des réseaux sociaux pour vous fournir des rapports synthétiques et exploitables.",
+            title: "Un opérateur autonome à votre service",
+            description: "Formulez un objectif en langage naturel, et regardez l'agent agir. 'Trouve-moi les 5 meilleurs CRM pour PME et fais-en une synthèse', 'Organise ma boîte mail en créant des filtres pour les newsletters' ou 'Fais une veille concurrentielle sur ce produit'. Novix Action observe votre écran et utilise le clavier et la souris pour exécuter la mission.",
             iconId: 'action'
           },
           {
-            title: "Agent d'Interaction et d'Exécution",
-            description: "Capable de remplir des formulaires, d'interagir avec des API et même d'exécuter du code dans un environnement sécurisé, Novix Action devient le bras armé de votre stratégie. Automatisez la génération de leads, la qualification de contacts et bien plus encore.",
+            title: "Apprentissage et exécution de tâches complexes",
+            description: "Novix Action n'est pas qu'un simple robot. Il comprend des objectifs en plusieurs étapes, apprend de vos processus et peut enchaîner des actions complexes. Montrez-lui comment générer un rapport mensuel, il le fera pour vous chaque mois. Il devient un véritable membre de votre équipe.",
             iconId: 'action'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: 'Conçu pour l\'action, sécurisé par nature',
-        mainDescription: "Novix Action est l'équilibre parfait entre la capacité d'agir sur le monde numérique et la sécurité d'une infrastructure robuste hébergée en Suisse.",
+        mainTitle: "La puissance d'agir, la sécurité d'une supervision suisse",
+        mainDescription: "Novix Action est conçu pour la performance et l'efficacité, tout en bénéficiant de la supervision d'une infrastructure robuste hébergée en Suisse.",
         featureList: [
           {
             id: 'compliance',
-            title: 'Opérations maîtrisées depuis la Suisse',
-            description: "Toutes les actions sont orchestrées depuis notre infrastructure sécurisée en Suisse. Bien que l'agent interagisse avec des services externes, le 'cerveau' de l'opération reste sous la protection des lois suisses, garantissant une supervision et un contrôle stricts des processus.",
+            title: 'Un Cerveau Opérationnel en Territoire Neutre',
+            description: "Toutes les décisions et les stratégies de l'agent sont orchestrées depuis notre infrastructure sécurisée en Suisse. Bien que Novix Action interagisse avec des services externes pour accomplir ses tâches, son 'cerveau' reste sous la protection des lois suisses, garantissant une supervision et un contrôle stricts de ses opérations.",
             imageId: 'feature-local',
           },
           {
             id: 'integration',
-            title: 'Intégration transparente et puissante',
-            description: "Connectez Novix Action à vos outils (CRM, ERP, plateformes d'analyse) via des APIs. Créez des flux de travail personnalisés pour automatiser la génération de rapports, la veille concurrentielle, la recherche d'informations et décuplez la productivité de vos équipes.",
+            title: 'Votre Écosystème, Augmenté',
+            description: "L'agent s'intègre naturellement à votre environnement de travail numérique. Il utilise les applications que vous utilisez déjà, que ce soit votre CRM, votre logiciel de tableur ou votre navigateur web. Il ne nécessite pas d'API complexes, car il agit comme un utilisateur humain, vous offrant une automatisation sans précédent.",
             imageId: 'cta-business',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Des offres sur-mesure pour les professionnels',
-        mainDescription: 'Une tarification évolutive pour les entreprises qui veulent intégrer une véritable force de frappe IA dans leurs opérations.',
+        mainTitle: 'Des offres sur-mesure pour une productivité décuplée',
+        mainDescription: "Intégrez une véritable force de frappe IA dans vos opérations. Nos offres sont conçues pour les professionnels et les entreprises qui visent l'hyper-efficacité.",
         pricingTiers: [
           {
             name: 'Novix Action',
             id: 'business',
-            description: "Offre personnalisée pour l'intégration en volume. Accédez à nos forfaits exclusifs utilisateurs illimités et à notre infrastructure suisse sécurisée.",
+            description: "Une licence pour libérer le potentiel d'un agent IA autonome. Idéal pour les professionnels exigeants, les équipes et les entreprises qui souhaitent automatiser les tâches complexes.",
             features: [
-              'BUSINESS PRO (2 000 CHF/mois) : Jusqu\'à 100 000 requêtes complexes (actions) incluses.',
-              'ENTERPRISE MAX (5 000 CHF/mois) : Jusqu\'à 250 000 requêtes complexes (actions) incluses.',
-              'AVANTAGE : Nombre d\'utilisateurs/collaborateurs illimité pour chaque licence.',
-              'SÉCURITÉ : Déploiement et supervision depuis la Suisse, support prioritaire 24/7.',
+              'Plan BUSINESS PRO : Conçu pour une utilisation intensive par plusieurs collaborateurs.',
+              'Plan ENTERPRISE : Pour un déploiement à grande échelle avec un support dédié et des intégrations sur-mesure.',
+              'SÉCURITÉ : Supervision et journalisation des actions depuis notre infrastructure suisse.',
+              'SUPPORT : Accès prioritaire à notre équipe pour optimiser vos cas d\'usage.',
             ],
-            cta: 'Nous contacter pour Action',
+            cta: 'Demander une démonstration',
           }
         ],
       },
@@ -158,20 +158,20 @@ export const translations = {
         mainDescription: 'Les réponses à vos questions sur notre agent IA exécutif.',
         questions: [
           {
-            question: 'Comment la sécurité est-elle garantie si l\'agent accède à Internet ?',
-            answer: "La sécurité repose sur notre architecture. Le 'cerveau' de Novix Action, qui décide des actions à entreprendre, est isolé dans notre infrastructure suisse. Seules les requêtes nécessaires sont envoyées à l'extérieur. De plus, toutes les actions sont journalisées pour une traçabilité complète."
+            question: "Comment Novix Action voit-il mon écran ? Est-ce sécurisé ?",
+            answer: "L'agent utilise des technologies de vision par ordinateur pour interpréter l'interface de vos applications. Toutes les informations visuelles sont traitées via notre infrastructure sécurisée en Suisse pour guider l'action, sans jamais être stockées ou utilisées à d'autres fins que l'exécution de votre tâche. La connexion est cryptée et sécurisée."
           },
           {
-            question: 'Quels types de tâches Novix Action peut-il effectuer ?',
-            answer: "Il peut naviguer sur des sites web, collecter et synthétiser des informations, remplir des formulaires, interagir avec des API tierces, et exécuter des scripts. Il est parfait pour automatiser la recherche, la veille concurrentielle, la qualification de leads, etc."
+            question: "Quels types de tâches Novix Action peut-il réellement effectuer ?",
+            answer: "Pratiquement toute tâche que vous pourriez faire avec un clavier et une souris. De la collecte d'informations sur plusieurs sites à la gestion de vos e-mails, en passant par l'analyse de données dans un tableur ou la réservation de voyages. Si vous pouvez le faire, il peut apprendre à le faire."
           },
           {
-            question: "Est-ce que Novix Action stocke les données qu'il collecte ?",
-            answer: "Non, par défaut. Novix Action traite les données de manière volatile pour accomplir sa mission. Il ne stocke les résultats que si vous le configurez explicitement pour le faire, par exemple en lui demandant de remplir votre CRM ou de générer un fichier de rapport."
+            question: "Est-ce que Novix Action nécessite une configuration complexe ?",
+            answer: "Non. Sa force réside dans sa simplicité. Comme il imite les actions humaines, il n'a pas besoin d'être connecté à des API complexes. Il vous suffit de lui donner un objectif et de le laisser accéder aux applications nécessaires sur votre session."
           },
           {
-            question: "Comment fonctionne la facturation pour les entreprises ?",
-            answer: "Novix Action est un service par abonnement mensuel basé sur le volume de requêtes complexes (actions), avec un nombre d'utilisateurs illimité par licence. Contactez-nous pour une démonstration et un devis personnalisé."
+            question: "Comment fonctionne la facturation pour Novix Action ?",
+            answer: "Novix Action est un service par abonnement conçu pour les professionnels. Les plans varient en fonction de l'intensité d'utilisation et du niveau de support requis. Contactez-nous pour une démonstration afin de discuter de votre cas d'usage et d'obtenir un devis personnalisé."
           }
         ]
       }
@@ -344,53 +344,53 @@ export const translations = {
     action: {
       features: {
         mainTitle: 'Novix Action: The Executive Agent',
-        mainDescription: "Delegate complex tasks. Novix Action browses the web, interacts with applications, and automates your processes to give you a competitive edge.",
+        mainDescription: "Delegate your digital tasks to an AI that acts. Novix Action takes control of your applications and browser to achieve your goals, just as a human assistant would.",
         featureList: [
           {
-            title: "Strategic Intelligence Automation",
-            description: "Task Novix Action with monitoring your competitors, analyzing market trends, or collecting specific data from the web. It can track sites, forums, and social networks to provide you with concise and actionable reports.",
+            title: "An autonomous operator at your service",
+            description: "State a goal in natural language, and watch the agent act. 'Find me the top 5 CRMs for SMEs and summarize them,' 'Organize my inbox by creating filters for newsletters,' or 'Conduct competitive intelligence on this product.' Novix Action observes your screen and uses the keyboard and mouse to carry out the mission.",
             iconId: 'action'
           },
           {
-            title: "Interaction and Execution Agent",
-            description: "Capable of filling out forms, interacting with APIs, and even executing code in a secure environment, Novix Action becomes the armed wing of your strategy. Automate lead generation, contact qualification, and much more.",
+            title: "Learning and executing complex tasks",
+            description: "Novix Action is not just a simple bot. It understands multi-step objectives, learns from your processes, and can chain complex actions. Show it how to generate a monthly report, and it will do it for you every month. It becomes a true member of your team.",
             iconId: 'action'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: 'Designed for Action, Secure by Nature',
-        mainDescription: "Novix Action is the perfect balance between the ability to act on the digital world and the security of a robust infrastructure hosted in Switzerland.",
+        mainTitle: 'The power to act, with the security of Swiss supervision',
+        mainDescription: "Novix Action is designed for performance and efficiency, while benefiting from the supervision of a robust infrastructure hosted in Switzerland.",
         featureList: [
           {
             id: 'compliance',
-            title: 'Operations Controlled from Switzerland',
-            description: "All actions are orchestrated from our secure infrastructure in Switzerland. Although the agent interacts with external services, the 'brain' of the operation remains under the protection of Swiss laws, ensuring strict supervision and control of processes.",
+            title: 'An Operational Brain in Neutral Territory',
+            description: "All agent decisions and strategies are orchestrated from our secure infrastructure in Switzerland. Although Novix Action interacts with external services to accomplish its tasks, its 'brain' remains under the protection of Swiss laws, ensuring strict supervision and control of its operations.",
             imageId: 'feature-local',
           },
           {
             id: 'integration',
-            title: 'Seamless and Powerful Integration',
-            description: "Connect Novix Action to your tools (CRM, ERP, analytics platforms) via APIs. Create custom workflows to automate report generation, competitive intelligence, information retrieval, and multiply your team's productivity.",
+            title: 'Your Ecosystem, Augmented',
+            description: "The agent integrates naturally into your digital work environment. It uses the applications you already use, whether it's your CRM, spreadsheet software, or web browser. It doesn't require complex APIs, as it acts like a human user, offering you unprecedented automation.",
             imageId: 'cta-business',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Tailor-made offers for professionals',
-        mainDescription: 'Scalable pricing for companies that want to integrate a true AI strike force into their operations.',
+        mainTitle: 'Tailor-made offers for multiplied productivity',
+        mainDescription: 'Integrate a true AI strike force into your operations. Our offers are designed for professionals and businesses aiming for hyper-efficiency.',
         pricingTiers: [
           {
             name: 'Novix Action',
             id: 'business',
-            description: 'Custom offer for volume integration. Access our exclusive unlimited user plans and our secure Swiss infrastructure.',
+            description: 'A license to unlock the potential of an autonomous AI agent. Ideal for demanding professionals, teams, and businesses looking to automate complex tasks.',
             features: [
-              'BUSINESS PRO (2,000 CHF/month): Up to 100,000 complex requests (actions) included.',
-              'ENTERPRISE MAX (5,000 CHF/month): Up to 250,000 complex requests (actions) included.',
-              'ADVANTAGE: Unlimited number of users/employees for each license.',
-              'SECURITY: Deployment and supervision from Switzerland, 24/7 priority support.',
+              'BUSINESS PRO Plan: Designed for intensive use by multiple collaborators.',
+              'ENTERPRISE Plan: For large-scale deployment with dedicated support and custom integrations.',
+              'SECURITY: Supervision and logging of actions from our Swiss infrastructure.',
+              'SUPPORT: Priority access to our team to optimize your use cases.',
             ],
-            cta: 'Contact Us for Action',
+            cta: 'Request a Demo',
           }
         ],
       },
@@ -399,20 +399,20 @@ export const translations = {
         mainDescription: 'Answers to your questions about our executive AI agent.',
         questions: [
           {
-            question: 'How is security guaranteed if the agent accesses the Internet?',
-            answer: 'Security is based on our architecture. The "brain" of Novix Action, which decides which actions to take, is isolated in our Swiss infrastructure. Only the necessary requests are sent externally. In addition, all actions are logged for complete traceability.'
+            question: "How does Novix Action see my screen? Is it secure?",
+            answer: "The agent uses computer vision technologies to interpret the interface of your applications. All visual information is processed via our secure infrastructure in Switzerland to guide the action, without ever being stored or used for purposes other than executing your task. The connection is encrypted and secure."
           },
           {
-            question: 'What types of tasks can Novix Action perform?',
-            answer: "It can browse websites, collect and summarize information, fill out forms, interact with third-party APIs, and execute scripts. It is perfect for automating research, competitive intelligence, lead qualification, etc."
+            question: "What types of tasks can Novix Action actually perform?",
+            answer: "Virtually any task you could do with a keyboard and mouse. From collecting information across multiple sites to managing your emails, analyzing data in a spreadsheet, or booking travel. If you can do it, it can learn to do it."
           },
           {
-            question: "Does Novix Action store the data it collects?",
-            answer: "No, by default. Novix Action processes data volatilely to accomplish its mission. It only stores the results if you explicitly configure it to do so, for example by asking it to fill your CRM or generate a report file."
+            question: "Does Novix Action require complex setup?",
+            answer: "No. Its strength lies in its simplicity. Since it mimics human actions, it doesn't need to be connected to complex APIs. You just need to give it a goal and let it access the necessary applications in your session."
           },
           {
-            question: 'How does billing work for businesses?',
-            answer: "Novix Action for businesses is a monthly subscription service based on the volume of complex requests (actions), with an unlimited number of users per license. Contact us for a demonstration and a custom quote."
+            question: "How does billing work for Novix Action?",
+            answer: "Novix Action is a subscription service designed for professionals. Plans vary based on the intensity of use and the level of support required. Contact us for a demo to discuss your use case and get a custom quote."
           }
         ]
       }
@@ -585,53 +585,53 @@ export const translations = {
     action: {
       features: {
         mainTitle: 'Novix Action: Der ausführende Agent',
-        mainDescription: "Delegieren Sie komplexe Aufgaben. Novix Action durchsucht das Web, interagiert mit Anwendungen und automatisiert Ihre Prozesse, um Ihnen einen Wettbewerbsvorteil zu verschaffen.",
+        mainDescription: "Delegieren Sie Ihre digitalen Aufgaben an eine KI, die handelt. Novix Action übernimmt die Kontrolle über Ihre Anwendungen und Ihren Browser, um Ihre Ziele zu erreichen, genau wie es ein menschlicher Assistent tun würde.",
         featureList: [
           {
-            title: "Automatisierung der strategischen Überwachung",
-            description: "Beauftragen Sie Novix Action mit der Überwachung Ihrer Wettbewerber, der Analyse von Markttrends oder der Sammlung spezifischer Daten aus dem Web. Es kann Websites, Foren und soziale Netzwerke verfolgen, um Ihnen prägnante und umsetzbare Berichte zu liefern.",
+            title: "Ein autonomer Bediener zu Ihren Diensten",
+            description: "Formulieren Sie ein Ziel in natürlicher Sprache und sehen Sie dem Agenten bei der Arbeit zu. 'Finde die 5 besten CRMs für KMU und fasse sie zusammen', 'Organisiere meinen Posteingang, indem du Filter für Newsletter erstellst' oder 'Führe eine Wettbewerbsanalyse für dieses Produkt durch'. Novix Action beobachtet Ihren Bildschirm und verwendet Tastatur und Maus, um die Mission auszuführen.",
             iconId: 'action'
           },
           {
-            title: "Interaktions- und Ausführungsagent",
-            description: "In der Lage, Formulare auszufüllen, mit APIs zu interagieren und sogar Code in einer sicheren Umgebung auszuführen, wird Novix Action zum bewaffneten Arm Ihrer Strategie. Automatisieren Sie die Lead-Generierung, die Kontaktqualifizierung und vieles mehr.",
+            title: "Lernen und Ausführen komplexer Aufgaben",
+            description: "Novix Action ist nicht nur ein einfacher Bot. Er versteht mehrstufige Ziele, lernt aus Ihren Prozessen und kann komplexe Aktionen verketten. Zeigen Sie ihm, wie man einen monatlichen Bericht erstellt, und er wird es jeden Monat für Sie tun. Er wird zu einem echten Mitglied Ihres Teams.",
             iconId: 'action'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: 'Für die Aktion konzipiert, von Natur aus sicher',
-        mainDescription: "Novix Action ist die perfekte Balance zwischen der Fähigkeit, auf die digitale Welt einzuwirken, und der Sicherheit einer robusten, in der Schweiz gehosteten Infrastruktur.",
+        mainTitle: 'Die Macht zu handeln, die Sicherheit der Schweizer Aufsicht',
+        mainDescription: "Novix Action ist auf Leistung und Effizienz ausgelegt und profitiert gleichzeitig von der Überwachung einer robusten, in der Schweiz gehosteten Infrastruktur.",
         featureList: [
           {
             id: 'compliance',
-            title: 'Kontrollierte Operationen aus der Schweiz',
-            description: "Alle Aktionen werden von unserer sicheren Infrastruktur in der Schweiz aus orchiestriert. Obwohl der Agent mit externen Diensten interagiert, bleibt das 'Gehirn' der Operation unter dem Schutz der Schweizer Gesetze, was eine strikte Überwachung und Kontrolle der Prozesse gewährleistet.",
+            title: 'Ein operatives Gehirn in neutralem Gebiet',
+            description: "Alle Entscheidungen und Strategien des Agenten werden von unserer sicheren Infrastruktur in der Schweiz aus orchestriert. Obwohl Novix Action mit externen Diensten interagiert, um seine Aufgaben zu erfüllen, bleibt sein 'Gehirn' unter dem Schutz der Schweizer Gesetze, was eine strikte Überwachung und Kontrolle seiner Operationen gewährleistet.",
             imageId: 'feature-local',
           },
           {
             id: 'integration',
-            title: 'Nahtlose und leistungsstarke Integration',
-            description: "Verbinden Sie Novix Action über APIs mit Ihren Tools (CRM, ERP, Analyseplattformen). Erstellen Sie benutzerdefinierte Workflows, um die Berichterstellung, Wettbewerbsbeobachtung und Informationsrecherche zu automatisieren und die Produktivität Ihrer Teams zu vervielfachen.",
+            title: 'Ihr Ökosystem, erweitert',
+            description: "Der Agent integriert sich natürlich in Ihre digitale Arbeitsumgebung. Er verwendet die Anwendungen, die Sie bereits nutzen, sei es Ihr CRM, Ihre Tabellenkalkulationssoftware oder Ihr Webbrowser. Er benötigt keine komplexen APIs, da er wie ein menschlicher Benutzer agiert und Ihnen eine beispiellose Automatisierung bietet.",
             imageId: 'cta-business',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Maßgeschneiderte Angebote für Profis',
-        mainDescription: 'Skalierbare Preise für Unternehmen, die eine echte KI-Schlagkraft in ihre Operationen integrieren möchten.',
+        mainTitle: 'Maßgeschneiderte Angebote für vervielfachte Produktivität',
+        mainDescription: 'Integrieren Sie eine echte KI-Schlagkraft in Ihre Operationen. Unsere Angebote sind für Profis und Unternehmen konzipiert, die auf Hyper-Effizienz abzielen.',
         pricingTiers: [
           {
             name: 'Novix Action',
             id: 'business',
-            description: 'Maßgeschneidertes Angebot für die Volumenintegration. Greifen Sie auf unsere exklusiven Pläne für unbegrenzte Benutzer und unsere sichere Schweizer Infrastruktur zu.',
+            description: 'Eine Lizenz, um das Potenzial eines autonomen KI-Agenten freizuschalten. Ideal für anspruchsvolle Profis, Teams und Unternehmen, die komplexe Aufgaben automatisieren möchten.',
             features: [
-              'BUSINESS PRO (2.000 CHF/Monat): Bis zu 100.000 komplexe Anfragen (Aktionen) inklusive.',
-              'ENTERPRISE MAX (5.000 CHF/Monat): Bis zu 250.000 komplexe Anfragen (Aktionen) inklusive.',
-              'VORTEIL: Unbegrenzte Anzahl von Benutzern/Mitarbeitern für jede Lizenz.',
-              'SICHERHEIT: Bereitstellung und Überwachung aus der Schweiz, 24/7 Priority-Support.',
+              'BUSINESS PRO Plan: Entwickelt für die intensive Nutzung durch mehrere Mitarbeiter.',
+              'ENTERPRISE Plan: Für den großflächigen Einsatz mit dediziertem Support und maßgeschneiderten Integrationen.',
+              'SICHERHEIT: Überwachung und Protokollierung von Aktionen aus unserer Schweizer Infrastruktur.',
+              'SUPPORT: Prioritärer Zugang zu unserem Team zur Optimierung Ihrer Anwendungsfälle.',
             ],
-            cta: 'Kontakt für Action',
+            cta: 'Demo anfordern',
           }
         ],
       },
@@ -640,20 +640,20 @@ export const translations = {
         mainDescription: 'Antworten auf Ihre Fragen zu unserem ausführenden KI-Agenten.',
         questions: [
           {
-            question: 'Wie wird die Sicherheit gewährleistet, wenn der Agent auf das Internet zugreift?',
-            answer: 'Die Sicherheit basiert auf unserer Architektur. Das "Gehirn" von Novix Action, das entscheidet, welche Aktionen durchgeführt werden sollen, ist in unserer Schweizer Infrastruktur isoliert. Nur die notwendigen Anfragen werden nach außen gesendet. Darüber hinaus werden alle Aktionen zur vollständigen Rückverfolgbarkeit protokolliert.'
+            question: "Wie sieht Novix Action meinen Bildschirm? Ist das sicher?",
+            answer: "Der Agent verwendet Computer-Vision-Technologien, um die Benutzeroberfläche Ihrer Anwendungen zu interpretieren. Alle visuellen Informationen werden über unsere sichere Infrastruktur in der Schweiz verarbeitet, um die Aktion zu steuern, ohne jemals für andere Zwecke als die Ausführung Ihrer Aufgabe gespeichert oder verwendet zu werden. Die Verbindung ist verschlüsselt und sicher."
           },
           {
-            question: 'Welche Arten von Aufgaben kann Novix Action ausführen?',
-            answer: 'Es kann Websites durchsuchen, Informationen sammeln und zusammenfassen, Formulare ausfüllen, mit APIs von Drittanbietern interagieren und Skripte ausführen. Es ist perfekt für die Automatisierung von Recherchen, Wettbewerbsbeobachtung, Lead-Qualifizierung usw.'
+            question: "Welche Arten von Aufgaben kann Novix Action tatsächlich ausführen?",
+            answer: "Praktisch jede Aufgabe, die Sie mit Tastatur und Maus erledigen könnten. Vom Sammeln von Informationen auf mehreren Websites über die Verwaltung Ihrer E-Mails bis hin zur Analyse von Daten in einer Tabelle oder der Buchung von Reisen. Wenn Sie es können, kann er es lernen."
           },
           {
-            question: "Speichert Novix Action die gesammelten Daten?",
-            answer: "Nein, standardmäßig nicht. Novix Action verarbeitet Daten flüchtig, um seine Mission zu erfüllen. Es speichert die Ergebnisse nur, wenn Sie es explizit dafür konfigurieren, zum Beispiel indem Sie es bitten, Ihr CRM zu füllen oder eine Berichtsdatei zu generieren."
+            question: "Benötigt Novix Action eine komplexe Einrichtung?",
+            answer: "Nein. Seine Stärke liegt in seiner Einfachheit. Da er menschliche Handlungen nachahmt, muss er nicht mit komplexen APIs verbunden werden. Sie müssen ihm nur ein Ziel geben und ihm den Zugriff auf die notwendigen Anwendungen in Ihrer Sitzung ermöglichen."
           },
           {
-            question: 'Wie funktioniert die Abrechnung für Unternehmen?',
-            answer: 'Novix Action für Unternehmen ist ein monatlicher Abonnementdienst, der auf dem Volumen komplexer Anfragen (Aktionen) basiert, mit einer unbegrenzten Anzahl von Benutzern pro Lizenz. Kontaktieren Sie uns für eine Demonstration und ein individuelles Angebot.'
+            question: "Wie funktioniert die Abrechnung für Novix Action?",
+            answer: "Novix Action ist ein Abonnementdienst für Profis. Die Pläne variieren je nach Nutzungsintensität und erforderlichem Supportlevel. Kontaktieren Sie uns für eine Demo, um Ihren Anwendungsfall zu besprechen und ein individuelles Angebot zu erhalten."
           }
         ]
       }
@@ -806,7 +806,7 @@ export const translations = {
         questions: [
           {
             question: 'Dove vengono archiviate le mie conversazioni?',
-            answer: 'Le tue conversazioni con Novix Private sono crittografate e archiviate exclusively sul tuo dispositivo (computer o smartphone). Non abbiamo mai accesso ad esse.'
+            answer: 'Le tue conversazioni con Novix Private sono crittografate e archiviate exclusivamente sul tuo dispositivo (computer o smartphone). Non abbiamo mai accesso ad esse.'
           },
           {
             question: 'Cosa viene inviato ai vostri server in Svizzera?',
@@ -826,53 +826,53 @@ export const translations = {
     action: {
       features: {
         mainTitle: 'Novix Action: L\'Agente Esecutivo',
-        mainDescription: "Delega i compiti complessi. Novix Action naviga sul web, interagisce con le applicazioni e automatizza i tuoi processi per darti un vantaggio competitivo.",
+        mainDescription: "Delega i tuoi compiti digitali a un'IA che agisce. Novix Action prende il controllo delle tue applicazioni e del tuo browser per raggiungere i tuoi obiettivi, proprio come farebbe un assistente umano.",
         featureList: [
           {
-            title: "Automazione dell'intelligence strategica",
-            description: "Incarica Novix Action di monitorare i tuoi concorrenti, analizzare le tendenze di mercato o raccogliere dati specifici dal web. Può tenere traccia di siti, forum e social network per fornirti report sintetici e attuabili.",
+            title: "Un operatore autonomo al tuo servizio",
+            description: "Esprimi un obiettivo in linguaggio naturale e osserva l'agente agire. 'Trovami i 5 migliori CRM per PMI e fammene una sintesi', 'Organizza la mia casella di posta creando filtri per le newsletter' o 'Fai una ricerca sulla concorrenza per questo prodotto'. Novix Action osserva il tuo schermo e usa la tastiera e il mouse per eseguire la missione.",
             iconId: 'action'
           },
           {
-            title: "Agente di interazione ed esecuzione",
-            description: "In grado di compilare moduli, interagire con API e persino eseguire script in un ambiente sicuro, Novix Action diventa il braccio armato della tua strategia. Automatizza la lead generation, la qualificazione dei contatti e molto altro.",
+            title: "Apprendimento ed esecuzione di compiti complessi",
+            description: "Novix Action non è un semplice bot. Comprende obiettivi a più passaggi, impara dai tuoi processi e può concatenare azioni complesse. Mostragli come generare un report mensile, e lo farà per te ogni mese. Diventa un vero membro del tuo team.",
             iconId: 'action'
           }
         ],
       },
       moreFeatures: {
-        mainTitle: 'Progettato per l\'azione, sicuro per natura',
-        mainDescription: "Novix Action è il perfetto equilibrio tra la capacità di agire sul mondo digitale e la sicurezza di un'infrastruttura robusta ospitata in Svizzera.",
+        mainTitle: 'La potenza di agire, la sicurezza della supervisione svizzera',
+        mainDescription: "Novix Action è progettato per prestazioni ed efficienza, beneficiando al contempo della supervisione di un'infrastruttura robusta ospitata in Svizzera.",
         featureList: [
           {
             id: 'compliance',
-            title: 'Operazioni controllate dalla Svizzera',
-            description: "Tutte le azioni sono orchestrate dalla nostra infrastruttura sicura in Svizzera. Sebbene l'agente interagisca con servizi esterni, il 'cervello' dell'operazione rimane sotto la protezione delle leggi svizzere, garantendo una supervisione e un controllo rigorosi dei processi.",
+            title: 'Un Cervello Operativo in Territorio Neutrale',
+            description: "Tutte le decisioni e le strategie dell'agente sono orchestrate dalla nostra infrastruttura sicura in Svizzera. Sebbene Novix Action interagisca con servizi esterni per svolgere i suoi compiti, il suo 'cervello' rimane sotto la protezione delle leggi svizzere, garantendo una supervisione e un controllo rigorosi delle sue operazioni.",
             imageId: 'feature-local',
           },
           {
             id: 'integration',
-            title: 'Integrazione trasparente e potente',
-            description: "Collega Novix Action ai tuoi strumenti (CRM, ERP, piattaforme di analisi) tramite API. Crea flussi di lavoro personalizzati per automatizzare la generazione di report, l'analisi della concorrenza, la ricerca di informazioni e moltiplica la produttività dei tuoi team.",
+            title: 'Il Tuo Ecosistema, Potenziato',
+            description: "L'agente si integra naturalmente nel tuo ambiente di lavoro digitale. Utilizza le applicazioni che già usi, che si tratti del tuo CRM, del tuo software per fogli di calcolo o del tuo browser web. Non richiede API complesse, poiché agisce come un utente umano, offrendoti un'automazione senza precedenti.",
             imageId: 'cta-business',
           },
         ],
       },
       pricing: {
-        mainTitle: 'Offerte su misura per i professionisti',
-        mainDescription: 'Prezzi scalabili per le aziende che vogliono integrare una vera potenza di fuoco IA nelle loro operazioni.',
+        mainTitle: 'Offerte su misura per una produttività moltiplicata',
+        mainDescription: 'Integra una vera forza d\'attacco IA nelle tue operazioni. Le nostre offerte sono pensate per professionisti e aziende che puntano all\'iper-efficienza.',
         pricingTiers: [
           {
             name: 'Novix Action',
             id: 'business',
-            description: 'Offerta personalizzata per l\'integrazione di volumi. Accedi ai nostri piani esclusivi per utenti illimitati e alla nostra infrastruttura svizzera sicura.',
+            description: 'Una licenza per sbloccare il potenziale di un agente IA autonomo. Ideale per professionisti esigenti, team e aziende che desiderano automatizzare compiti complessi.',
             features: [
-              'BUSINESS PRO (2.000 CHF/mese): Fino a 100.000 richieste complesse (azioni) incluse.',
-              'ENTERPRISE MAX (5.000 CHF/mese): Fino a 250.000 richieste complesse (azioni) incluse.',
-              'VANTAGGIO: Numero illimitato di utenti/dipendenti per ogni licenza.',
-              'SICUREZZA: Implementazione e supervisione dalla Svizzera, supporto prioritario 24/7.',
+              'Piano BUSINESS PRO: Progettato per un uso intensivo da parte di più collaboratori.',
+              'Piano ENTERPRISE: Per implementazioni su larga scala con supporto dedicato e integrazioni su misura.',
+              'SICUREZZA: Supervisione e registrazione delle azioni dalla nostra infrastruttura svizzera.',
+              'SUPPORTO: Accesso prioritario al nostro team per ottimizzare i tuoi casi d\'uso.',
             ],
-            cta: 'Contattaci per Action',
+            cta: 'Richiedi una demo',
           }
         ],
       },
@@ -881,20 +881,20 @@ export const translations = {
         mainDescription: 'Le risposte alle tue domande sul nostro agente IA esecutivo.',
         questions: [
           {
-            question: 'Come viene garantita la sicurezza se l\'agente accede a Internet?',
-            answer: 'La sicurezza si basa sulla nostra architettura. Il "cervello" di Novix Action, che decide quali azioni intraprendere, è isolato nella nostra infrastruttura svizzera. Solo le richieste necessarie vengono inviate all\'esterno. Inoltre, tutte le azioni sono registrate per una completa tracciabilità.'
+            question: "Come fa Novix Action a vedere il mio schermo? È sicuro?",
+            answer: "L'agente utilizza tecnologie di visione artificiale per interpretare l'interfaccia delle tue applicazioni. Tutte le informazioni visive vengono elaborate tramite la nostra infrastruttura sicura in Svizzera per guidare l'azione, senza mai essere archiviate o utilizzate per scopi diversi dall'esecuzione del tuo compito. La connessione è crittografata e sicura."
           },
           {
-            question: 'Quali tipi di attività può eseguire Novix Action?',
-            answer: 'Può navigare su siti web, raccogliere e riassumere informazioni, compilare moduli, interagire con API di terze parti ed eseguire script. È perfetto per automatizzare ricerche, analisi della concorrenza, qualificazione di lead, ecc.'
+            question: "Quali tipi di compiti può effettivamente svolgere Novix Action?",
+            answer: "Praticamente qualsiasi compito che potresti fare con una tastiera e un mouse. Dalla raccolta di informazioni su più siti alla gestione delle tue email, all'analisi di dati in un foglio di calcolo o alla prenotazione di viaggi. Se puoi farlo tu, può imparare a farlo anche lui."
           },
           {
-            question: "Novix Action archivia i dati che raccoglie?",
-            answer: "No, per impostazione predefinita. Novix Action elabora i dati in modo volatile per compiere la sua missione. Archivia i risultati solo se lo configuri esplicitamente per farlo, ad esempio chiedendogli di compilare il tuo CRM o generare un file di report."
+            question: "Novix Action richiede una configurazione complessa?",
+            answer: "No. La sua forza sta nella sua semplicità. Poiché imita le azioni umane, non ha bisogno di essere collegato a API complesse. Devi solo dargli un obiettivo e consentirgli l'accesso alle applicazioni necessarie nella tua sessione."
           },
           {
-            question: 'Come funziona la fatturazione per le aziende?',
-            answer: 'Novix Action per le aziende è un servizio in abbonamento mensile basato sul volume di richieste complesse (azioni), con un numero illimitato di utenti per licenza. Contattaci per una dimostrazione e un preventivo personalizzato.'
+            question: "Come funziona la fatturazione per Novix Action?",
+            answer: "Novix Action è un servizio in abbonamento pensato per i professionisti. I piani variano in base all'intensità d'uso e al livello di supporto richiesto. Contattaci per una demo per discutere il tuo caso d'uso e ottenere un preventivo personalizzato."
           }
         ]
       }
@@ -965,5 +965,3 @@ export const translations = {
     }
   },
 };
-
-

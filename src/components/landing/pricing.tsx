@@ -41,7 +41,7 @@ export default function Pricing({ onContactClick, mainTitle, mainDescription, pr
               <CardHeader className="flex flex-col items-center text-center gap-4 p-6">
                 {tier.id === 'personal' ? pricingIcons[0] : pricingIcons[1]}
                 <CardTitle className="font-headline text-2xl">{tier.name}</CardTitle>
-                <CardDescription className="font-body text-muted-foreground px-6">
+                <CardDescription className="font-body text-muted-foreground px-6 text-justify">
                   {tier.description}
                 </CardDescription>
               </CardHeader>
@@ -50,7 +50,7 @@ export default function Pricing({ onContactClick, mainTitle, mainDescription, pr
                   {tier.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start">
                       <Check className="w-5 h-5 mr-3 text-green-600 mt-1 flex-shrink-0" />
-                      <span className="text-muted-foreground">{feature}</span>
+                      <span className="text-muted-foreground text-left">{feature}</span>
                     </li>
                   ))}
                 </ul>
@@ -70,3 +70,4 @@ export default function Pricing({ onContactClick, mainTitle, mainDescription, pr
   );
 }
 
+    

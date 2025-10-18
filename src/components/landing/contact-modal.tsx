@@ -237,3 +237,5 @@ export function ContactModal({ isOpen, onOpenChange }: ContactModalProps) {
     </Dialog>
   );
 }
+
+    
