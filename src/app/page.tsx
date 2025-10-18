@@ -55,10 +55,10 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Concept />
-        <CallToAction />
         <Features />
-        <Pricing onContactClick={openContactModal} />
         <MoreFeatures />
+        <Pricing onContactClick={openContactModal} />
+        <CallToAction />
         <Faq />
       </main>
       <Footer onContactClick={openContactModal} onLegalClick={openLegalModal} />
@@ -72,3 +72,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

@@ -11,8 +11,8 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: "Vos données n'appartiennent qu'à vous.",
-      description: ["Aucune fuite. Aucune collecte. Aucune surprise.","L'IA de confiance qui protège vos idées en toute confidentialité."],
+      subtitle: 'La Seule Limite est Votre Ambition.',
+      description: "L'IA de confiance qui protège vos idées, sans jamais les collecter.",
       ctaDownloadApp: "Télécharger l'app",
       ctaTryFree: 'Essayer gratuitement',
     },
@@ -205,8 +205,8 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: 'Your data belongs to you alone.',
-      description: ["No leaks. No collection. No surprises.","The trusted AI that protects your ideas in complete confidentiality."],
+      subtitle: 'The Only Limit is Your Ambition.',
+      description: "The trusted AI that protects your ideas, without ever collecting them.",
       ctaDownloadApp: 'Download the App',
       ctaTryFree: 'Try for free',
     },
@@ -399,8 +399,8 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: 'Ihre Daten gehören nur Ihnen.',
-      description: ['Keine Lecks. Keine Sammlung. Keine Überraschungen.','Die vertrauenswürdige KI, die Ihre Ideen in voller Vertraulichkeit schützt.'],
+      subtitle: 'Die einzige Grenze ist Ihr Ehrgeiz.',
+      description: 'Die vertrauenswürdige KI, die Ihre Ideen schützt, ohne sie jemals zu sammeln.',
       ctaDownloadApp: 'App herunterladen',
       ctaTryFree: 'Kostenlos ausprobieren',
     },
@@ -593,8 +593,8 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: 'I tuoi dati appartengono solo a te.',
-      description: ["Nessuna fuga. Nessuna raccolta. Nessuna sorpresa.","L'IA affidabile che protegge le tue idee in completa riservatezza."],
+      subtitle: 'L\'Unico Limite è la Tua Ambizione.',
+      description: "L'IA affidabile che protegge le tue idee, senza mai raccoglierle.",
       ctaDownloadApp: "Scarica l'app",
       ctaTryFree: 'Prova gratuitamente',
     },
@@ -791,6 +791,8 @@ cta: 'Inizia',
 
 
 
+
+    
 
     
 
