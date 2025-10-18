@@ -8,14 +8,14 @@
     },
     {
       "id": "feature-local",
-      "description": "Illustration for local processing showing a brain-like circuit board",
-      "imageUrl": "https://images.unsplash.com/photo-1651340675491-6fb0bfb5c4ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaXJjdWl0JTIwYm9hcmR8ZW58MHx8fHwxNzU5MTMzODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "circuit board"
+      "description": "A secure data center representing Swiss infrastructure.",
+      "imageUrl": "https://images.unsplash.com/photo-1590859808308-3d2d9c515a3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyJTIwbmV0d29ya3xlbnwwfHx8fDE3NjA0MzkzMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data center"
     },
     {
       "id": "feature-secure",
       "description": "Illustration for secure storage showing a digital vault",
-      "imageUrl": "https://images.unsplash.com/photo-1633265486064-086b219458ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwbG9ja3xlbnwwfHx8fDE3NTkxODAzNzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1633265486064-086b219458ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwbG9ja3xlbnwwfHx8fDE3NTkxODAzNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "data lock"
     },
     {
