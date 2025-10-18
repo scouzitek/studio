@@ -11,7 +11,7 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: 'La Seule Limite est Votre Ambition.',
+      subtitle: "L'IA qui Pense ET Agit.",
       description: "L'IA de confiance qui protège vos idées, sans jamais les collecter.",
       ctaDownloadApp: "Télécharger l'app",
       ctaTryFree: 'Essayer gratuitement',
@@ -205,7 +205,7 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: 'The Only Limit is Your Ambition.',
+      subtitle: 'The AI that Thinks AND Acts.',
       description: "The trusted AI that protects your ideas, without ever collecting them.",
       ctaDownloadApp: 'Download the App',
       ctaTryFree: 'Try for free',
@@ -399,7 +399,7 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: 'Die einzige Grenze ist Ihr Ehrgeiz.',
+      subtitle: 'Die KI, die denkt UND handelt.',
       description: 'Die vertrauenswürdige KI, die Ihre Ideen schützt, ohne sie jemals zu sammeln.',
       ctaDownloadApp: 'App herunterladen',
       ctaTryFree: 'Kostenlos ausprobieren',
@@ -593,7 +593,7 @@ export const translations = {
     },
     hero: {
       title: 'Novix',
-      subtitle: 'L\'Unico Limite è la Tua Ambizione.',
+      subtitle: "L'IA che Pensa E Agisce.",
       description: "L'IA affidabile che protegge le tue idee, senza mai raccoglierle.",
       ctaDownloadApp: "Scarica l'app",
       ctaTryFree: 'Prova gratuitamente',
