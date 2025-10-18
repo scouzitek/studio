@@ -14,7 +14,7 @@ export const translations = {
       subtitle: "L'IA qui Pense ET Agit.",
       description: "Une puissance sans limite, une confidentialité absolue.",
       ctaDownloadApp: "Novix Action",
-      ctaTryFree: 'Essayer gratuitement',
+      ctaTryFree: 'Novix Private',
     },
     features: {
       mainTitle: 'Votre vie privée, garantie.',
@@ -208,7 +208,7 @@ export const translations = {
       subtitle: 'The AI that Thinks AND Acts.',
       description: "Unlimited power, absolute privacy.",
       ctaDownloadApp: 'Novix Action',
-      ctaTryFree: 'Try for free',
+      ctaTryFree: 'Novix Private',
     },
     features: {
       mainTitle: 'Your privacy, guaranteed.',
@@ -402,7 +402,7 @@ export const translations = {
       subtitle: 'Die KI, die denkt UND handelt.',
       description: 'Unbegrenzte Leistung, absolute Vertraulichkeit.',
       ctaDownloadApp: 'Novix Action',
-      ctaTryFree: 'Kostenlos ausprobieren',
+      ctaTryFree: 'Novix Private',
     },
     features: {
       mainTitle: 'Ihre Privatsphäre, garantiert.',
@@ -596,7 +596,7 @@ export const translations = {
       subtitle: "L'IA che Pensa E Agisce.",
       description: "Potenza illimitata, privacy assoluta.",
       ctaDownloadApp: "Novix Action",
-      ctaTryFree: 'Prova gratuitamente',
+      ctaTryFree: 'Novix Private',
     },
     features: {
       mainTitle: 'La tua privacy, garantita.',
