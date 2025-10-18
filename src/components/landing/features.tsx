@@ -1,30 +1,25 @@
 'use client';
-import { ShieldCheck, Cpu, Rocket } from 'lucide-react';
+import { ShieldCheck, Rocket } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/context/language-context';
 import { translations } from '@/lib/translations';
 
-const featureIcons = {
+const featureIcons: { [key: string]: JSX.Element } = {
   "Novix PRIVATE : Le Penseur": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
   "Novix ACTION : L'Agent Exécutif": <Rocket key="2" className="w-10 h-10 text-destructive" />,
-  "Contrôle Total": <Cpu key="3" className="w-10 h-10 text-destructive" />,
 };
 
 export default function Features() {
   const { language } = useLanguage();
   const t = translations[language].features;
 
-  // A mapping for English and other languages
   const nonFrIcons: { [key: string]: JSX.Element } = {
     "Novix PRIVATE: The Thinker": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
     "Novix ACTION: The Executive Agent": <Rocket key="2" className="w-10 h-10 text-destructive" />,
-    "Total Control": <Cpu key="3" className="w-10 h-10 text-destructive" />,
     "Novix PRIVATE: Der Denker": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
     "Novix ACTION: Der ausführende Agent": <Rocket key="2" className="w-10 h-10 text-destructive" />,
-    "Volle Kontrolle": <Cpu key="3" className="w-10 h-10 text-destructive" />,
     "Novix PRIVATE: Il Pensatore": <ShieldCheck key="1" className="w-10 h-10 text-destructive" />,
     "Novix ACTION: L'Agente Esecutivo": <Rocket key="2" className="w-10 h-10 text-destructive" />,
-    "Controllo Totale": <Cpu key="3" className="w-10 h-10 text-destructive" />,
   };
   
   const icons = language === 'fr' ? featureIcons : nonFrIcons;
@@ -41,7 +36,7 @@ export default function Features() {
           </div>
         </div>
         
-        <div className="mx-auto grid max-w-5xl items-stretch gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-12">
+        <div className="mx-auto grid max-w-5xl items-stretch gap-8 sm:grid-cols-2 md:gap-12 mt-12">
           {t.featureList.map((feature, index) => (
             <Card key={index} className="flex flex-col bg-card hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="flex flex-col items-center text-center gap-4 p-6">
@@ -58,3 +53,5 @@ export default function Features() {
     </section>
   );
 }
+
+    
